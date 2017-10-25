@@ -1,4 +1,9 @@
-// Days of month
+/*
+   Nome da função: main
+   Não recebe parâmetros.
+   objetivo:  Mostrar quantos dias tem o mês respectivo.
+   retorno:  0
+*/
 
 #include <iostream>
 #include <cstdlib>
