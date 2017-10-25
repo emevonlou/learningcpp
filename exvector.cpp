@@ -1,3 +1,10 @@
+/*
+    Function name: main
+    does not receive parameters
+    objective: Simple example of manipulation with vectors.
+    return: 0
+*/
+
 #include <iostream>
 #include <conio.h>
 #include <cstdlib>

@@ -1,8 +1,8 @@
 /*
-   Nome da função: main
-   Não recebe parâmetros.
-   objetivo:  Mostrar quantos dias tem o mês respectivo.
-   retorno:  0
+   Function name: main
+   It does not receive parameters.
+   Objective: show how many days the month has.
+   return: 0
 */
 
 #include <iostream>

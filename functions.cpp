@@ -1,4 +1,10 @@
-// Making functions
+/*
+   Function name: main, bool
+   function main does not receive parameters. 
+   Function bool receive int num parameter.
+   Objective: Show how to handle functions.
+   return: 0
+*/
 
 #include <iostream>
 #include <cstdlib>
@@ -9,7 +15,7 @@ bool even(int num);
 void message();
 
 
-int main(int argc, char** argv)
+int main()
 {
 	int n;
 	
