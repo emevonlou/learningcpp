@@ -28,7 +28,7 @@ int main()
 	}
     else
 	{
-	cout << "The number " << n << " eh odd." << endl;
+	cout << "The number " << n << " is odd." << endl;
 	}
 	system("pause");
 	return 0;

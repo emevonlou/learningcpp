@@ -5,4 +5,5 @@ build:
 	g++ -c -o funny.o funny.cpp; g++ -o funny funny.o
 	g++ -c -o acumulator.o acumulator.cpp; g++ -o acumulator acumulator.o
 	g++ -c -o exvector.o exvector.cpp; g++ -o exvector exvector.o
+	g++ -c -o amo.o amo.cpp; g++ -o amo amo.o
 .PHONY: build
