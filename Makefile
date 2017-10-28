@@ -6,4 +6,5 @@ build:
 	g++ -c -o acumulator.o acumulator.cpp; g++ -o acumulator acumulator.o
 	g++ -c -o exvector.o exvector.cpp; g++ -o exvector exvector.o
 	g++ -c -o amo.o amo.cpp; g++ -o amo amo.o
+	g++ -c -o multiplesofsix.o multiplesofsix.cpp; g++ -o multiplesofsix multiplesofsix.o
 .PHONY: build
