@@ -7,4 +7,6 @@ build:
 	g++ -c -o exvector.o exvector.cpp; g++ -o exvector exvector.o
 	g++ -c -o amo.o amo.cpp; g++ -o amo amo.o
 	g++ -c -o multiplesofsix.o multiplesofsix.cpp; g++ -o multiplesofsix multiplesofsix.o
-.PHONY: build
+	g++ -c -o rand.o rand.cpp; g++ -o rand rand.o
+	g++ -c -o sqrtsinlog.o sqrtsinlog.cpp; g++ -o sqrtsinlog sqrtsinlog.o
+.PHONY:
