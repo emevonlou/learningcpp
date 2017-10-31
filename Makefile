@@ -9,4 +9,5 @@ build:
 	g++ -c -o multiplesofsix.o multiplesofsix.cpp; g++ -o multiplesofsix multiplesofsix.o
 	g++ -c -o rand.o rand.cpp; g++ -o rand rand.o
 	g++ -c -o sqrtsinlog.o sqrtsinlog.cpp; g++ -o sqrtsinlog sqrtsinlog.o
+	g++ -c -o swithcase.o swithcase.cpp; g++ -o swithcase swithcase.o
 .PHONY:
