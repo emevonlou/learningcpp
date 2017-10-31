@@ -10,4 +10,5 @@ build:
 	g++ -c -o rand.o rand.cpp; g++ -o rand rand.o
 	g++ -c -o sqrtsinlog.o sqrtsinlog.cpp; g++ -o sqrtsinlog sqrtsinlog.o
 	g++ -c -o swithcase.o swithcase.cpp; g++ -o swithcase swithcase.o
+	g++ -c -o while.o while.cpp; g++ -o while while.o
 .PHONY:
