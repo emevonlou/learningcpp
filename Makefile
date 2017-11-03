@@ -11,4 +11,5 @@ build:
 	g++ -c -o sqrtsinlog.o sqrtsinlog.cpp; g++ -o sqrtsinlog sqrtsinlog.o
 	g++ -c -o swithcase.o swithcase.cpp; g++ -o swithcase swithcase.o
 	g++ -c -o while.o while.cpp; g++ -o while while.o
+	g++ -c -o ifcomp.o ifcomp.cpp; g++ -o ifcomp ifcomp.o
 .PHONY:

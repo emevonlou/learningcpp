@@ -7,13 +7,13 @@ using namespace std;
 
 int main() {
 	srand(time(NULL));
-	int a, b[10];
+	int a, b[20];
 	a = rand() % 10;
 	
 	cout << a << endl << endl;
 	system("pause");
 	
-	for(int i =0; i < 10; i++) {
+	for(int i =0; i < 20; i++) {
 		b[i] = rand() %10;
 		cout << b[i] << " ";
 
@@ -22,8 +22,8 @@ int main() {
 	system("pause");
     system("cls");
     
-    for(int i =0;a!=27;) {
-    	for(int i =0; i < 10; i++) {
+    for(int i =0;a != 27;) {
+    	for(int j =0; j < 10; j++) {
 		b[i] = rand() %10;
 		cout << b[i] << " ";
 		}
