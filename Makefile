@@ -12,4 +12,7 @@ build:
 	g++ -c -o swithcase.o swithcase.cpp; g++ -o swithcase swithcase.o
 	g++ -c -o while.o while.cpp; g++ -o while while.o
 	g++ -c -o ifcomp.o ifcomp.cpp; g++ -o ifcomp ifcomp.o
+	g++ -c -o vogal.o vogal.cpp; g++ -o vogal vogal.o
+	g++ -c -o library.o library.cpp; g++ -o library library.o
+	g++ -c -o spinner.o spinner.cpp; g++ -o spinner spinner.o
 .PHONY:
