@@ -15,5 +15,7 @@ build:
 	g++ -c -o vogal.o vogal.cpp; g++ -o vogal vogal.o
 	g++ -c -o library.o library.cpp; g++ -o library library.o
 	g++ -c -o comparing.o comparing.cpp; g++ -o comparing comparing.o
-	g++ -c -o concatenate.o concatenate.cpp; g++ -o concatenate concatenate.o
+	g++ -c -o concatenate.o concatenate.cpp; g++ -o concatenate concatenate.o 
+	g++ -c -o characnull.o characnull.cpp; g++ -o characnull characnull.o
+	g++ -c -o charsimple.o charsimple.cpp; g++ -o charsimple charsimple.o
 .PHONY:
