@@ -18,4 +18,5 @@ build:
 	g++ -c -o concatenate.o concatenate.cpp; g++ -o concatenate concatenate.o 
 	g++ -c -o characnull.o characnull.cpp; g++ -o characnull characnull.o
 	g++ -c -o charsimple.o charsimple.cpp; g++ -o charsimple charsimple.o
+	g++ -c -o colors.o colors.cpp; g++ -o colors colors.o
 .PHONY:
