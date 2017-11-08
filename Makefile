@@ -20,4 +20,5 @@ build:
 	g++ -c -o charsimple.o charsimple.cpp; g++ -o charsimple charsimple.o
 	g++ -c -o colors.o colors.cpp; g++ -o colors colors.o
 	g++ -c -o sum.o sum.cpp; g++ -o sum sum.o
+	g++ -c -o opt.o opt.cpp; g++ -o opt opt.o
 .PHONY:
