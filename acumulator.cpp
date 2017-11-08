@@ -1,7 +1,8 @@
 /*
-   Nome da função: main
-   Não tem parâmetros, não retorna valor.
-   objetivo: declarar uma variável de tipo compativel com o valor que recebeu.
+    Nome da função: main
+    Não tem parâmetros, não retorna valor.
+    objetivo: declarar uma variável de tipo
+    compativel com o valor que recebeu.
 */
 
 #include <iostream>
