@@ -4,15 +4,15 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    char nome[] = "Emanuelle";
+    char nome[] = "1Emanuelle";
 
     if(isalpha(nome[0]))
     {
-        cout << "caractere alfabetico." << endl;
+        cout << "numero" << endl;
     }
     else
     {
-        cout << "caracter numerico." << endl;
+        cout << "letra" << endl;
     }
     return 0;
 }
