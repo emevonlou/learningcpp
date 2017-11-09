@@ -8,7 +8,11 @@ int main(int argc, char *argv[])
 
     if(isalpha(nome[0]))
     {
-        cout << "caractere numerico." << endl;
+        cout << "caractere alfabetico." << endl;
+    }
+    else
+    {
+        cout << "caracter numerico." << endl;
     }
     return 0;
 }
