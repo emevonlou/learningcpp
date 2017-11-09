@@ -25,4 +25,5 @@ build:
 	g++ -c -o caracnull.o caracnull.cpp; g++ -o caracnull caracnull.o
 	g++ -c -o days.o days.cpp; g++ -o days days.o
 	g++ -c -o caracnum.o caracnum.cpp; g++ -o caracnum caracnum.o
+	g++ -c -o name.o name.cpp; g++ -o name name.o
 .PHONY:
