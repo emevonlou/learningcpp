@@ -21,4 +21,8 @@ build:
 	g++ -c -o colors.o colors.cpp; g++ -o colors colors.o
 	g++ -c -o sum.o sum.cpp; g++ -o sum sum.o
 	g++ -c -o opt.o opt.cpp; g++ -o opt opt.o
+	g++ -c -o sizestring.o sizestring.cpp; g++ -o sizestring sizestring.o
+	g++ -c -o caracnull.o caracnull.cpp; g++ -o caracnull caracnull.o
+	g++ -c -o days.o days.cpp; g++ -o days days.o
+	g++ -c -o caracnum.o caracnum.cpp; g++ -o caracnum caracnum.o
 .PHONY:
