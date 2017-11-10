@@ -26,4 +26,6 @@ build:
 	g++ -c -o days.o days.cpp; g++ -o days days.o
 	g++ -c -o caracnum.o caracnum.cpp; g++ -o caracnum caracnum.o
 	g++ -c -o name.o name.cpp; g++ -o name name.o
+	g++ -c -o ponteiro.o ponteiro.cpp; g++ -o ponteiro ponteiro.o
+	g++ -c -o ponteiro2.o ponteiro2.cpp; g++ -o ponteiro2 ponteiro2.o
 .PHONY:
