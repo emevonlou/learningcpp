@@ -28,4 +28,5 @@ build:
 	g++ -c -o name.o name.cpp; g++ -o name name.o
 	g++ -c -o ponteiro.o ponteiro.cpp; g++ -o ponteiro ponteiro.o
 	g++ -c -o ponteiro2.o ponteiro2.cpp; g++ -o ponteiro2 ponteiro2.o
+	g++ -c -o hello.o hello.cpp; g++ -o hello hello.o
 .PHONY:
