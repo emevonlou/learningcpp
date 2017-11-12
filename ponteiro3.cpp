@@ -4,7 +4,7 @@ using namespace std;
 int main(int argc,char *argv[])
 {
     int* vet = new int[10];
-    int aux[10];
+    int aux[3];
 
     *(vet + 0) = 10;
     *(vet + 1) = 20;
