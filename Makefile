@@ -32,4 +32,5 @@ build:
 	g++ -c -o funcmore.o funcmore.cpp; g++ -o funcmore funcmore.o
 	g++ -c -o ponteiro3.o ponteiro3.cpp; g++ -o ponteiro3 ponteiro3.o
 	g++ -c -o ponteiro4.o ponteiro4.cpp; g++ -o ponteiro4 ponteiro4.o
+	g++ -c -o parray.o parray.cpp; g++ -o parray parray.o
 .PHONY:

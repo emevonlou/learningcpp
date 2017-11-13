@@ -3,7 +3,6 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    int* vet = new int[10];
     int aux[4];
 
     cout << "Digite um numero: ";
