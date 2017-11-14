@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
     delete[] parray; // desaloca memoria
 
-    cout << "Voce digitou: " << *(parray) << endl;
+    parray = NULL; // zerando o ponteiro
 
     return 0;
 }
