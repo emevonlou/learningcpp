@@ -34,4 +34,5 @@ build:
 	g++ -c -o ponteiro4.o ponteiro4.cpp; g++ -o ponteiro4 ponteiro4.o
 	g++ -c -o parray.o parray.cpp; g++ -o parray parray.o
 	g++ -c -o ponteiro5.o ponteiro5.cpp; g++ -o ponteiro5 ponteiro5.o
+	g++ -c -o ponteiro6.o ponteiro6.cpp; g++ -o ponteiro6 ponteiro6.o
 .PHONY:
