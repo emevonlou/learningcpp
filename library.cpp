@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring> // strlen
+#include <cstring> //Biblioteca da função strlen()
 #include <cstdlib>
 using namespace std;
 

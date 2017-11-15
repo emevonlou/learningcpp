@@ -1,8 +1,12 @@
-#include <iostream>
-#include <string.h>
+#include <iostream> // input e output
+#include <string.h> // lib de manipulação com strings
 
 using namespace std;
-
+/*
+    (int argc, char *argv[]) ---> parametros para passar por linha de comando/ 
+    int argc = quantidade de argumentos passados por linha de comando
+    char *argv = os comandos passados.  
+*/
 int main(int argc, char *argv[])
 {
     char nome[100], sobrenome[100];
@@ -12,7 +16,7 @@ int main(int argc, char *argv[])
     cout << "Digite seu sobrenome: " << endl;
     cin >> sobrenome;
 
-    strcat(nome, sobrenome);
+    strcat(nome, sobrenome); // concatena strings
     cout << "Seu nome eh: " << nome << endl;
 
     return 0;
