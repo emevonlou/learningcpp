@@ -1,14 +1,14 @@
-#include <iostream>
-#include <cstdlib>
-#include <cstring>
-using namespace std;
+#include <iostream> // Entrada e saida de dados
+#include <cstdlib> // System
+#include <cstring> // Biblioteca de funções de manipulação com strings
+using namespace std; // Declaração de espaço de nomes
 
 int main()
 {
     char x1[20], x2[20];
 
     cout << "Digite uma palavra: ";
-    cin.getline(x1,20);
+    cin.getline(x1,20); 
 
     cout << "Digite outra palavra: ";
     cin.getline(x2,20);
