@@ -5,8 +5,8 @@
    return: 0
 */
 
-#include <iostream>
-#include <cstdlib>
+#include <iostream> // Entrada e saida de dados
+#include <cstdlib>  // system
 using namespace std;
 
 

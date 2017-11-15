@@ -1,6 +1,6 @@
 //Find the numbers corresponding to these characters.
 
-#include <stdio.h>
+#include <stdio.h> // Entrada e saida de dados
 
 
 int main(void)
