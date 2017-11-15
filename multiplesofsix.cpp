@@ -1,6 +1,6 @@
-#include <iostream>
-#include <cstdlib>
-using namespace std;
+#include <iostream>  
+#include <cstdlib>   // System
+using namespace std; // declaração de espaço de nomes- serve pra resolver conflitos de nomes
 
 int main()
 {
