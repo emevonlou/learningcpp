@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <locale.h>
+#include <locale.h> //setlocale(LC_ALL, "");
 using namespace std;
 
 
