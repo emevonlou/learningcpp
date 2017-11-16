@@ -39,4 +39,5 @@ build:
 	g++ -c -o ponteiro8.o ponteiro8.cpp; g++ -o ponteiro8 ponteiro8.o
 	g++ -c -o funcstrupr.o funcstrupr.cpp; g++ -o funcstrupr funcstrupr.o
 	g++ -c -o dc.o dc.cpp; g++ -o dc dc.o
+	g++ -c -o varglob.o varglob.cpp; g++ -o varglob varglob.o
 .PHONY:
