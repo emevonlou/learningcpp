@@ -41,5 +41,5 @@ build:
 	g++ -c -o dc.o dc.cpp; g++ -o dc dc.o
 	g++ -c -o varglob.o varglob.cpp; g++ -o varglob varglob.o
 	g++ -c -o modulo.o modulo.cpp; g++ -o modulo modulo.o
-	g++ -c -o operadores.o operadores.cpp; g++ -o oeradores operadores.o
+	g++ -c -o operadores.o operadores.cpp; g++ -o operadores operadores.o
 .PHONY:
