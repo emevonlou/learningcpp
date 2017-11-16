@@ -40,4 +40,5 @@ build:
 	g++ -c -o funcstrupr.o funcstrupr.cpp; g++ -o funcstrupr funcstrupr.o
 	g++ -c -o dc.o dc.cpp; g++ -o dc dc.o
 	g++ -c -o varglob.o varglob.cpp; g++ -o varglob varglob.o
+	g++ -c -o modulo.o modulo.cpp; g++ -o modulo modulo.o
 .PHONY:
