@@ -1,3 +1,4 @@
+// hey!!Não confundir operador de atribuição '=' com operador de igualdade '=='
 #include <iostream>
 using namespace std;
 
