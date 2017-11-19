@@ -44,4 +44,5 @@ build:
 	g++ -c -o operadores.o operadores.cpp; g++ -o operadores operadores.o
 	g++ -c -o decision.o decision.cpp; g++ -o decision decision.o
 	g++ -c -o regres.o regres.cpp; g++ -o regres regres.o
+	g++ -c -o wtf.o wtf.cpp; g++ -o wtf wtf.o
 .PHONY:
