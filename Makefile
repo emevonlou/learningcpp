@@ -43,4 +43,5 @@ build:
 	g++ -c -o modulo.o modulo.cpp; g++ -o modulo modulo.o
 	g++ -c -o operadores.o operadores.cpp; g++ -o operadores operadores.o
 	g++ -c -o decision.o decision.cpp; g++ -o decision decision.o
+	g++ -c -o regres.o regres.cpp; g++ -o regres regres.o
 .PHONY:
