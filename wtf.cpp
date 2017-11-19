@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     int n = 1;
 
-    while(n <= 100)
+    while(n <= 200)
     {
         cout << "Nao entro mais no whatsapp!" << endl;
         n++;
