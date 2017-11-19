@@ -1,3 +1,4 @@
+// laço for com decremento.
 #include <iostream>
 using namespace std;
 
