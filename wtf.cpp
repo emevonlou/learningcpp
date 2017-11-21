@@ -1,3 +1,4 @@
+// solving life troubles
 #include <iostream>
 using namespace std;
 
@@ -7,7 +8,7 @@ int main(int argc, char *argv[])
 
     while(n <= 200)
     {
-        cout << "Nao entro mais no whatsapp!" << endl;
+        cout << "Life is too short for bad coffee!" << endl;
         n++;
     }
 
