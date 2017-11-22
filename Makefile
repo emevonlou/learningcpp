@@ -49,4 +49,5 @@ build:
 	g++ -c -o para.o para.cpp; g++ -o para para.o
 	g++ -c -o para2.o para2.cpp; g++ -o para2 para2.o
 	g++ -c -o para3.o para3.cpp; g++ -o para3 para3.o
+	g++ -c -o para4.o para4.cpp; g++ -o para4 para4.o
 .PHONY:
