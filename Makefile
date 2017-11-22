@@ -48,4 +48,5 @@ build:
 	g++ -c -o moreone.o moreone.cpp; g++ -o moreone moreone.o
 	g++ -c -o para.o para.cpp; g++ -o para para.o
 	g++ -c -o para2.o para2.cpp; g++ -o para2 para2.o
+	g++ -c -o para3.o para3.cpp; g++ -o para3 para3.o
 .PHONY:
