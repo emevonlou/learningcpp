@@ -45,4 +45,7 @@ build:
 	g++ -c -o decision.o decision.cpp; g++ -o decision decision.o
 	g++ -c -o regres.o regres.cpp; g++ -o regres regres.o
 	g++ -c -o wtf.o wtf.cpp; g++ -o wtf wtf.o
+	g++ -c -o moreone.o moreone.cpp; g++ -o moreone moreone.o
+	g++ -c -o para.o para.cpp; g++ -o para para.o
+	g++ -c -o para2.o para2.cpp; g++ -o para2 para2.o
 .PHONY:
