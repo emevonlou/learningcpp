@@ -51,7 +51,7 @@ build:
 	g++ -c -o para3.o para3.cpp; g++ -o para3 para3.o
 	g++ -c -o para4.o para4.cpp; g++ -o para4 para4.o
 	g++ -c -o dw.o dw.cpp; g++ -o dw dw.o
-	g++ -c -o whi.o whi.cpp; g++ -o whi whi.o
+#	g++ -c -o whi.o whi.cpp; g++ -o whi whi.o
 	g++ -c -o simplestdlib.o simplestdlib.cpp; g++ -o simplestdlib simplestdlib.o
 	g++ -c -o newhile.o newhile.cpp; g++ -o newhile newhile.o
 .PHONY:
