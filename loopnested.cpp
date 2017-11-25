@@ -1,3 +1,4 @@
+ // loop dentro de outro loop
  #include <iostream>
  using namespace std;
 
@@ -5,7 +6,7 @@
  {
      int n = 1;
 
-     while(n <= 10)
+     while(n <= 10) // a cada interação do n, vamos contar 10 vezes o i
      {
          int i = 1;
 
