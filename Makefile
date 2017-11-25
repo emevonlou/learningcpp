@@ -54,4 +54,5 @@ build:
 #	g++ -c -o whi.o whi.cpp; g++ -o whi whi.o
 	g++ -c -o simplestdlib.o simplestdlib.cpp; g++ -o simplestdlib simplestdlib.o
 	g++ -c -o newhile.o newhile.cpp; g++ -o newhile newhile.o
+	g++ -c -o loopnested.o loopnested.cpp; g++ -o loopnested loopnested.o
 .PHONY:
