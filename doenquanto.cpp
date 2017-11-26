@@ -8,8 +8,9 @@ int main(int argc, char *argv[])
     do
     {
         cout << "I love one guy called Joaquim!" << endl;
+        i++;
     }
     while(i <= 100);
-    
+
     return 0;
 }
