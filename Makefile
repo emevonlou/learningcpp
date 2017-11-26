@@ -55,4 +55,5 @@ build:
 	g++ -c -o newhile.o newhile.cpp; g++ -o newhile newhile.o
 	g++ -c -o loopnested.o loopnested.cpp; g++ -o loopnested loopnested.o
 	g++ -c -o loopagain.o loopagain.cpp; g++ -o loopagain loopagain.o
+	g++ -c -o doenquanto.o doenquanto.cpp; g++ -o doenquanto doenquanto.o
 .PHONY:
