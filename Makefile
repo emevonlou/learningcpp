@@ -56,4 +56,5 @@ build:
 	g++ -c -o loopnested.o loopnested.cpp; g++ -o loopnested loopnested.o
 	g++ -c -o loopagain.o loopagain.cpp; g++ -o loopagain loopagain.o
 	g++ -c -o doenquanto.o doenquanto.cpp; g++ -o doenquanto doenquanto.o
+	g++ -c -o func1.o func1.cpp; g++ -o func1 func1.o
 .PHONY:
