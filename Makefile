@@ -57,4 +57,6 @@ build:
 	g++ -c -o loopagain.o loopagain.cpp; g++ -o loopagain loopagain.o
 	g++ -c -o doenquanto.o doenquanto.cpp; g++ -o doenquanto doenquanto.o
 	g++ -c -o func1.o func1.cpp; g++ -o func1 func1.o
+	g++ -c -o func2.o func2.cpp; g++ -o func2 func2.o
+	g++ -c -o prototipo.o prototipo.cpp; g++ -o prototipo prototipo.o
 .PHONY:
