@@ -19,6 +19,10 @@ int main(int argc, char *argv[])
         cout << "Maiuscula!" << endl;
     else
         cout << "Minuscula." << endl;
+    if(islower(c))
+        cout << "Minuscula!" << endl;
+    else
+        cout << "Maiuscula." << endl;
 
     return 0;
 }
