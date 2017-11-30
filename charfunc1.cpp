@@ -15,6 +15,10 @@ int main(int argc, char *argv[])
         cout << "Digito!" << endl;
     else
         cout << "Nao eh digito." << endl;
+    if(isupper(c))
+        cout << "Maiuscula." << endl;
+    else
+        cout << "Minuscula." << endl;
 
     return 0;
 }
