@@ -63,4 +63,5 @@ build:
 	g++ -c -o const1.o const1.cpp; g++ -o const1 const1.o
 	g++ -c -o charvector.o charvector.cpp; g++ -o charvector charvector.o
 	g++ -c -o charfunc.o charfunc.cpp; g++ -o charfunc charfunc.o
+	g++ -c -o charfunc1.o charfunc1.cpp; g++ -o charfunc1 charfunc1.o
 .PHONY:
