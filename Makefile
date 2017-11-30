@@ -61,4 +61,5 @@ build:
 	g++ -c -o prototipo.o prototipo.cpp; g++ -o prototipo prototipo.o
 	g++ -c -o func3.o func3.cpp; g++ -o func3 func3.o
 	g++ -c -o const1.o const1.cpp; g++ -o const1 const1.o
+	g++ -c -o charvector.o charvector.cpp; g++ -o charvector charvector.o
 .PHONY:
