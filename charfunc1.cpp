@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    char c = 'A';
+    char c = '2';
 
     if(isalpha(c))
         cout << "Alfabetico!" << endl;
@@ -15,6 +15,6 @@ int main(int argc, char *argv[])
         cout << "Digito!" << endl;
     else
         cout << "Nao eh digito." << endl;
-            
+
     return 0;
 }
