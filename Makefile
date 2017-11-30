@@ -59,4 +59,5 @@ build:
 	g++ -c -o func1.o func1.cpp; g++ -o func1 func1.o
 	g++ -c -o func2.o func2.cpp; g++ -o func2 func2.o
 	g++ -c -o prototipo.o prototipo.cpp; g++ -o prototipo prototipo.o
+	g++ -c -o func3.o func3.cpp; g++ -o func3 func3.o
 .PHONY:
