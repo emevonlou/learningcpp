@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
         cout << "Maiuscula." << endl;
     
     char nome[] = "Emanuelle";
-    char nome2[] = "Emanuelle";
+    char nome2[] = "emanuelle";
 
     cout << "Tamanho: " << strlen(nome) << endl;
 
