@@ -26,7 +26,10 @@ int main(int argc, char *argv[])
     
     char nome[] = "Emanuelle";
     char nome2[] = "emanuelle";
+    char sobrenome[] = "VonLou";
     char em[10];
+
+
     cout << "Tamanho: " << strlen(nome) << endl;
 
     if(strcmp(nome, nome2) == 0)
@@ -36,6 +39,9 @@ int main(int argc, char *argv[])
 
     strcpy(em, nome);
         cout << "Copiando de uma string pra outra:" << em << endl;
-        
+
+    strcat(em, sobrenome);
+        cout << "Nome completo: " << em << endl;
+
     return 0;
 }
