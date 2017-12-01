@@ -43,5 +43,12 @@ int main(int argc, char *argv[])
     strcat(em, sobrenome);
         cout << "Nome completo: " << em << endl;
 
+    char my_char = 'a';
+
+    char min_c = tolower(my_char);
+
+    cout << "min_c: " << my_char << endl;
+
+
     return 0;
 }
