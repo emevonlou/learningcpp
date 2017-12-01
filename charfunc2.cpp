@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     
     char nome[] = "Emanuelle";
     char nome2[] = "emanuelle";
-
+    char em[10];
     cout << "Tamanho: " << strlen(nome) << endl;
 
     if(strcmp(nome, nome2) == 0)
@@ -34,5 +34,8 @@ int main(int argc, char *argv[])
     else
         cout << "Strings Diferentes." << endl;
 
+    strcpy(em, nome);
+        cout << "Copiando de uma string pra outra:" << em << endl;
+        
     return 0;
 }
