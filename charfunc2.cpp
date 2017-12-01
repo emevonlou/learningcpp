@@ -25,8 +25,14 @@ int main(int argc, char *argv[])
         cout << "Maiuscula." << endl;
     
     char nome[] = "Emanuelle";
+    char nome2[] = "Emanuelle";
 
     cout << "Tamanho: " << strlen(nome) << endl;
+
+    if(strcmp(nome, nome2) == 0)
+        cout << "Strings Iguais.\n";
+    else
+        cout << "Strings Diferentes." << endl;
 
     return 0;
 }
