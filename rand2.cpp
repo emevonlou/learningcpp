@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    cout << rand();
+    cout << rand();  
 
     for(int i = 0; i < 20; i++)
     {
-        cout << rand() << endl;
+        cout << rand() % 6 << endl;
     }
 
     return 0;
