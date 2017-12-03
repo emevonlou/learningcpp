@@ -10,7 +10,9 @@ for(conta = 10; conta <= 40; conta= conta+10)
      s= s+num;
      num= num +2;
 }
+    cout << s << endl;
 
-cout << s << endl;
-cout << num << endl; 
+    cout << num << endl;
+
+return 0; 
 }

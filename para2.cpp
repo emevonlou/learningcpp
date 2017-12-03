@@ -15,6 +15,7 @@ int main()
         }
     }
     cout << "Numero: " << x << "\n";
+    
     system("PAUSE");
     return 0;
 }
