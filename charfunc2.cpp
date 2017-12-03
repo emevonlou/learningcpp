@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     char min_c = tolower(my_char);
 
     cout << "min_c: " << my_char << endl;
-
+ 
 
     return 0;
 }
