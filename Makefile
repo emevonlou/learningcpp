@@ -65,4 +65,5 @@ build:
 	g++ -c -o charfunc.o charfunc.cpp; g++ -o charfunc charfunc.o
 	g++ -c -o charfunc1.o charfunc1.cpp; g++ -o charfunc1 charfunc1.o
 	g++ -c -o charfunc2.o charfunc2.cpp; g++ -o charfunc2 charfunc2.o
+	g++ -c -o ponteiro9.o ponteiro9.cpp; g++ -o ponteiro9 ponteiro9.o
 .PHONY:
