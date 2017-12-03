@@ -67,4 +67,5 @@ build:
 	g++ -c -o charfunc2.o charfunc2.cpp; g++ -o charfunc2 charfunc2.o
 	g++ -c -o ponteiro9.o ponteiro9.cpp; g++ -o ponteiro9 ponteiro9.o
 	g++ -c -o ponteiro10.o ponteiro10.cpp; g++ -o ponteiro10 ponteiro10.o
+	g++ -c -o rand2.o rand2.cpp; g++ -o rand2 rand2.o
 .PHONY:
