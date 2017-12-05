@@ -51,15 +51,15 @@ build:
 	g++ -Wall -c -o para3.o para3.cpp; g++ -o para3 para3.o
 	g++ -Wall -c -o para4.o para4.cpp; g++ -o para4 para4.o
 	g++ -Wall -c -o dw.o dw.cpp; g++ -o dw dw.o
-	g++ -c -o simplestdlib.o simplestdlib.cpp; g++ -o simplestdlib simplestdlib.o
-	g++ -c -o newhile.o newhile.cpp; g++ -o newhile newhile.o
-	g++ -c -o loopnested.o loopnested.cpp; g++ -o loopnested loopnested.o
-	g++ -c -o loopagain.o loopagain.cpp; g++ -o loopagain loopagain.o
-	g++ -c -o doenquanto.o doenquanto.cpp; g++ -o doenquanto doenquanto.o
-	g++ -c -o func1.o func1.cpp; g++ -o func1 func1.o
-	g++ -c -o func2.o func2.cpp; g++ -o func2 func2.o
-	g++ -c -o prototipo.o prototipo.cpp; g++ -o prototipo prototipo.o
-	g++ -c -o func3.o func3.cpp; g++ -o func3 func3.o
+	g++ -Wall -c -o simplestdlib.o simplestdlib.cpp; g++ -o simplestdlib simplestdlib.o
+	g++ -Wall -c -o newhile.o newhile.cpp; g++ -o newhile newhile.o
+	g++ -Wall -c -o loopnested.o loopnested.cpp; g++ -o loopnested loopnested.o
+	g++ -Wall -c -o loopagain.o loopagain.cpp; g++ -o loopagain loopagain.o
+	g++ -Wall -c -o doenquanto.o doenquanto.cpp; g++ -o doenquanto doenquanto.o
+	g++ -Wall -c -o func1.o func1.cpp; g++ -o func1 func1.o
+	g++ -Wall -c -o func2.o func2.cpp; g++ -o func2 func2.o
+	g++ -Wall -c -o prototipo.o prototipo.cpp; g++ -o prototipo prototipo.o
+	g++ -Wall -c -o func3.o func3.cpp; g++ -o func3 func3.o
 	g++ -c -o const1.o const1.cpp; g++ -o const1 const1.o
 	g++ -c -o charvector.o charvector.cpp; g++ -o charvector charvector.o
 	g++ -c -o charfunc.o charfunc.cpp; g++ -o charfunc charfunc.o

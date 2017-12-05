@@ -9,8 +9,8 @@ int my_strlen(char * str)
     {
         str++;
         tam++;
-        return tam;
     }
+    return tam;
 }
 
 char * my_strcat(char * dest, char * orig)

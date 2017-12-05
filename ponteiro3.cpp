@@ -14,7 +14,9 @@ int main(int argc,char *argv[])
     aux[1] = 20;
     aux[2] = 30;
 
-   for(int i = 0; i < sizeof(aux)/sizeof(int); i++)
+    int x =(int)sizeof(aux)/sizeof(int);
+
+   for(int i = 0; i < x; i++)
    {
        cout << aux[i] << endl;
    }
