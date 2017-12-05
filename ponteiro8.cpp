@@ -15,7 +15,7 @@ int my_strlen(char * str)
 
 char * my_strcat(char * dest, char * orig)
 {
-    char * resultado;
+    char *resultado;
     int tam_dest = my_strlen(dest);
     int tam_orig = my_strlen(orig);
 
