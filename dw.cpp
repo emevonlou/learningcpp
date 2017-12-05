@@ -8,10 +8,11 @@ int main()
     do {
 
          if (num % 2 == 0)
+         {
+           cout << num << "\n";
 
-            cout << num << "\n";
-
-            num = num -1 ;
+            num = num - 1;
+        }
 
     }  while (num != 0);
 }
