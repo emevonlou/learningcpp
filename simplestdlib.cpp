@@ -4,9 +4,9 @@
 
 int main()
 {
-    int x = 10, b;
+    int x = 10;
 
-    printf("O numero é: ", x);
+    printf("%dO numero é: ", x);
 
     system("pause");
 }
