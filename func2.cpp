@@ -9,6 +9,8 @@ void fun()
 int fun(int num)
 {
     cout << "Essa eh outra função" << endl;
+
+    return num;
 }
 
 int main(int argc, char *argv[])
