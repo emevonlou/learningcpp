@@ -11,7 +11,7 @@
 using namespace std;
 
 int main() {
-	int A = 0, B[8];
+	int B[8];
 	double C[2];
 	string D[3];
 	
