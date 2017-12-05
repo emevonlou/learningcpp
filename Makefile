@@ -60,12 +60,12 @@ build:
 	g++ -Wall -c -o func2.o func2.cpp; g++ -o func2 func2.o
 	g++ -Wall -c -o prototipo.o prototipo.cpp; g++ -o prototipo prototipo.o
 	g++ -Wall -c -o func3.o func3.cpp; g++ -o func3 func3.o
-	g++ -c -o const1.o const1.cpp; g++ -o const1 const1.o
-	g++ -c -o charvector.o charvector.cpp; g++ -o charvector charvector.o
-	g++ -c -o charfunc.o charfunc.cpp; g++ -o charfunc charfunc.o
-	g++ -c -o charfunc1.o charfunc1.cpp; g++ -o charfunc1 charfunc1.o
-	g++ -c -o charfunc2.o charfunc2.cpp; g++ -o charfunc2 charfunc2.o
-	g++ -c -o ponteiro9.o ponteiro9.cpp; g++ -o ponteiro9 ponteiro9.o
-	g++ -c -o ponteiro10.o ponteiro10.cpp; g++ -o ponteiro10 ponteiro10.o
-	g++ -c -o rand2.o rand2.cpp; g++ -o rand2 rand2.o
+	g++ -Wall -c -o const1.o const1.cpp; g++ -o const1 const1.o
+	g++ -Wall -c -o charvector.o charvector.cpp; g++ -o charvector charvector.o
+	g++ -Wall -c -o charfunc.o charfunc.cpp; g++ -o charfunc charfunc.o
+	g++ -Wall -c -o charfunc1.o charfunc1.cpp; g++ -o charfunc1 charfunc1.o
+	g++ -Wall -c -o charfunc2.o charfunc2.cpp; g++ -o charfunc2 charfunc2.o
+	g++ -Wall -c -o ponteiro9.o ponteiro9.cpp; g++ -o ponteiro9 ponteiro9.o
+	g++ -Wall -c -o ponteiro10.o ponteiro10.cpp; g++ -o ponteiro10 ponteiro10.o
+	g++ -Wall -c -o rand2.o rand2.cpp; g++ -o rand2 rand2.o
 .PHONY:
