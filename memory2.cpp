@@ -2,7 +2,7 @@
     A memória em c++ é dividida em duas partes: 'stacks' e 'Heap'.
     Todas as variáveis declaradas dentro da função, irão ocupar
     memória da 'stack'.A 'Heap' é um espaço de memória que é utilizada
-    pra alocar memória dinâmicamente durante a execução do programa.
+    pra alocar memória dinamicamente durante a execução do programa.
 */
 #include <iostream>
 using namespace std;
