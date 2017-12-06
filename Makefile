@@ -71,4 +71,5 @@ build:
 	g++ -Wall -c -o poref.o poref.cpp; g++ -o poref poref.o
 	g++ -Wall -c -o matrizes.o matrizes.cpp; g++ -o matrizes matrizes.o
 	g++ -Wall -c -o memory.o memory.cpp; g++ -o memory memory.o
+	g++ -Wall -c -o memory2.o memory2.cpp; g++ -o memory2 memory2.o
 .PHONY:
