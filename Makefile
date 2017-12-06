@@ -70,4 +70,5 @@ build:
 	g++ -Wall -c -o rand2.o rand2.cpp; g++ -o rand2 rand2.o
 	g++ -Wall -c -o poref.o poref.cpp; g++ -o poref poref.o
 	g++ -Wall -c -o matrizes.o matrizes.cpp; g++ -o matrizes matrizes.o
+	g++ -Wall -c -o memory.o memory.cpp; g++ -o memory memory.o
 .PHONY:
