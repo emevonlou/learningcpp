@@ -73,4 +73,5 @@ build:
 	g++ -Wall -c -o memory.o memory.cpp; g++ -o memory memory.o
 	g++ -Wall -c -o memory2.o memory2.cpp; g++ -o memory2 memory2.o
 	g++ -Wall -c -o pointer.o pointer.cpp; g++ -o pointer pointer.o
+	g++ -Wall -c -o manipuladores.o manipuladores.cpp; g++ -o manipuladores manipuladores.o
 .PHONY:
