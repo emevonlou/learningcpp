@@ -1,4 +1,4 @@
-#include <iostream> 
+#include <iostream> // traz um conjunto de instruções chamados de manipuladores.
 #include <stdlib.h> // system("pause")
 #include <iomanip> //getw()
 using namespace std;
