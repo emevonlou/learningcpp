@@ -78,4 +78,5 @@ build:
 	g++ -Wall -c -o manipuladores2.o manipuladores2.cpp; g++ -o manipuladores2 manipuladores2.o
 	g++ -Wall -c -o structs.o structs.cpp; g++ -o structs structs.o
 	g++ -Wall -c -o structs1.o structs1.cpp; g++ -o structs1 structs1.o
+	g++ -Wall -c -o structs2.o structs2.cpp; g++ -o structs2 structs2.o
 .PHONY:
