@@ -79,4 +79,5 @@ build:
 	g++ -Wall -c -o structs.o structs.cpp; g++ -o structs structs.o
 	g++ -Wall -c -o structs1.o structs1.cpp; g++ -o structs1 structs1.o
 	g++ -Wall -c -o structs2.o structs2.cpp; g++ -o structs2 structs2.o
+	g++ -Wall -c -o classe.o classe.cpp; g++ -o classe classe.o
 .PHONY:
