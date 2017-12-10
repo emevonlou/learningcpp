@@ -10,7 +10,7 @@ private:    // modificador de acesso
 
 public:
 
-    Pessoa(int idade, float peso)
+    Pessoa(int idade, float peso) // construtor
     {
         this->idade = idade;
         this->peso = peso;
@@ -40,7 +40,7 @@ public:
 
 int main(int argc, char *argv[])
 {
-    Pessoa pessoa(38, 40.3);
+    Pessoa pessoa(38, 40.3);  // construindo o objeto usando o construtor.
     Pessoa* ppessoa;
 
     ppessoa = &pessoa;
