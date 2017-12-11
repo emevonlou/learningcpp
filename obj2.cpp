@@ -1,55 +1,36 @@
-// Programando com classe(agrupamento de dados com classe)
+// Array com objetos
 #include <iostream>
 using namespace std;
 
-class Pessoa   // nome da classe com letra maiúscula
+
+class Carro
 {
-private:    // modificador de acesso
-	int idade;
-	float peso;
-
 public:
-
-	Pessoa(int idade, float peso) // construtor
-	{
-		this->idade = idade;
-		this->peso = peso;
-	}
-
-	void setIdade(int idade)
-	{
-		this->idade = idade;
-	}
-
-	int getIdade()
-	{
-		return idade;
-	}
-
-	void setPeso(float peso)
-	{
-		this->peso = peso;
-	}
-
-	float getPeso()
-	{
-		return peso;
-	}
+	int ano;
+	float peso;
 
 };
 
 int main(int argc, char *argv[])
 {
-	Pessoa pessoa(38, 40);  // construindo o objeto usando o construtor.
-	Pessoa* ppessoa;
+	Carro carros[3];
 
-	ppessoa = &pessoa;
+	carros[0].ano = 2015;  
+	carros[0].peso = 756.45;
+	carros[1].ano = 2016;
+	carros[1].peso = 678.50;
+	carros[2].ano = 2017;
+	carros[2].peso = 840.50;
+	carros[3].ano = 2009;
+	carros[3].peso = 900.48;
 
-	// pessoa.setIdade(38);  // Acesso aos membros do objeto
-	// pessoa.setPeso(44.3);
+	cout << "Imprimindo todos os carros: " << endl << endl;
 
-	cout << "Idade: " << ppessoa->getIdade() << endl;
-	cout << "Peso: " << ppessoa->getPeso() << endl;
+	for(int i = 0; i < 3; i++)
+	{
+		cout << "\nAno: " << carros[i].ano;
+		cout << "\nPeso: " << carros[i].peso << endl;
+	}
 
 	return 0;
 }
