@@ -1,0 +1,3 @@
+﻿  acumulator.cpp
+c:\users\manu\desktop\desenvolvimento\vscodeprojects\learningcpp\acumulator.cpp(22): error C4700: variável local não inicializada 'soma' usada
+c:\users\manu\desktop\desenvolvimento\vscodeprojects\learningcpp\acumulator.cpp(22): error C4700: variável local não inicializada 'num' usada

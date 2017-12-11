@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{D4491CD0-1669-43A4-9B59-84733FFED9E6}</ProjectGuid>
+    <RootNamespace>learningcpp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="acumulator.cpp" />
+    <ClCompile Include="amo.cpp" />
+    <ClCompile Include="calculator.cpp" />
+    <ClCompile Include="caracnull.cpp" />
+    <ClCompile Include="caracnum.cpp" />
+    <ClCompile Include="characnull.cpp" />
+    <ClCompile Include="charfunc.cpp" />
+    <ClCompile Include="charfunc1.cpp" />
+    <ClCompile Include="charfunc2.cpp" />
+    <ClCompile Include="charsimple.cpp" />
+    <ClCompile Include="charvector.cpp" />
+    <ClCompile Include="classe.cpp" />
+    <ClCompile Include="colors.cpp" />
+    <ClCompile Include="comparing.cpp" />
+    <ClCompile Include="concatenate.cpp" />
+    <ClCompile Include="const1.cpp" />
+    <ClCompile Include="dayofmonth.cpp" />
+    <ClCompile Include="days.cpp" />
+    <ClCompile Include="dc.cpp" />
+    <ClCompile Include="decision.cpp" />
+    <ClCompile Include="doenquanto.cpp" />
+    <ClCompile Include="dw.cpp" />
+    <ClCompile Include="exvector.cpp" />
+    <ClCompile Include="func1.cpp" />
+    <ClCompile Include="func2.cpp" />
+    <ClCompile Include="func3.cpp" />
+    <ClCompile Include="funcmore.cpp" />
+    <ClCompile Include="funcstrupr.cpp" />
+    <ClCompile Include="functions.cpp" />
+    <ClCompile Include="funny.cpp" />
+    <ClCompile Include="hello.cpp" />
+    <ClCompile Include="ifcomp.cpp" />
+    <ClCompile Include="keywordnew.cpp" />
+    <ClCompile Include="library.cpp" />
+    <ClCompile Include="loopagain.cpp" />
+    <ClCompile Include="loopnested.cpp" />
+    <ClCompile Include="manipuladores.cpp" />
+    <ClCompile Include="manipuladores1.cpp" />
+    <ClCompile Include="manipuladores2.cpp" />
+    <ClCompile Include="matrizes.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="memory2.cpp" />
+    <ClCompile Include="modulo.cpp" />
+    <ClCompile Include="moreone.cpp" />
+    <ClCompile Include="multiplesofsix.cpp" />
+    <ClCompile Include="name.cpp" />
+    <ClCompile Include="newhile.cpp" />
+    <ClCompile Include="obj1.cpp" />
+    <ClCompile Include="operadores.cpp" />
+    <ClCompile Include="opt.cpp" />
+    <ClCompile Include="para.cpp" />
+    <ClCompile Include="para2.cpp" />
+    <ClCompile Include="para3.cpp" />
+    <ClCompile Include="para4.cpp" />
+    <ClCompile Include="parray.cpp" />
+    <ClCompile Include="pointer.cpp" />
+    <ClCompile Include="ponteiro.cpp" />
+    <ClCompile Include="ponteiro10.cpp" />
+    <ClCompile Include="ponteiro2.cpp" />
+    <ClCompile Include="ponteiro3.cpp" />
+    <ClCompile Include="ponteiro4.cpp" />
+    <ClCompile Include="ponteiro5.cpp" />
+    <ClCompile Include="ponteiro6.cpp" />
+    <ClCompile Include="ponteiro7.cpp" />
+    <ClCompile Include="ponteiro8.cpp" />
+    <ClCompile Include="ponteiro9.cpp" />
+    <ClCompile Include="poref.cpp" />
+    <ClCompile Include="prototipo.cpp" />
+    <ClCompile Include="rand.cpp" />
+    <ClCompile Include="rand2.cpp" />
+    <ClCompile Include="regres.cpp" />
+    <ClCompile Include="simplestdlib.cpp" />
+    <ClCompile Include="sizestring.cpp" />
+    <ClCompile Include="sqrtsinlog.cpp" />
+    <ClCompile Include="structs.cpp" />
+    <ClCompile Include="structs1.cpp" />
+    <ClCompile Include="structs2.cpp" />
+    <ClCompile Include="sum.cpp" />
+    <ClCompile Include="swithcase.cpp" />
+    <ClCompile Include="varglob.cpp" />
+    <ClCompile Include="vogal.cpp" />
+    <ClCompile Include="while.cpp" />
+    <ClCompile Include="wtf.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

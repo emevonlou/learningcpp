@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int my_strlen(char * str)
+int my_strlen(char* str)
 {
     int tam = 0;
 
@@ -13,9 +13,9 @@ int my_strlen(char * str)
     return tam;
 }
 
-char * my_strcat(char * dest, char * orig)
+char* my_strcat(char* dest, char* orig)
 {
-    char *resultado;
+    char* resultado;
     int tam_dest = my_strlen(dest);
     int tam_orig = my_strlen(orig);
 
@@ -40,9 +40,9 @@ char * my_strcat(char * dest, char * orig)
 
 int main(int argc, char *argv[])
 {
-    char * nome1 = new char[100];
-    char * nome2 = new char[100];
-    char * resultado;
+    char* nome1 = new char[100];
+    char* nome2 = new char[100];
+    char* resultado;
 
     cout << "Digite o primeiro nome: ";
     cin >> nome1;
