@@ -12,7 +12,8 @@ using namespace std;
 int main()
 {
     int i;
-    float num, soma;
+	int num;
+	int soma;
 
     for(i = 1; i <= 7; i++)
     {
@@ -23,4 +24,6 @@ int main()
     cout << "\n Soma: " << soma << endl;
     cout << "\n\n";
     system("pause");
+
+	return 0;
 }

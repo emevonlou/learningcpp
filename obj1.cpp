@@ -6,7 +6,7 @@ class Pessoa   // nome da classe com letra maiúscula
 {
 private:    // modificador de acesso
     int idade;
-    int peso;
+    float peso;
 
 public:
 
@@ -40,7 +40,7 @@ public:
 
 int main(int argc, char *argv[])
 {
-    Pessoa pessoa(38, 40.3);  // construindo o objeto usando o construtor.
+    Pessoa pessoa(38, 40);  // construindo o objeto usando o construtor.
     Pessoa* ppessoa;
 
     ppessoa = &pessoa;

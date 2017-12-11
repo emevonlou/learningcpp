@@ -4,15 +4,21 @@ using namespace std;
 
 class Pessoa   // nome da classe com letra maiúscula
 {
-private:    // modificador de acesso
+private:    
+/*
+    *modificador de acesso.
+    Deve ser 'private' para garantir a segurança de alterações acidentais.
+    Sendo somente acessíveis essas variáveis através de métodos,
+    Contribuindo no encapsulamento de dados.
+*/
     int idade;
     int peso;
 
 public:
-
-    void setIdade(int idade)
+// métodos
+    void setIdade(int idade) 
     {
-        this->idade = idade;
+        this->idade = idade;  // this = referência a variável dessa instância que vai receber o parâmetro 'idade'
     }
 
     int getIdade()

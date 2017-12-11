@@ -8,6 +8,8 @@
 #include <iostream>
 #include <conio.h>
 #include <cstdlib>
+#include <string.h>
+#include <cstring>
 using namespace std;
 
 int main() {
@@ -29,7 +31,7 @@ int main() {
 	D[1] = "Joaquim";
 	D[2] = "Helio";
 
-	for(int indice = 0; indice <3;indice++) {
+	for(int indice = 0; indice < 3; indice++) {
 		cout << D[indice] << endl;
 	}
 	system("pause");
