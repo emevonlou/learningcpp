@@ -23,7 +23,12 @@ int main(int argc, char *argv[])  // função externa
 {
 	Estudante e; // Objeto
 
-	e.setIdade(28);
+	e.setIdade(28); 
+	/*
+		setIdade é membro da classe Estudante
+		Então pode acessar o membro protegido
+		'idade' da classe.
+	*/
 
 	return 0;
 }
