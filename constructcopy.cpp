@@ -22,6 +22,12 @@ public:
 
 	Estudante(const Estudante & e)  // Construtor de cópias
 	{
+		/*
+			Aloca um novo bloco de memória de pilha
+			a cópia de 'nome', depois ele copia a string
+			no bloco do nome antes de concatenar o nome do
+			aluno na linha seguinte.
+		*/
 		cout << "construindo a cópia de" << e.nome << endl;
 
 		int tam = strlen(e.nome) + 30;
@@ -31,7 +37,7 @@ public:
 		this->ID = e.ID;
 	}
 
-	~Estudante()
+	~Estudante()  // O destrutor retorna a String original à pilha
 	{
 		cout << "Destruindo " << nome << endl;
 		delete[] nome;
