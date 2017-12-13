@@ -19,7 +19,9 @@ int main(int argc, char *argv[])
 
 	nome1.clear(); // limpa a string nome1
 
-	cout << "Tamanho da string: " << nome.size() << endl;
+	cout << "Tamanho da string depois do .clear(): " << nome.size() << endl;
 	// o tamanho da string será zero
+
+
 	return 0;
 }
