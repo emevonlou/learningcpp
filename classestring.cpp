@@ -11,14 +11,14 @@ int main(int argc, char *argv[])
 	string nome1 = "Emanuelle Von Lou";
 	cout << "Primeira string: " << nome1 << endl;
 	cout << "Tamanho da string: " << nome1.size() << endl;
-	cout << "primeiro caractere da string: " << nome[0] << endl;
+	cout << "primeiro caractere da string: " << nome1[0] << endl;
 
 	//Adicionando strings com .append
 	nome1.append("Costa");
 
 	string nome("Joaquim Vincent"); // Passando pro construtor
 	//inserindo string com .insert()
-	nome.insert(nome.size() - 1, "Frota");
+	nome.insert(nome.size(), "Frota");
 
 	cout << "Segunda string: " << nome << endl;
 	cout << "Tamanho da segunda string: " << nome.size() << endl;
