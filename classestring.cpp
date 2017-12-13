@@ -17,5 +17,9 @@ int main(int argc, char *argv[])
 	cout << "Segunda string: " << nome << endl;
 	cout << "Tamanho da segunda string: " << nome.size() << endl;
 
+	nome1.clear(); // limpa a string nome1
+
+	cout << "Tamanho da string: " << nome.size() << endl;
+	// o tamanho da string será zero
 	return 0;
 }
