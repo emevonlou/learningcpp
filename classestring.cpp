@@ -17,6 +17,9 @@ int main(int argc, char *argv[])
 	nome1.append("Costa");
 
 	string nome("Joaquim Vincent"); // Passando pro construtor
+	//inserindo string com .insert()
+	nome.insert(nome.size() - 1, "Frota");
+
 	cout << "Segunda string: " << nome << endl;
 	cout << "Tamanho da segunda string: " << nome.size() << endl;
 
