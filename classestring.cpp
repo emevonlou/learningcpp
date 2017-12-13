@@ -22,6 +22,11 @@ int main(int argc, char *argv[])
 	cout << "Tamanho da string depois do .clear(): " << nome.size() << endl;
 	// o tamanho da string será zero
 
+	// verificando se a string está vazia com empty
+	if (nome.empty())
+		cout << "String vazia." << endl;
+	else
+		cout << "String nao vazia!" << endl;
 
 	return 0;
 }
