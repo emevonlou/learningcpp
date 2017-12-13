@@ -23,10 +23,12 @@ int main(int argc, char *argv[])
 	// o tamanho da string será zero
 
 	// verificando se a string está vazia com empty
-	if (nome.empty())
+	if (nome1.empty())
 		cout << "String vazia." << endl;
 	else
 		cout << "String nao vazia!" << endl;
+	// Acessando o segundo caractere com .at()
+	cout << "Acessando o segundo caractere: " << nome.at(1) << endl;
 
 	return 0;
 }
