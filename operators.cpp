@@ -12,14 +12,10 @@ class Estudante
 protected:
 	char * nome;
 	int ID;
-public:
-	Estudante(const char * novoNome, int novoID)
-	{ /*
-		O construtor aloca memória da pilha para uso
-		da armazenagem do nome do aluno.
-	  */
-		cout << "Construindo novo nome!" << endl;
 
+
+	void init(const char * novoNome, int novoID)
+	{
 		int tam = strlen(novoNome) + 1;
 
 		nome = new char[tam];
@@ -28,11 +24,55 @@ public:
 		ID = novoID;
 	}
 
-	~Estudante()
+	void destruct()
 	{
-		cout << "Destruindo" << nome << endl;
 		delete[] nome;
 		nome = 0;
+	}
+public:
+	Estudante(const char * novoNome, int novoID)
+	{ /*
+		O construtor aloca memória da pilha para uso
+		da armazenagem do nome do aluno.
+	  */
+		cout << "Construindo novo nome!" << endl;
+
+		init(novoNome, novoID);
+	}
+
+	Estudante(Estudante & e)
+	{
+		cout << "construindo copia de: " << e.nome << endl;
+		init(e.nome, e.ID);
+	}
+
+	virtual ~Estudante()
+	{
+		cout << "Destruindo" << nome << endl;
+		destruct();
+	}
+// Sobrecarregar o operador de designação
+	Estudante& operator=(Estudante& origem)
+	{
+		if(this != &origem)
+		{
+			cout << "Atribuindo " << origem.nome << "para" << nome << endl;
+			// primeiramente destrói o objeto existente com destruct
+			destruct();
+
+			//copia o objeto origem
+			init(origem.nome, origem.ID);
+		}
+		return *this;
+	}
+	const char* getNome()
+	{
+		return nome;
+	}
+
+	int getID()
+	{
+		return ID;
 	}
 };
 
