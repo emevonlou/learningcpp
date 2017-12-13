@@ -13,6 +13,9 @@ int main(int argc, char *argv[])
 	cout << "Tamanho da string: " << nome1.size() << endl;
 	cout << "primeiro caractere da string: " << nome[0] << endl;
 
+	//Adicionando strings com .append
+	nome1.append("Costa");
+
 	string nome("Joaquim Vincent"); // Passando pro construtor
 	cout << "Segunda string: " << nome << endl;
 	cout << "Tamanho da segunda string: " << nome.size() << endl;
@@ -29,6 +32,11 @@ int main(int argc, char *argv[])
 		cout << "String nao vazia!" << endl;
 	// Acessando o segundo caractere com .at()
 	cout << "Acessando o segundo caractere: " << nome.at(1) << endl;
+
+	// adicionando strings
+	nome.push_back('F');
+	cout << "novo nome: " << nome << endl;
+
 
 	return 0;
 }
