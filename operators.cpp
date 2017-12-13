@@ -5,6 +5,7 @@
 	O operador deve ser uma função membro.
 */
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 class Estudante
