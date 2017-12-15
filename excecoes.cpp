@@ -2,12 +2,12 @@
 using namespace std;
 
 
-int fat(int n)
+int fat(int n) //implementando a função fat() recursiva
 {
-    if(n < 0)
+    if(n < 0) // Se passar um numero negativo, lançamos uma exceção com throw
         throw "Numero negativo\n";
     if(n == 0 || n == 1)
-        return 1;
+        return 1; // Retorna 1 porque a fat de zero e um é 1
     return n * fat(n-1);
 }
 
