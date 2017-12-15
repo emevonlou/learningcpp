@@ -16,5 +16,10 @@ int main(int argc, char *argv[])
         cout << v[i] << endl;
     }
 
+    if(v.empty()) // verificando se o vetor está vazio
+        cout << "Vetor vazio." << endl;
+    else
+        cout << "Vetor nao vazio." << endl; 
+
     return 0;
 }
