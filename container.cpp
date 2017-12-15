@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     v.push_back(20);
     v.push_back(30);
     // v.pop_back(); Deletar o ultimo elemento
-
+    // v.erase(v.begin() + 2) No caso,apaga o terceiro elemento(Serve pra deletar qualquer um)
     for(unsigned int i = 0; i < v.size(); i++)
     {
         cout << v[i] << endl;
