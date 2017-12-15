@@ -71,7 +71,7 @@ build:
 	g++ -Wall -c -o poref.o poref.cpp; g++ -o poref poref.o
 	g++ -Wall -c -o matrizes.o matrizes.cpp; g++ -o matrizes matrizes.o
 	g++ -Wall -c -o memory.o memory.cpp; g++ -o memory memory.o
-	g++ -Wall -c -o memory2.o memory2.cpp; g++ -o memory2 memory2.o
+	g++ -Wall -c -o memory2.o memory2.cpp; g++ -o memory2 memory2.o 
 	g++ -Wall -c -o pointer.o pointer.cpp; g++ -o pointer pointer.o
 	g++ -Wall -c -o manipuladores.o manipuladores.cpp; g++ -o manipuladores manipuladores.o
 	g++ -Wall -c -o manipuladores1.o manipuladores1.cpp; g++ -o manipuladores manipuladores.o
@@ -82,4 +82,5 @@ build:
 	g++ -Wall -c -o classe.o classe.cpp; g++ -o classe classe.o
 	g++ -Wall -c -o obj1.o obj1.cpp; g++ -o obj1 obj1.o
 	g++ -Wall -c -o arquivos.o arquivos.cpp; g++ -o arquivos arquivos.o
+	g++ -Wall -c -o excecoes.o excecoes.cpp; g++ -o excecoes excecoes.o
 .PHONY:
