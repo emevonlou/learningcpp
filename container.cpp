@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     v.push_back(30);
     /*  
         v.pop_back(); Deletar o ultimo elemento
-        v.erase(v.begin() + 2);// No caso,apaga o terceiro elemento(Serve pra deletar qualquer um)
+        v.erase(v.begin() + 2);// No caso,deleta o terceiro elemento(Serve pra deletar qualquer um)
         #Inserindo elemento em uma determinada posição:
         Usamos o Iterador-Funciona como um indexador com iterator.
     */
