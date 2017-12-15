@@ -32,6 +32,8 @@ int main(int argc, char *argv[])
     lista.push_back(p1);
     lista.push_back(p2);
     lista.push_back(p3);
+    // lista.pop_front(); Deleta o primeiro elemento
+    // lista.pop_back(); Deleta o último elemento
 
     list<Pessoa>::iterator it;
 
@@ -39,6 +41,11 @@ int main(int argc, char *argv[])
     {
         cout << it->nome;
     }
+
+    cout << "Primeiro elemento: " << lista.front().nome << endl;
+    cout << "Ultimo elemento: " << lista.back().nome << endl;
+    cout << "Tamanho da lista: " << lista.size() << endl;
+
 
     return 0;
 }
