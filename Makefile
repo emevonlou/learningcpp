@@ -7,7 +7,7 @@ build:
 	g++ -Wall -c -o exvector.o exvector.cpp; g++ -o exvector exvector.o
 	g++ -Wall -c -o amo.o amo.cpp; g++ -o amo amo.o
 	g++ -Wall -c -o multiplesofsix.o multiplesofsix.cpp; g++ -o multiplesofsix multiplesofsix.o
-	g++ -Wall -c -o rand.o rand.cpp; g++ -o rand rand.o
+#	g++ -Wall -c -o rand.o rand.cpp; g++ -o rand rand.o
 	g++ -Wall -c -o sqrtsinlog.o sqrtsinlog.cpp; g++ -o sqrtsinlog sqrtsinlog.o
 	g++ -Wall -c -o swithcase.o swithcase.cpp; g++ -o swithcase swithcase.o
 	g++ -Wall -c -o while.o while.cpp; g++ -o while while.o
@@ -18,7 +18,7 @@ build:
 	g++ -Wall -c -o concatenate.o concatenate.cpp; g++ -o concatenate concatenate.o 
 	g++ -Wall -c -o characnull.o characnull.cpp; g++ -o characnull characnull.o
 	g++ -Wall -c -o charsimple.o charsimple.cpp; g++ -o charsimple charsimple.o
-	g++ -Wall -c -o colors.o colors.cpp; g++ -o colors colors.o
+#	g++ -Wall -c -o colors.o colors.cpp; g++ -o colors colors.o
 	g++ -Wall -c -o sum.o sum.cpp; g++ -o sum sum.o
 	g++ -Wall -c -o opt.o opt.cpp; g++ -o opt opt.o
 	g++ -Wall -c -o sizestring.o sizestring.cpp; g++ -o sizestring sizestring.o
@@ -36,8 +36,8 @@ build:
 	g++ -Wall -c -o ponteiro5.o ponteiro5.cpp; g++ -o ponteiro5 ponteiro5.o
 	g++ -Wall -c -o ponteiro6.o ponteiro6.cpp; g++ -o ponteiro6 ponteiro6.o
 	g++ -Wall -c -o ponteiro7.o ponteiro7.cpp; g++ -o ponteiro7 ponteiro7.o
-	g++ -Wall -c -o ponteiro8.o ponteiro8.cpp; g++ -o ponteiro8 ponteiro8.o
-	g++ -Wall -c -o funcstrupr.o funcstrupr.cpp; g++ -o funcstrupr funcstrupr.o
+#	g++ -Wall -c -o ponteiro8.o ponteiro8.cpp; g++ -o ponteiro8 ponteiro8.o
+#	g++ -Wall -c -o funcstrupr.o funcstrupr.cpp; g++ -o funcstrupr funcstrupr.o
 	g++ -Wall -c -o dc.o dc.cpp; g++ -o dc dc.o
 	g++ -Wall -c -o varglob.o varglob.cpp; g++ -o varglob varglob.o
 	g++ -Wall -c -o modulo.o modulo.cpp; g++ -o modulo modulo.o
@@ -81,4 +81,5 @@ build:
 	g++ -Wall -c -o structs2.o structs2.cpp; g++ -o structs2 structs2.o
 	g++ -Wall -c -o classe.o classe.cpp; g++ -o classe classe.o
 	g++ -Wall -c -o obj1.o obj1.cpp; g++ -o obj1 obj1.o
+	g++ -Wall -c -o arquivos.o arquivos.cpp; g++ -o arquivos arquivos.o
 .PHONY:

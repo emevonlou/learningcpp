@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 {
     char* nome1 = new char[100];
     char* nome2 = new char[100];
-    char* resultado;
+    char* resultado = 0;
 
     cout << "Digite o primeiro nome: ";
     cin >> nome1;

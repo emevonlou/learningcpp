@@ -12,8 +12,8 @@ using namespace std;
 int main()
 {
     int i;
-	float num;
-	float soma;
+	float num = 0;
+	float soma = 0;
 
     for(i = 1; i <= 7; i++)
     {
