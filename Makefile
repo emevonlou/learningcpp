@@ -83,4 +83,5 @@ build:
 	g++ -Wall -c -o obj1.o obj1.cpp; g++ -o obj1 obj1.o
 	g++ -Wall -c -o arquivos.o arquivos.cpp; g++ -o arquivos arquivos.o
 	g++ -Wall -c -o excecoes.o excecoes.cpp; g++ -o excecoes excecoes.o
+	g++ -Wall -c -o container.o container.cpp; g++ -o container container.o
 .PHONY:
