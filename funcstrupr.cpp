@@ -6,6 +6,7 @@ e converte em maiusculas!
 #include <iostream>
 #include <cstdlib>
 #include <cstring>
+#include <string.h>
 using namespace std;
 
 int main()

@@ -1,7 +1,7 @@
 #include <iostream> // cin, cout
 #include <cstdlib> // system,random(rand)
 #include <time.h> // time
-#include <conio.h> // funcoes do windows
+#include <conio.h> // Funções do windows
 
 using namespace std;
 
