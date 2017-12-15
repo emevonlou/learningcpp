@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     v.push_back(20);
     v.push_back(30);
 
-    for(int i = 0; i < v.size(); i++)
+    for(unsigned int i = 0; i < v.size(); i++)
     {
         cout << v[i] << endl;
     }
