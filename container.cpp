@@ -10,8 +10,17 @@ int main(int argc, char *argv[])
     v.push_back(12);
     v.push_back(20);
     v.push_back(30);
-    // v.pop_back(); Deletar o ultimo elemento
-    // v.erase(v.begin() + 2) No caso,apaga o terceiro elemento(Serve pra deletar qualquer um)
+    /*  
+        v.pop_back(); Deletar o ultimo elemento
+        v.erase(v.begin() + 2);// No caso,apaga o terceiro elemento(Serve pra deletar qualquer um)
+        #Inserindo elemento em uma determinada posição:
+        Usamos o Iterador-Funciona como um indexador com iterator.
+    */
+
+    vector<int>::iterator it;
+    it = v.begin() + 1;
+    v.insert(it,11);
+
     for(unsigned int i = 0; i < v.size(); i++)
     {
         cout << v[i] << endl;
