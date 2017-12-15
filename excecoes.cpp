@@ -13,15 +13,15 @@ int fat(int n)
 
 int main(int argc,char *argv[])
 {
-    try   //Tento fazer algo
+    try   //Tente 
     {
         cout << "Fatorial de 5: " << fat(5) << endl;
     }
     catch(const char * e) //captura exceção com 'cath'
     {
-        cerr << "Erro: " << e << endl;
+        cerr << "Erro: " << e << endl; //imprimindo erro com 'cerr'
     }
-    catch(...)
+    catch(...) // Caso o erro for desconhecido
     {
         cerr << "Erro inesperado" << endl;
     }
