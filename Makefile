@@ -87,4 +87,5 @@ build:
 	g++ -Wall -c -o list.o list.cpp; g++ -o list list.o
 	g++ -Wall -c -o stack.o stack.cpp; g++ -o stack stack.o
 	g++ -Wall -c -o queue.o queue.cpp; g++ -o queue queue.o
+	g++ -Wall -c -o priority.o priority.cpp; g++ -o priority priority.o
 .PHONY:
