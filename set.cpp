@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
-    
+    cout << "Tamanho do conjunto: " << conj.size() << endl;
 
     return 0;
 }
