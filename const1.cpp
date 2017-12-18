@@ -4,7 +4,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     int notas[10];
-    int tam;
+    float tam;
     int x = sizeof(notas);
     int y = sizeof(int);
 
@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 
     tam = x / y;
 
-    cout << "O tamanho eh: " << notas << endl;
+    cout << "O tamanho eh: " << tam << endl;
+
     return 0;
 }
