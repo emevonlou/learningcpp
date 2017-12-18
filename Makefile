@@ -1,34 +1,64 @@
-build: 
+1: 
 	g++ -Wall -c -o calculator.o calculator.cpp; g++ -o calculator calculator.o
+2:
 	g++ -Wall -c -o functions.o functions.cpp; g++ -o functions functions.o
+3:
 	g++ -Wall -c -o dayofmonth.o dayofmonth.cpp; g++ -o dayofmonth dayofmonth.o
+4:
 	g++ -Wall -c -o funny.o funny.cpp; g++ -o funny funny.o
+5:
 	g++ -Wall -c -o acumulator.o acumulator.cpp; g++ -o acumulator acumulator.o
+6:
 	g++ -Wall -c -o exvector.o exvector.cpp; g++ -o exvector exvector.o
+7:
 	g++ -Wall -c -o amo.o amo.cpp; g++ -o amo amo.o
+8:
 	g++ -Wall -c -o multiplesofsix.o multiplesofsix.cpp; g++ -o multiplesofsix multiplesofsix.o
+#9:
 #	g++ -Wall -c -o rand.o rand.cpp; g++ -o rand rand.o
+10:
 	g++ -Wall -c -o sqrtsinlog.o sqrtsinlog.cpp; g++ -o sqrtsinlog sqrtsinlog.o
+11:
 	g++ -Wall -c -o swithcase.o swithcase.cpp; g++ -o swithcase swithcase.o
+12:
 	g++ -Wall -c -o while.o while.cpp; g++ -o while while.o
+13:
 	g++ -Wall -c -o ifcomp.o ifcomp.cpp; g++ -o ifcomp ifcomp.o
+14:
 	g++ -Wall -c -o vogal.o vogal.cpp; g++ -o vogal vogal.o
+15:
 	g++ -Wall -c -o library.o library.cpp; g++ -o library library.o
+16:
 	g++ -Wall -c -o comparing.o comparing.cpp; g++ -o comparing comparing.o
+17:
 	g++ -Wall -c -o concatenate.o concatenate.cpp; g++ -o concatenate concatenate.o 
+18:
 	g++ -Wall -c -o characnull.o characnull.cpp; g++ -o characnull characnull.o
+19:
 	g++ -Wall -c -o charsimple.o charsimple.cpp; g++ -o charsimple charsimple.o
+#20:
 #	g++ -Wall -c -o colors.o colors.cpp; g++ -o colors colors.o
+21:
 	g++ -Wall -c -o sum.o sum.cpp; g++ -o sum sum.o
+22:
 	g++ -Wall -c -o opt.o opt.cpp; g++ -o opt opt.o
+23:
 	g++ -Wall -c -o sizestring.o sizestring.cpp; g++ -o sizestring sizestring.o
+24:
 	g++ -Wall -c -o caracnull.o caracnull.cpp; g++ -o caracnull caracnull.o
+25:
 	g++ -Wall -c -o days.o days.cpp; g++ -o days days.o
+26:
 	g++ -Wall -c -o caracnum.o caracnum.cpp; g++ -o caracnum caracnum.o
+27:
 	g++ -Wall -c -o name.o name.cpp; g++ -o name name.o
+28:
 	g++ -Wall -c -o ponteiro.o ponteiro.cpp; g++ -o ponteiro ponteiro.o
+29:
 	g++ -Wall -c -o ponteiro2.o ponteiro2.cpp; g++ -o ponteiro2 ponteiro2.o
+30:
 	g++ -Wall -c -o hello.o hello.cpp; g++ -o hello hello.o
+31:
 	g++ -Wall -c -o funcmore.o funcmore.cpp; g++ -o funcmore funcmore.o
 	g++ -Wall -c -o ponteiro3.o ponteiro3.cpp; g++ -o ponteiro3 ponteiro3.o
 	g++ -Wall -c -o ponteiro4.o ponteiro4.cpp; g++ -o ponteiro4 ponteiro4.o
@@ -91,4 +121,3 @@ build:
 	g++ -Wall -c -o map.o map.cpp; g++ -o map map.o
 	g++ -Wall -c -o set.o set.cpp; g++ -o set set.o
 	g++ -Wall -c -o vecnew.o vecnew.cpp; g++ -o vecnew vecnew.o
-.PHONY:
