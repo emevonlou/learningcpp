@@ -60,28 +60,51 @@
 	g++ -Wall -c -o hello.o hello.cpp; g++ -o hello hello.o
 31:
 	g++ -Wall -c -o funcmore.o funcmore.cpp; g++ -o funcmore funcmore.o
+32:
 	g++ -Wall -c -o ponteiro3.o ponteiro3.cpp; g++ -o ponteiro3 ponteiro3.o
+33:
 	g++ -Wall -c -o ponteiro4.o ponteiro4.cpp; g++ -o ponteiro4 ponteiro4.o
+34:
 	g++ -Wall -c -o parray.o parray.cpp; g++ -o parray parray.o
+35:
 	g++ -Wall -c -o ponteiro5.o ponteiro5.cpp; g++ -o ponteiro5 ponteiro5.o
+36:
 	g++ -Wall -c -o ponteiro6.o ponteiro6.cpp; g++ -o ponteiro6 ponteiro6.o
+37:
 	g++ -Wall -c -o ponteiro7.o ponteiro7.cpp; g++ -o ponteiro7 ponteiro7.o
+#38:
 #	g++ -Wall -c -o ponteiro8.o ponteiro8.cpp; g++ -o ponteiro8 ponteiro8.o
+#39:
 #	g++ -Wall -c -o funcstrupr.o funcstrupr.cpp; g++ -o funcstrupr funcstrupr.o
+40:
 	g++ -Wall -c -o dc.o dc.cpp; g++ -o dc dc.o
+41:
 	g++ -Wall -c -o varglob.o varglob.cpp; g++ -o varglob varglob.o
+42:
 	g++ -Wall -c -o modulo.o modulo.cpp; g++ -o modulo modulo.o
+43:
 	g++ -Wall -c -o operadores.o operadores.cpp; g++ -o operadores operadores.o
+44:
 	g++ -Wall -c -o decision.o decision.cpp; g++ -o decision decision.o
+45:
 	g++ -Wall -c -o regres.o regres.cpp; g++ -o regres regres.o
+46:
 	g++ -Wall -c -o wtf.o wtf.cpp; g++ -o wtf wtf.o
+47:
 	g++ -Wall -c -o moreone.o moreone.cpp; g++ -o moreone moreone.o
+48:
 	g++ -Wall -c -o para.o para.cpp; g++ -o para para.o
+49:
 	g++ -Wall -c -o para2.o para2.cpp; g++ -o para2 para2.o
+50:
 	g++ -Wall -c -o para3.o para3.cpp; g++ -o para3 para3.o
+51:
 	g++ -Wall -c -o para4.o para4.cpp; g++ -o para4 para4.o
+52:
 	g++ -Wall -c -o dw.o dw.cpp; g++ -o dw dw.o
+53:
 	g++ -Wall -c -o simplestdlib.o simplestdlib.cpp; g++ -o simplestdlib simplestdlib.o
+54:
 	g++ -Wall -c -o newhile.o newhile.cpp; g++ -o newhile newhile.o
 	g++ -Wall -c -o loopnested.o loopnested.cpp; g++ -o loopnested loopnested.o
 	g++ -Wall -c -o loopagain.o loopagain.cpp; g++ -o loopagain loopagain.o
