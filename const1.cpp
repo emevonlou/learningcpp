@@ -5,13 +5,14 @@ int main(int argc, char *argv[])
 {
     int notas[10];
     int tam;
+    int x = sizeof(notas);
+    int y = sizeof(int);
 
-    tam = sizeof(notas)/ sizeof(int);
+    cout << "x eh:" << x << endl;
+    cout << "y eh: " << y << endl;
 
+    tam = x / y;
 
-    for(int i = 0; i < 10; i++)
-    {
-        cout << notas[i] << " ";
-    }
+    cout << "O tamanho eh: " << notas << endl;
     return 0;
 }
