@@ -1,29 +1,25 @@
-/*
-    Nome da função: main
-    Não tem parâmetros, não retorna valor.
-    objetivo: declarar uma variável de tipo
-    compativel com o valor que recebeu.
-*/
-
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
 int main()  // função inteira
 {
-    int i;
-	float num = 0;
-	float soma = 0;
+    int x, y,z,w,k;
+    float soma;
 
-    for(i = 1; i <= 7; i++) 
-    {
-        cout << "Enter " << i << " number: ";
-        cin >> i;
-        soma += num;
-    }
-    cout << "\n Soma: " << soma << endl;
-    cout << "\n\n";
-    system("pause");
+    cout << "Digite o primeiro numero: " << endl;
+    cin >> x;
+    cout << "Digite o segundo numero: " << endl;
+    cin >> y;
+    cout << "Digite o terceiro numero: " << endl;
+    cin >> z;
+    cout << "Digite o quarto numero: " << endl;
+    cin >> w;
+    cout << "Digite o quinto numero: " << endl;
+    cin >> k;
 
-	return 0;
+    soma = x + y + z + w + k;
+
+    cout << "Soma dos seus numeros: " << soma << endl;
+
+    return 0;
 }
