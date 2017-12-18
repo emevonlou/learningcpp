@@ -106,41 +106,79 @@
 	g++ -Wall -c -o simplestdlib.o simplestdlib.cpp; g++ -o simplestdlib simplestdlib.o
 54:
 	g++ -Wall -c -o newhile.o newhile.cpp; g++ -o newhile newhile.o
+55:
 	g++ -Wall -c -o loopnested.o loopnested.cpp; g++ -o loopnested loopnested.o
+56:
 	g++ -Wall -c -o loopagain.o loopagain.cpp; g++ -o loopagain loopagain.o
+57:
 	g++ -Wall -c -o doenquanto.o doenquanto.cpp; g++ -o doenquanto doenquanto.o
+58:
 	g++ -Wall -c -o func1.o func1.cpp; g++ -o func1 func1.o
+59:
 	g++ -Wall -c -o func2.o func2.cpp; g++ -o func2 func2.o
+60:
 	g++ -Wall -c -o prototipo.o prototipo.cpp; g++ -o prototipo prototipo.o
+61:
 	g++ -Wall -c -o func3.o func3.cpp; g++ -o func3 func3.o
+62:
 	g++ -Wall -c -o const1.o const1.cpp; g++ -o const1 const1.o
+63:
 	g++ -Wall -c -o charvector.o charvector.cpp; g++ -o charvector charvector.o
+64:
 	g++ -Wall -c -o charfunc.o charfunc.cpp; g++ -o charfunc charfunc.o
+65:
 	g++ -Wall -c -o charfunc1.o charfunc1.cpp; g++ -o charfunc1 charfunc1.o
+66:
 	g++ -Wall -c -o charfunc2.o charfunc2.cpp; g++ -o charfunc2 charfunc2.o
+67:
 	g++ -Wall -c -o ponteiro9.o ponteiro9.cpp; g++ -o ponteiro9 ponteiro9.o
+68:
 	g++ -Wall -c -o ponteiro10.o ponteiro10.cpp; g++ -o ponteiro10 ponteiro10.o
+69:
 	g++ -Wall -c -o rand2.o rand2.cpp; g++ -o rand2 rand2.o
+70:
 	g++ -Wall -c -o poref.o poref.cpp; g++ -o poref poref.o
+71:
 	g++ -Wall -c -o matrizes.o matrizes.cpp; g++ -o matrizes matrizes.o
+72:
 	g++ -Wall -c -o memory.o memory.cpp; g++ -o memory memory.o
+73:
 	g++ -Wall -c -o memory2.o memory2.cpp; g++ -o memory2 memory2.o 
+74:
 	g++ -Wall -c -o pointer.o pointer.cpp; g++ -o pointer pointer.o
+75:
 	g++ -Wall -c -o manipuladores.o manipuladores.cpp; g++ -o manipuladores manipuladores.o
+76:
 	g++ -Wall -c -o manipuladores1.o manipuladores1.cpp; g++ -o manipuladores manipuladores.o
+77:
 	g++ -Wall -c -o manipuladores2.o manipuladores2.cpp; g++ -o manipuladores2 manipuladores2.o
+78:
 	g++ -Wall -c -o structs.o structs.cpp; g++ -o structs structs.o
+79:
 	g++ -Wall -c -o structs1.o structs1.cpp; g++ -o structs1 structs1.o
+80:
 	g++ -Wall -c -o structs2.o structs2.cpp; g++ -o structs2 structs2.o
+81:
 	g++ -Wall -c -o classe.o classe.cpp; g++ -o classe classe.o
+82:
 	g++ -Wall -c -o obj1.o obj1.cpp; g++ -o obj1 obj1.o
+83:
 	g++ -Wall -c -o arquivos.o arquivos.cpp; g++ -o arquivos arquivos.o
+84:
 	g++ -Wall -c -o excecoes.o excecoes.cpp; g++ -o excecoes excecoes.o
+85:
 	g++ -Wall -c -o container.o container.cpp; g++ -o container container.o
+86:
 	g++ -Wall -c -o list.o list.cpp; g++ -o list list.o
+87:
 	g++ -Wall -c -o stack.o stack.cpp; g++ -o stack stack.o
+88:
 	g++ -Wall -c -o queue.o queue.cpp; g++ -o queue queue.o
+89:
 	g++ -Wall -c -o priority.o priority.cpp; g++ -o priority priority.o
+90:
 	g++ -Wall -c -o map.o map.cpp; g++ -o map map.o
+91:
 	g++ -Wall -c -o set.o set.cpp; g++ -o set set.o
+92:
 	g++ -Wall -c -o vecnew.o vecnew.cpp; g++ -o vecnew vecnew.o
