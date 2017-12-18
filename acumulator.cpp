@@ -9,13 +9,13 @@
 #include <cstdlib>
 using namespace std;
 
-int main()
+int main()  // função inteira
 {
     int i;
 	float num = 0;
 	float soma = 0;
 
-    for(i = 1; i <= 7; i++)
+    for(i = 1; i <= 7; i++) 
     {
         cout << "Enter " << i << " number: ";
         cin >> i;

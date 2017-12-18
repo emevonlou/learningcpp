@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
     ifstream in("saida.txt"); // Lê o conteúdo de "saída.txt"
 
-    char c = in.get();  // pegando o primeiro caractere
+    char c = in.get();  // Pegando o primeiro caractere
     string texto;
 
     texto.push_back(c);// adicionando o caractere no texto com push_back
