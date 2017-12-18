@@ -1,4 +1,4 @@
-// Funções membro fora da classe.
+// Funï¿½ï¿½es membro fora da classe.
 #include <iostream>
 using namespace std;
 
@@ -7,11 +7,11 @@ class Pessoa
 public:
 	int idade;
 
-	void setIdade(int indade);  // Declarei a função dentro da classe
+	void setIdade(int indade);  // Declare a funcao dentro da classe
 };
 
-void Pessoa::setIdade(int idade)  // Desenvolvi a função fora da classe
-{// coloquei que a função pertence à 'Pessoa'
+void Pessoa::setIdade(int idade)  // Desenvolvi a funcao fora da classe
+{// coloque que a funcao pertence a 'Pessoa'
 	this->idade = idade;
 }
 
