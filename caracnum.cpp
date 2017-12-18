@@ -1,4 +1,4 @@
-// função isalpha retorna true se o caractere for alfabetico
+// Função isalpha() retorna 'true' se o caractere for alfabetico
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -9,11 +9,11 @@ int main(int argc, char *argv[])
 
     if(isalpha(nome[0]))
     {
-        cout << "numero" << endl;
+        cout << "Numero" << endl;
     }
     else
     {
-        cout << "letra" << endl;
+        cout << "Letra" << endl;
     }
     return 0;
 }
