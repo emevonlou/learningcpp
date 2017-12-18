@@ -90,4 +90,5 @@ build:
 	g++ -Wall -c -o priority.o priority.cpp; g++ -o priority priority.o
 	g++ -Wall -c -o map.o map.cpp; g++ -o map map.o
 	g++ -Wall -c -o set.o set.cpp; g++ -o set set.o
+	g++ -Wall -c -o vecnew.o vecnew.cpp; g++ -o vecnew vecnew.o
 .PHONY:
