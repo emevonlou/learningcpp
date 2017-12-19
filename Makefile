@@ -1,5 +1,5 @@
 1: 
-	g++ -Wall -c -o calculator.o calculator.cpp; g++ -o calculator calculator.o
+	g++  -Wall -c -o calculator.o calculator.cpp; g++ -o calculator calculator.o
 2:
 	g++ -Wall -c -o functions.o functions.cpp; g++ -o functions functions.o
 3:
@@ -182,3 +182,5 @@
 	g++ -Wall -c -o set.o set.cpp; g++ -o set set.o
 92:
 	g++ -Wall -c -o vecnew.o vecnew.cpp; g++ -o vecnew vecnew.o
+93:
+	g++ -Wall -c -o pont.o pont.cpp; g++ -o pont pont.o
