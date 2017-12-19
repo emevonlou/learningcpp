@@ -188,3 +188,5 @@
 	g++ -Wall -c -o introducao.o introducao.cpp; g++ -o introducao introducao.o
 95:
 	g++ -Wall -c -o classout.o classout.cpp; g++ -o classout classout.o
+96: 
+	g++ -Wall -c -o construct.o construct.cpp; g++ -o construct construct.o

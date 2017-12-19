@@ -1,8 +1,9 @@
 /*
 	Sobrecarregando o construtor
-	é possivel ter dois ou mais construtores.
+	ï¿½ possivel ter dois ou mais construtores.
 */
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 class Estudante
