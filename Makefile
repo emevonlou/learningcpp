@@ -184,3 +184,5 @@
 	g++ -Wall -c -o vecnew.o vecnew.cpp; g++ -o vecnew vecnew.o
 93:
 	g++ -Wall -c -o pont.o pont.cpp; g++ -o pont pont.o
+94:
+	g++ -Wall -c -o introducao.o introducao.cpp; g++ -o introducao introducao.o
