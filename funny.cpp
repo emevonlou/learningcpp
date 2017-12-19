@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <locale.h> //setlocale(LC_ALL, "");
+#include <locale.h> //setlocale(LC_ALL, "")--- para acentos
 using namespace std;
 
 
