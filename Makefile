@@ -186,3 +186,5 @@
 	g++ -Wall -c -o pont.o pont.cpp; g++ -o pont pont.o
 94:
 	g++ -Wall -c -o introducao.o introducao.cpp; g++ -o introducao introducao.o
+95:
+	g++ -Wall -c -o classout.o classout.cpp; g++ -o classout classout.o
