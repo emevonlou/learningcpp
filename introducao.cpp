@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
     cout << "Marca do primeiro carro: " << c1.getMarca() << endl; // me retorne a marca
     cout << "Ano do primeiro carro: " << c1.getAno() << endl;
     cout << "Marca do segundo carro: " << c2.getMarca() << endl;
-    cout << "Ano do segundo carro" << c2.getAno() << endl;
+    cout << "Ano do segundo carro: " << c2.getAno() << endl;
 
     return 0;
 }
