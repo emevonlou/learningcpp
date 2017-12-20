@@ -1,6 +1,6 @@
 /*
 	Sobrecarregando o construtor
-	� possivel ter dois ou mais construtores.
+	e possivel ter dois ou mais construtores.
 */
 #include <iostream>
 #include <string.h>
@@ -19,7 +19,7 @@ public:
 		idade = -1;
 	}
 
-	Estudante(int idade)
+	Estudante(int idade) 
 	{
 		this->idade = idade;
 	}
