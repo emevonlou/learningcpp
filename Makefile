@@ -190,3 +190,5 @@
 	g++ -Wall -c -o classout.o classout.cpp; g++ -o classout classout.o
 96: 
 	g++ -Wall -c -o construct.o construct.cpp; g++ -o construct construct.o
+97:
+	g++ -Wall -c -o this.o this.cpp; g++ -o this this.o
