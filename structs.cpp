@@ -3,7 +3,7 @@
 #include <string.h> // strcpy()
 using namespace std;
 
-struct pessoa
+struct pessoa // Agrupando os dados
 {
     char nome[100];
     int idade;
