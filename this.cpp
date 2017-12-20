@@ -12,7 +12,7 @@ class Carro
     public:
        void setMarca(string marca)  // Essa marca é uma variável que veio como parametro
        { 
-           this->marca = marca; // Essa marca é um atributo da classe this/marca  
+           this->marca = marca; // Essa marca é um atributo da classe
            // a marca da classe vai receber a marca que chegou como parametro
        }
        string getMarca()
