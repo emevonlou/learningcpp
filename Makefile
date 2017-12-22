@@ -192,5 +192,6 @@
 	g++ -Wall -c -o construct.o construct.cpp; g++ -o construct construct.o
 97:
 	g++ -Wall -c -o this.o this.cpp; g++ -o this this.o
-98:
-	g++ -Wall -c -o main.o main.cpp; g++ -o main main.o
+98:	main.o carro.o 
+	g++ main.o carro.o -o main
+	
