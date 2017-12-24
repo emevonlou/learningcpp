@@ -194,5 +194,6 @@
 	g++ -Wall -c -o this.o this.cpp; g++ -o this this.o
 98:	main.cpp 
 	g++ main.cpp -c -o main.o
-	
+99:
+	g++ -Wall -c -o membrofunc.o membrofunc.cpp; g++ -o membrofunc membrofunc.o	
 	
