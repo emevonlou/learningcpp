@@ -9,7 +9,7 @@ int main()
     cout << "Digite um numero: ";
     cin >> x;
 
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < 5; i++) // iniciano de zero até 5, incremente.
     {
         cout << "Digite um numero: ";
         cin >> y;
