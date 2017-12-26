@@ -12,9 +12,7 @@ int main(int argc, char *argv[])
     c1.setMarca("Ferrari");
     c1.setAno(2017);
 
-    Carro c2;
-    c2.setMarca("Ferrari");
-    c2.setAno(1650);
+    Carro c2("Fiat", 2017);
 
     cout << c2.getMarca() << endl;
     cout << c2.getAno() << endl;
