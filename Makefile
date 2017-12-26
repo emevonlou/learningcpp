@@ -196,4 +196,5 @@
 	g++ main.cpp -c -o main.o
 99:
 	g++ -Wall -c -o membrofunc.o membrofunc.cpp; g++ -o membrofunc membrofunc.o	
-	
+100:
+	g++ -Wall -c -o c1.o c1.cpp; g++ -o c1 c1.o
