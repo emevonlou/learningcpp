@@ -202,3 +202,5 @@
 	g++ -Wall -c -o cv.o cv.cpp; g++ -o cv cv.o
 102:
 	g++ -Wall -c -o c2.o c2.cpp; g++ -o c2 c2.o
+103:
+	g++ -Wall -c -o c3.o c3.cpp; g++ -o c3 c3.o
