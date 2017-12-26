@@ -13,6 +13,9 @@ int main(int argc, char *argv[])
     const int* p1 = &vet[0];
     int const* p2 = &vet[1];
     int* const p3 = new int[3]; // você deve inicializar quando declarado
+    const char* const p4 = "Emanuelle"; 
+    // Não se consegue alterar o valor dele, nem os caracteres que aponta.
+
 
     cout << " *p1 = " << *p1 << endl;
     cout << "*p2 = " << *p2 << endl;
@@ -29,6 +32,8 @@ int main(int argc, char *argv[])
     *p3 = 10;
 
     cout << "Valor modificador: " << *p3 << endl;
+
+    cout << *(p4 + 1) << endl; // imprimindo o segundo caractere
 
     return 0;
 }
