@@ -35,5 +35,10 @@ int main(int argc, char *argv[])
 
     cout << *(p4 + 1) << endl; // imprimindo o segundo caractere
 
+    //int vet2[4]; aloca espaço para objetos
+    //int* pt;  um ponteiro não consegue alocar espaço para objetos, mas para endereço
+
+
+
     return 0;
 }
