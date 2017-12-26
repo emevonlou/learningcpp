@@ -9,7 +9,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     Carro c1;
-    c1.setMarca("Fiat");
+    // c1.setMarca("Fiat");
     c1.setAno(2017);
 
     Carro c2;
