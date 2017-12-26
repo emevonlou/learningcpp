@@ -1,6 +1,7 @@
 #include "carro.h"
 
 #include <string>
+#include <iostream>
 using namespace std;
 
 void Carro::setMarca(string marca)
@@ -35,4 +36,9 @@ Carro::Carro(string marca, int ano)
 {
     this->marca = marca;
     this->ano = ano;
+}
+
+Carro::~Carro()
+{
+    cout << "Carro foi destruido pelo destrutor!" << endl;
 }
