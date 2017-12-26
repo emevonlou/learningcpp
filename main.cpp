@@ -22,5 +22,11 @@ int main(int argc, char *argv[])
     cout << c1.pneus << endl;
     cout << c2.pneus << endl;
 
+    c1.pneus = 2;
+
+    cout << c1.pneus << endl;
+    cout << c2.pneus << endl;
+
+
     return 0;
 }
