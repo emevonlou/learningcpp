@@ -30,3 +30,9 @@ Carro::Carro()
 {
     this->marca = "Fiat";
 }
+
+Carro::Carro(string marca, int ano)
+{
+    this->marca = marca;
+    this->ano = ano;
+}

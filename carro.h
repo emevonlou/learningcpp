@@ -13,6 +13,7 @@ class Carro
 {
 public:
     Carro(); 
+    Carro(string marca, int ano);
     void setMarca(string marca);
     string getMarca();
     void setAno(int ano);
