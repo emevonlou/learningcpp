@@ -204,3 +204,5 @@
 	g++ -Wall -c -o c2.o c2.cpp; g++ -o c2 c2.o
 103:
 	g++ -Wall -c -o c3.o c3.cpp; g++ -o c3 c3.o
+104:
+	g++ -Wall -c -o arg.o arg.cpp; g++ -o arg arg.o
