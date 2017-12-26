@@ -12,7 +12,7 @@ using namespace std;
 class Carro
 {
 public:
-    static int pneus; // atributo static 'pneus'
+    static int pneus; // atributo static 'pneus' 
     Carro(); 
     Carro(string marca, int ano);
     ~Carro();

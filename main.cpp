@@ -22,8 +22,8 @@ int main(int argc, char *argv[])
     cout << c1.pneus << endl;
     cout << c2.pneus << endl;
 
-    c1.pneus = 2;
-
+    c1.pneus = 2; // atributo static pertence a classe
+    
     cout << c1.pneus << endl;
     cout << c2.pneus << endl;
 
