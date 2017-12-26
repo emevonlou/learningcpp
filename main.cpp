@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     c1.setAno(2017);
 
     Carro c2("Fiat", 2017);
+    c2.setAno(2018); // unica maneira de alterar 
 
     cout << c2.getMarca() << endl;
     cout << c2.getAno() << endl;
