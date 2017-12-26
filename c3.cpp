@@ -26,5 +26,9 @@ int main(int argc, char *argv[])
     cout << *(p3 + 1) << endl;
     cout << *(p3 + 2) << endl;
 
+    *p3 = 10;
+
+    cout << "Valor modificador: " << *p3 << endl;
+
     return 0;
 }
