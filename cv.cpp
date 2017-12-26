@@ -9,10 +9,12 @@ int main(int argc, char *argv[])
     cout << p1 << endl;
     cout << p2 << endl;
 
+    p1 = &vet[2]; // p1 aponta para o terceiro elemento
+
     if(p1 < p2)
     {
         cout << "p1 vem antes!" << endl;
     }
-    
+
     return 0;
 }
