@@ -42,3 +42,5 @@ Carro::~Carro()
 {
     cout << "Carro foi destruido pelo destrutor!" << endl;
 }
+
+int Carro::pneus = 4;

@@ -15,8 +15,12 @@ int main(int argc, char *argv[])
     Carro c2("Fiat", 2017);
     c2.setAno(2018); // unica maneira de alterar 
 
+    cout << c1.getMarca() << endl;
+    cout << c1.getAno() << endl;
     cout << c2.getMarca() << endl;
     cout << c2.getAno() << endl;
+    cout << c1.pneus << endl;
+    cout << c2.pneus << endl;
 
     return 0;
 }
