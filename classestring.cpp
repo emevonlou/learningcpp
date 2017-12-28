@@ -1,6 +1,6 @@
 /*
 	classe string
-	Funções da classe string: size()
+	Funï¿½ï¿½es da classe string: size()
 */
 #include <iostream>
 #include <string> // classe string
@@ -26,9 +26,9 @@ int main(int argc, char *argv[])
 	nome1.clear(); // limpa a string nome1
 
 	cout << "Tamanho da string depois do .clear(): " << nome.size() << endl;
-	// o tamanho da string será zero
+	// o tamanho da string serï¿½ zero
 
-	// verificando se a string está vazia com empty
+	// verificando se a string estï¿½ vazia com empty
 	if (nome1.empty())
 		cout << "String vazia." << endl;
 	else
@@ -39,7 +39,6 @@ int main(int argc, char *argv[])
 	// adicionando strings
 	nome.push_back('F');
 	cout << "novo nome: " << nome << endl;
-
 
 	return 0;
 }
