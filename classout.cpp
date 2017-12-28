@@ -1,16 +1,16 @@
-// Funcoees membro fora da classe.
+// 95: Funcoees membro fora da classe.
 #include <iostream>
 using namespace std;
 
 class Pessoa
 {
-public:
+  public:
 	int idade;
 
-	void setIdade(int idade);  // Declare a funcao dentro da classe.
+	void setIdade(int idade); // Declare a funcao dentro da classe.
 };
 
-void Pessoa::setIdade(int idade)  // Funcao desenvolvida fora da classe.
+void Pessoa::setIdade(int idade) // Funcao desenvolvida fora da classe.
 {
 	// Coloque que a funcao pertence a 'Pessoa'.
 	this->idade = idade;
