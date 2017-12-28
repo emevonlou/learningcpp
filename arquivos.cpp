@@ -1,3 +1,4 @@
+// 83:
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -13,19 +14,18 @@ int main(int argc, char *argv[])
 
     ifstream in("saida.txt"); // Lê o conteúdo de 'saída.txt' salvo no pc.
 
-    char c = in.get();  // Pegando o primeiro caractere.
+    char c = in.get(); // Pegando o primeiro caractere.
     string texto;
 
-    texto.push_back(c);// Adicionando o caractere no texto com 'push_back'.
+    texto.push_back(c); // Adicionando o caractere no texto com 'push_back'.
 
-    while(in.good())  // Enquanto eu puder ler com 'in.good()'
+    while (in.good()) // Enquanto eu puder ler com 'in.good()'
     {
         c = in.get();
-        texto.push_back(c); 
+        texto.push_back(c);
     }
 
     cout << texto << endl;
-
 
     return 0;
 }
