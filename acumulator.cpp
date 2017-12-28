@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main()  // função inteira
+int main() // função inteira
 {
-    int x, y,z,w,k;
+    int x, y, z, w, k;
     float soma;
 
     cout << "Digite o primeiro numero: ";
