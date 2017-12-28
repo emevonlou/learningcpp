@@ -1,3 +1,4 @@
+// 64:
 #include <iostream>
 #include <string.h>
 #include <ctype.h>
@@ -7,10 +8,10 @@ int main(int argc, char *argv[])
 {
     char c = 'A';
 
-    if(isalpha(c))
+    if (isalpha(c))
         cout << "Alfabetico" << endl;
     else
         cout << "Nao alfabetico" << endl;
-        
+
     return 0;
 }
