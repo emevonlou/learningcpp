@@ -1,6 +1,7 @@
 /*
+106:
 	classe string
-	Fun��es da classe string: size()
+	Funcoes da classe string: size()
 */
 #include <iostream>
 #include <string> // classe string
