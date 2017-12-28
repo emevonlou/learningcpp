@@ -1,3 +1,4 @@
+// 103:
 #include <iostream>
 using namespace std;
 
@@ -9,13 +10,12 @@ int main(int argc, char *argv[])
          para onde eles apontam.
     */
 
-    const int vet[3] = {1,2,3};
-    const int* p1 = &vet[0];
-    int const* p2 = &vet[1];
-    int* const p3 = new int[3]; // você deve inicializar quando declarado
-    const char* const p4 = "Emanuelle"; 
+    const int vet[3] = {1, 2, 3};
+    const int *p1 = &vet[0];
+    int const *p2 = &vet[1];
+    int *const p3 = new int[3]; // você deve inicializar quando declarado
+    const char *const p4 = "Emanuelle";
     // Não se consegue alterar o valor dele, nem os caracteres que aponta.
-
 
     cout << " *p1 = " << *p1 << endl;
     cout << "*p2 = " << *p2 << endl;
@@ -37,8 +37,6 @@ int main(int argc, char *argv[])
 
     //int vet2[4]; aloca espaço para objetos
     //int* pt;  um ponteiro não consegue alocar espaço para objetos, mas para endereço
-
-
 
     return 0;
 }
