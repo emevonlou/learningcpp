@@ -1,10 +1,10 @@
-// variável char com aspas
+// 19: variável char com aspas
 #include <iostream>
 using namespace std;
 
 int main(int argc, char *argv[])
 {
-    char nome[] = "EMANUELLE" ; 
+    char nome[] = "EMANUELLE";
     int i = 0;
 
     /*
@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
     do
     {
         cout << nome[i];
-    }
-    while(nome[i++]);
+    } while (nome[i++]);
     return 0;
 }
