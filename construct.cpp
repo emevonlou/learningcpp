@@ -8,18 +8,18 @@ using namespace std;
 
 class Estudante
 {
-private:
+  private:
 	char nome[100];
 	int idade;
-public: 
 
-	Estudante(const char * nome)
+  public:
+	Estudante(const char *nome)
 	{
 		strcpy(this->nome, "Desconhecido");
 		idade = -1;
 	}
 
-	Estudante(int idade) 
+	Estudante(int idade)
 	{
 		this->idade = idade;
 	}

@@ -6,7 +6,7 @@ using namespace std;
 
 void Carro::setMarca(string marca)
 {
-this->marca = marca;
+    this->marca = marca;
 }
 
 string Carro::getMarca()
@@ -16,7 +16,7 @@ string Carro::getMarca()
 
 void Carro::setAno(int ano)
 {
-    if(ano > 1990)
+    if (ano > 1990)
         this->ano = ano;
     else
         this->ano = 1990;
