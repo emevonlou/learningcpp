@@ -218,3 +218,5 @@
 	g++ -Wall -c -o destruct.o destruct.cpp; g++ -o destruct destruct.o
 110:
 	g++ -Wall -c -o friend.o friend.cpp; g++ -o friend friend.o
+111:
+	g++ -Wall -c -o funcvirtuais.o funcvirtuais.cpp; g++ -o funcvirtuais funcvirtuais.o
