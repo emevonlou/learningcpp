@@ -216,3 +216,5 @@
 	g++ -Wall -c -o deque.o deque.cpp; g++ -o deque deque.o
 109:
 	g++ -Wall -c -o destruct.o destruct.cpp; g++ -o destruct destruct.o
+110:
+	g++ -Wall -c -o friend.o friend.cpp; g++ -o friend friend.o

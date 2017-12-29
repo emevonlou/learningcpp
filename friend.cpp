@@ -1,17 +1,18 @@
 /*
-	Funções amigas!
+	Funcoes amigas!
 */
 #include <iostream>
 using namespace std;
 
 class Estudante
 {
-	friend void setIdade(Estudante * e, int idade);
-protected:      // Membros protegidos 
+	friend void setIdade(Estudante *e, int idade);
+
+  protected: // Membros protegidos
 	int idade;
 };
 
-void setIdade(Estudante * e, int idade)
+void setIdade(Estudante *e, int idade)
 {
 	e->idade = idade;
 	cout << "Idade: " << e->idade << endl;
@@ -19,11 +20,11 @@ void setIdade(Estudante * e, int idade)
 
 int main(int argc, char *argv[])
 {
-	Estudante * e; // Objeto
+	Estudante *e; // Objeto
 
 	e = new Estudante;
 
-	setIdade(e,28);
+	setIdade(e, 28);
 
 	return 0;
 }
