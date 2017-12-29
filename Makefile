@@ -212,3 +212,5 @@
 	g++ -Wall -c -o classestring.o classestring.cpp; g++ -o classestring classestring.o
 107:
 	g++ -Wall -c -o constructcopy.o constructcopy.cpp; g++ -o constructcopy constructcopy.o
+108:
+	g++ -Wall -c -o deque.o deque.cpp; g++ -o deque deque.o
