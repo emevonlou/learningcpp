@@ -1,3 +1,4 @@
+// 61:
 #include <iostream>
 using namespace std;
 
@@ -17,15 +18,15 @@ int main(int argc, char *argv[])
 
     cout << "Digite um numero: " << endl;
     cin >> x;
-    
-    if(x <= 10 )
+
+    if (x <= 10)
     {
         mensagem();
     }
     else
     {
-      joaquim();  
+        joaquim();
     }
 
- return 0;
+    return 0;
 }
