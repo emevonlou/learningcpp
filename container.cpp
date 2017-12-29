@@ -1,3 +1,4 @@
+// 85:
 #include <iostream>
 #include <vector> //classe vector
 using namespace std;
@@ -19,21 +20,21 @@ int main(int argc, char *argv[])
 
     vector<int>::iterator it;
     it = v.begin() + 1;
-    v.insert(it,11);
+    v.insert(it, 11);
 
-    for(unsigned int i = 0; i < v.size(); i++)
+    for (unsigned int i = 0; i < v.size(); i++)
     {
         cout << v[i] << endl;
     }
 
-    if(v.empty()) // verificando se o vetor está vazio
+    if (v.empty()) // verificando se o vetor está vazio
         cout << "Vetor vazio." << endl;
     else
         cout << "Vetor nao vazio." << endl;
 
-    cout << "Elemento da segunda posicao: " << v.at(1) << endl;  //Saber um determinado elemento do vetor 
-    cout << "Primeiro elemento: " << v.front() << endl; //verificar qual é o primeiro elemento
-    cout << "Ultimo elemento: " << v.back() << endl; // verificar qual foi o ultimo elemento
+    cout << "Elemento da segunda posicao: " << v.at(1) << endl; //Saber um determinado elemento do vetor
+    cout << "Primeiro elemento: " << v.front() << endl;         //verificar qual é o primeiro elemento
+    cout << "Ultimo elemento: " << v.back() << endl;            // verificar qual foi o ultimo elemento
 
     return 0;
 }
