@@ -1,8 +1,9 @@
 /*
-	Herança!
+	
+	Heranca!
 	-Transmite propriedades.
-	-Permite que vc descreva coisas de forma econômica.
-	-Uma classe herda características de outra classe.
+	-Permite que vc descreva coisas de forma econï¿½mica.
+	-Uma classe herda caracterï¿½sticas de outra classe.
 */
 #include <iostream>
 #include <string.h>
@@ -10,10 +11,11 @@ using namespace std;
 
 class Mamifero
 {
-private:
+  private:
 	float peso;
 	int idade;
-public:
+
+  public:
 	Mamifero(float peso, int idade)
 	{
 		this->peso = peso;
@@ -27,16 +29,15 @@ public:
 	{
 		return idade;
 	}
-
 };
 
-class Baleia: public Mamifero
+class Baleia : public Mamifero
 {
-private:
+  private:
 	char oceano[50];
-public:
-	Baleia(const char * oceano, float peso, int idade):
-		Mamifero(peso,idade)
+
+  public:
+	Baleia(const char *oceano, float peso, int idade) : Mamifero(peso, idade)
 	{
 		strcpy(this->oceano, oceano);
 	}
