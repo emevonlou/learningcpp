@@ -1,9 +1,10 @@
 /*
+	109:
 	Destrutores
-	Função membro especial que separa o objeto
+	Funcao membro especial que separa o objeto
 	e afasta qualquer recurso que o construtor
 	tenha alocado.
-	-Não possue retorno
+	-Nao tem retorno
 
 */
 #include <iostream>
@@ -11,11 +12,11 @@ using namespace std;
 
 class Pessoa
 {
-private:
+  private:
 	int idade;
-	int * notas;
-public:
+	int *notas;
 
+  public:
 	// construtor
 	Pessoa(int idade)
 	{
