@@ -1,3 +1,4 @@
+// 57:
 #include <iostream>
 using namespace std;
 
@@ -9,8 +10,7 @@ int main(int argc, char *argv[])
     {
         cout << "I love one guy called Joaquim!" << endl;
         i++;
-    }
-    while(i <= 100);
+    } while (i <= 100);
 
     return 0;
 }
