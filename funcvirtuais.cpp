@@ -1,8 +1,8 @@
 /*
-	Funções virtuais
+	Funcoes virtuais
 	acrescentam a cada objeto um ponteiro
 	adicional oculto ao passo que uma classe sem
-	funções virtuais não possui esse ponteiro.
+	funcoes virtuais nao possui esse ponteiro.
 */
 
 #include <iostream>
@@ -10,23 +10,23 @@ using namespace std;
 
 class Estudante
 {
-public:
+  public:
 	virtual double calcular()
 	{
 		return 0.0;
 	}
 };
 
-class EstudanteFormado : public Estudante 
+class EstudanteFormado : public Estudante
 {
-public:
+  public:
 	virtual double calcular()
 	{
 		return 1.0;
 	}
 };
 
-double fun(Estudante * e)
+double fun(Estudante *e)
 {
 	return e->calcular();
 }
