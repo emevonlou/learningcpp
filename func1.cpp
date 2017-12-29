@@ -1,8 +1,8 @@
+// 58:
 #include <iostream>
 using namespace std;
 
-
-int somar(int num1,int num2) //Função/argumentos
+int somar(int num1, int num2) //Função/argumentos
 {
     int soma;
 
@@ -18,8 +18,8 @@ void imprime() // não retorna nada, não recebe parâmetro
 
 int main(int argc, char *argv[])
 {
-    imprime(); // chamada da função void
-    cout << somar(10,20) << endl; // chamada da fução somar
+    imprime();                     // chamada da função void
+    cout << somar(10, 20) << endl; // chamada da fução somar
 
     return 0;
 }
