@@ -214,3 +214,5 @@
 	g++ -Wall -c -o constructcopy.o constructcopy.cpp; g++ -o constructcopy constructcopy.o
 108:
 	g++ -Wall -c -o deque.o deque.cpp; g++ -o deque deque.o
+109:
+	g++ -Wall -c -o destruct.o destruct.cpp; g++ -o destruct destruct.o
