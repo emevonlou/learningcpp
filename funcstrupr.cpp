@@ -5,7 +5,7 @@ e converte em maiusculas!
 */
 #include <iostream>
 #include <cstdlib>
-#include <cstring>
+#include <ctype.h>
 #include <string.h>
 using namespace std;
 
@@ -18,7 +18,7 @@ int main()
     cout << "Digite a disciplina: ";
     cin.getline(p2,30);
 
-    cout << "\n" << strupr(p1);
+    cout << "\n" << strupr(p1); 
     cout << "\n" << strupr(p2);
     cout << endl << endl;
 
