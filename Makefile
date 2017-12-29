@@ -210,3 +210,5 @@
 	g++ -Wall -c -o cd.o cd.cpp; g++ -o cd cd.o
 106:
 	g++ -Wall -c -o classestring.o classestring.cpp; g++ -o classestring classestring.o
+107:
+	g++ -Wall -c -o constructcopy.o constructcopy.cpp; g++ -o constructcopy constructcopy.o
