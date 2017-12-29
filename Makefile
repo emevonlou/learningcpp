@@ -220,3 +220,5 @@
 	g++ -Wall -c -o friend.o friend.cpp; g++ -o friend friend.o
 111:
 	g++ -Wall -c -o funcvirtuais.o funcvirtuais.cpp; g++ -o funcvirtuais funcvirtuais.o
+112:
+	g++ -Wall -c -o heranca.o heranca.cpp; g++ -o heranca heranca.o
