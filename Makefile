@@ -222,3 +222,5 @@
 	g++ -Wall -c -o funcvirtuais.o funcvirtuais.cpp; g++ -o funcvirtuais funcvirtuais.o
 112:
 	g++ -Wall -c -o heranca.o heranca.cpp; g++ -o heranca heranca.o
+113:
+	g++ -Wall -c -o keywordnew.o keywordnew.cpp; g++ -o keywordnew keywordnew.o
