@@ -1,4 +1,5 @@
 /*
+    // 90:
     ----map(mapas)-----
     Uma associação chave e valor.
     Você acessa o valor através da chave, 
@@ -21,7 +22,7 @@ int main(int agrc, char *argv[])
 
     map<string, int>::iterator it;
 
-    for(it = mapa.begin(); it != mapa.end(); it++)
+    for (it = mapa.begin(); it != mapa.end(); it++)
     {
         cout << "Idade do " << it->first << ":" << it->second << endl;
     }
