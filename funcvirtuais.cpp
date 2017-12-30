@@ -1,4 +1,5 @@
 /*
+	111:
 	Funcoes virtuais
 	acrescentam a cada objeto um ponteiro
 	adicional oculto ao passo que uma classe sem
