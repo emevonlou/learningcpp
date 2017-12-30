@@ -1,5 +1,5 @@
 /*
-	
+	112:
 	Heranca!
 	-Transmite propriedades.
 	-Permite que vc descreva coisas de forma econ�mica.
@@ -11,11 +11,11 @@ using namespace std;
 
 class Mamifero
 {
-  private:
+private:
 	float peso;
 	int idade;
 
-  public:
+public:
 	Mamifero(float peso, int idade)
 	{
 		this->peso = peso;
@@ -33,10 +33,10 @@ class Mamifero
 
 class Baleia : public Mamifero
 {
-  private:
+private:
 	char oceano[50];
 
-  public:
+public:
 	Baleia(const char *oceano, float peso, int idade) : Mamifero(peso, idade)
 	{
 		strcpy(this->oceano, oceano);
