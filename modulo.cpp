@@ -1,4 +1,4 @@
-// Calcula o resto da divisão
+// 42: Calcula o resto da divisão
 #include <iostream>
 using namespace std;
 
@@ -12,6 +12,6 @@ int main()
     cin >> y;
 
     modulo = x % y;
-    cout << "O modulo eh: "<< modulo << endl;
+    cout << "O modulo eh: " << modulo << endl;
     return 0;
 }
