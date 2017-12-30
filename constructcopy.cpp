@@ -1,4 +1,4 @@
-// Criando um construtor de copias
+// 107: Criando um construtor de copias
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -57,7 +57,6 @@ class Estudante
 
 void otherFun(Estudante e)
 {
-
 }
 
 void fun()
@@ -65,7 +64,7 @@ void fun()
 	Estudante e("Emanuelle", 1111);
 
 	otherFun(e);
-    cout << "O nome do Estudante: " << e.getNome() << endl;
+	cout << "O nome do Estudante: " << e.getNome() << endl;
 }
 
 int main(int argc, char *argv[])
