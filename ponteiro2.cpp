@@ -1,8 +1,8 @@
-// modificando o valor da variavel dentro de outra função
+// 29: modificando o valor da variavel dentro de outra função
 #include <iostream>
 using namespace std;
 
-void foo(int* n)
+void foo(int *n)
 {
     *n = 20;
 }
@@ -10,7 +10,7 @@ void foo(int* n)
 int main(int argc, char *argv[])
 {
     int var = 10;
-    int* pvar;
+    int *pvar;
 
     pvar = &var;
 
