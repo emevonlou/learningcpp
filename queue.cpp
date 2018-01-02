@@ -1,4 +1,5 @@
 /*
+    88:
     ------Queue(Fila)-----
     O primeiro elemento que entra é o primeiro que sai.
 */
@@ -16,10 +17,9 @@ int main(int argc, char *argv[])
 
     fila.pop(); // remove sempre o primeiro elemento da fila
 
-    cout << "Primeiro elemento: " << fila.front() <<endl;
+    cout << "Primeiro elemento: " << fila.front() << endl;
     cout << "Tamanho da fila: " << fila.size() << endl;
     cout << "Fila vazia?" << fila.empty() << endl;
-
 
     return 0;
 }
