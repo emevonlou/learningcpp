@@ -1,3 +1,4 @@
+// 49:
 #include <iostream>
 using namespace std;
 
@@ -15,11 +16,11 @@ int main()
         cin >> y;
         if (y > x)
         {
-           x = y;      
+            x = y;
         }
     }
     cout << "Numero: " << x << "\n";
-    
+
     system("PAUSE");
     return 0;
 }
