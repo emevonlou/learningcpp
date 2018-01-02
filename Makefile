@@ -232,3 +232,5 @@
 	g++ -Wall -c -o operators.o operators.cpp; g++ -o operators operators.o
 117:
 	g++ -Wall -c -o pasref.o pasref.cpp; g++ -o pasref pasref.o
+118:
+	g++ -Wall -c -o protect.o protect.cpp; g++ -o protect protect.o
