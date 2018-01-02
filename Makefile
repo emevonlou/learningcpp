@@ -224,3 +224,5 @@
 	g++ -Wall -c -o heranca.o heranca.cpp; g++ -o heranca heranca.o
 113:
 	g++ -Wall -c -o keywordnew.o keywordnew.cpp; g++ -o keywordnew keywordnew.o
+114:
+	g++ -Wall -c -o newhile.o newhile.cpp; g++ -o newhile newhile.o
