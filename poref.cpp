@@ -1,8 +1,8 @@
-// Passagem por referência
+// 70: Passagem por referência
 #include <iostream>
 using namespace std;
 
-void fun(int* n) //variável que armazena endereço(ponteiro)
+void fun(int *n) //variável que armazena endereço(ponteiro)
 {
     *n = 20; // n está armazenando o endereço e modifica o valor da variável pra 20
 }
