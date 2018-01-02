@@ -1,7 +1,8 @@
+// 32:
 #include <iostream>
 using namespace std;
 
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
     int *vet = new int[10];
     int aux[3];
@@ -14,11 +15,11 @@ int main(int argc,char *argv[])
     aux[1] = 20;
     aux[2] = 30;
 
-    int x =(int)sizeof(aux)/sizeof(int);
+    int x = (int)sizeof(aux) / sizeof(int);
 
-   for(int i = 0; i < x; i++)
-   {
-       cout << aux[i] << endl;
-   }
+    for (int i = 0; i < x; i++)
+    {
+        cout << aux[i] << endl;
+    }
     return 0;
 }
