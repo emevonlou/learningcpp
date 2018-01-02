@@ -1,3 +1,4 @@
+// 23:
 #include <iostream>
 #include <string.h> // função strlen();
 using namespace std;
@@ -8,7 +9,7 @@ void inverte(char nome[])
     int tam = strlen(nome);
 
     // Eu posso ter um loop sem chaves!!
-    for(int i = tam -1; i>= 0; i--)
+    for (int i = tam - 1; i >= 0; i--)
         cout << nome[i];
 }
 
