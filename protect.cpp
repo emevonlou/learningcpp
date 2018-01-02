@@ -2,16 +2,17 @@
 	Membros protegidos(Protected)
 	Inacessiveis de fora da classe.
 	permite que uma classe esteja protegida
-	e seja responsavel pela sua própria situação interna.
+	e seja responsavel pela sua prï¿½pria situaï¿½ï¿½o interna.
 */
 #include <iostream>
 using namespace std;
 
 class Estudante
 {
-protected:      // Membros protegidos 
+  protected: // Membros protegidos
 	int idade;
-public:
+
+  public:
 	void setIdade(int idade) //
 	{
 		this->idade = idade;
@@ -19,14 +20,14 @@ public:
 	}
 };
 
-int main(int argc, char *argv[])  // função externa
+int main(int argc, char *argv[]) // funï¿½ï¿½o externa
 {
 	Estudante e; // Objeto
 
-	e.setIdade(28); 
+	e.setIdade(28);
 	/*
-		setIdade é membro da classe Estudante
-		Então pode acessar o membro protegido
+		setIdade ï¿½ membro da classe Estudante
+		Entï¿½o pode acessar o membro protegido
 		'idade' da classe.
 	*/
 
