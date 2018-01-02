@@ -1,9 +1,10 @@
+// 34:
 #include <iostream>
 using namespace std;
 
 int main(int argc, char *argv[])
 {
-    int* parray = new int[10]; // aloca memoria
+    int *parray = new int[10]; // aloca memoria
 
     cout << "Digite um numero: ";
     cin >> *(parray);
