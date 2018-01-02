@@ -14,8 +14,8 @@
 	g++ -Wall -c -o amo.o amo.cpp; g++ -o amo amo.o
 8:
 	g++ -Wall -c -o multiplesofsix.o multiplesofsix.cpp; g++ -o multiplesofsix multiplesofsix.o
-#9:
-#	g++ -Wall -c -o rand.o rand.cpp; g++ -o rand rand.o
+9:
+	g++ -Wall -c -o rand.o rand.cpp; g++ -o rand rand.o
 10:
 	g++ -Wall -c -o sqrtsinlog.o sqrtsinlog.cpp; g++ -o sqrtsinlog sqrtsinlog.o
 11:
