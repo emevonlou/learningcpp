@@ -9,7 +9,6 @@ int main()
     x++;
 
     cout << " o resultado eh: " << x << endl;
-    
 
- return 0;
+    return 0;
 }
