@@ -1,11 +1,12 @@
 /*
-	O c++ permite declarar uma função que aceite
-	seu argumento por referência
+	117:
+	O c++ permite declarar uma funï¿½ï¿½o que aceite
+	seu argumento por referï¿½ncia
 */
 #include <iostream>
 using namespace std;
 
-void fun(int & n)
+void fun(int &n)
 {
 	n = 9;
 }
