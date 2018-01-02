@@ -228,3 +228,5 @@
 	g++ -Wall -c -o newhile.o newhile.cpp; g++ -o newhile newhile.o
 115:
 	g++ -Wall -c -o obj2.o obj2.cpp; g++ -o obj2 obj2.o
+116:
+	g++ -Wall -c -o operators.o operators.cpp; g++ -o operators operators.o

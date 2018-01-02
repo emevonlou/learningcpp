@@ -1,8 +1,9 @@
 /*
+	116:
 	Sobrecarregando Operadores
-	C++ permite que você defina os operadores existentes
+	C++ permite que vocï¿½ defina os operadores existentes
 	para as classes que criar.
-	O operador deve ser uma função membro.
+	O operador deve ser uma funï¿½ï¿½o membro.
 */
 #include <iostream>
 #include <string.h>
@@ -10,12 +11,11 @@ using namespace std;
 
 class Estudante
 {
-protected:
-	char * nome;
+  protected:
+	char *nome;
 	int ID;
 
-
-	void init(const char * novoNome, int novoID)
+	void init(const char *novoNome, int novoID)
 	{
 		int tam = strlen(novoNome) + 1;
 
@@ -30,10 +30,11 @@ protected:
 		delete[] nome;
 		nome = 0;
 	}
-public:
-	Estudante(const char * novoNome, int novoID)
+
+  public:
+	Estudante(const char *novoNome, int novoID)
 	{ /*
-		O construtor aloca memória da pilha para uso
+		O construtor aloca memï¿½ria da pilha para uso
 		da armazenagem do nome do aluno.
 	  */
 		cout << "Construindo novo nome!" << endl;
@@ -41,7 +42,7 @@ public:
 		init(novoNome, novoID);
 	}
 
-	Estudante(Estudante & e)
+	Estudante(Estudante &e)
 	{
 		cout << "construindo copia de: " << e.nome << endl;
 		init(e.nome, e.ID);
@@ -52,13 +53,13 @@ public:
 		cout << "Destruindo" << nome << endl;
 		destruct();
 	}
-// Sobrecarregar o operador de designação
-	Estudante& operator=(Estudante& origem)
+	// Sobrecarregar o operador de designaï¿½ï¿½o
+	Estudante &operator=(Estudante &origem)
 	{
-		if(this != &origem)
+		if (this != &origem)
 		{
 			cout << "Atribuindo " << origem.nome << "para" << nome << endl;
-			// primeiramente destrói o objeto existente com destruct
+			// primeiramente destrï¿½i o objeto existente com destruct
 			destruct();
 
 			//copia o objeto origem
@@ -66,7 +67,7 @@ public:
 		}
 		return *this;
 	}
-	const char* getNome()
+	const char *getNome()
 	{
 		return nome;
 	}
@@ -80,19 +81,19 @@ public:
 void fun()
 {
 	/*
-		A função fun() cria inicialmente o objeto 'e1'
+		A funï¿½ï¿½o fun() cria inicialmente o objeto 'e1'
 
 	*/
 	Estudante e1("Emanuelle", 1111);
 	Estudante e2("Joaquim", 2222);
 
-	e2 = e1; 
+	e2 = e1;
 	/*
-		A função designa e2 para e1.
-		É copiado o ponteiro e1.nome em
+		A funï¿½ï¿½o designa e2 para e1.
+		ï¿½ copiado o ponteiro e1.nome em
 		e2.nome de modo que os dois objetos
 		passam a apontar para o mesmo bloco
-		de memória da pilha.
+		de memï¿½ria da pilha.
 	*/
 }
 
