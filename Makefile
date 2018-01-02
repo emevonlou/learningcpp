@@ -72,8 +72,8 @@
 	g++ -Wall -c -o ponteiro6.o ponteiro6.cpp; g++ -o ponteiro6 ponteiro6.o
 37:
 	g++ -Wall -c -o ponteiro7.o ponteiro7.cpp; g++ -o ponteiro7 ponteiro7.o
-#38:
-#	g++ -Wall -c -o ponteiro8.o ponteiro8.cpp; g++ -o ponteiro8 ponteiro8.o
+38:
+	g++ -Wall -c -o ponteiro8.o ponteiro8.cpp; g++ -o ponteiro8 ponteiro8.o
 #39:
 #	g++ -Wall -c -o funcstrupr.o funcstrupr.cpp; g++ -o funcstrupr funcstrupr.o
 40:
