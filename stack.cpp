@@ -1,4 +1,5 @@
 /* 
+    87:
   -----Container Stack(Pilha)------
     O primeiro elemento a entrar é o último a sair
 */
@@ -18,10 +19,10 @@ int main(int argc, char *argv[])
     cout << "Topo: " << pilha.top() << endl;
     cout << "Tamanho: " << pilha.size() << endl;
 
-    if(pilha.empty())
+    if (pilha.empty())
         cout << "Pilha vazia." << endl;
     else
         cout << "Pilha não vazia." << endl;
-        
+
     return 0;
 }
