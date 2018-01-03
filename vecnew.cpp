@@ -1,3 +1,4 @@
+// 92:
 #include <iostream>
 using namespace std;
 
@@ -12,9 +13,9 @@ int main()
     matriz[1][1] = 4;
 
     //imprimindo na tela
-    for(i =0; i < 2; i++)
+    for (i = 0; i < 2; i++)
     {
-        for(j=0; j <2; j++)
+        for (j = 0; j < 2; j++)
         {
             // cout << i << ", j: " << j<< endl;
             cout << matriz[i][j];
