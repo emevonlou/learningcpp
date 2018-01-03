@@ -1,14 +1,14 @@
-//structs com ponteiros!
+// 80: structs com ponteiros!
 #include <iostream>
 #include <string.h> // strcpy()
 using namespace std;
 
-typedef struct pessoa  //Definindo um nome para 'struct pessoa' com typedef
+typedef struct pessoa //Definindo um nome para 'struct pessoa' com typedef
 {
     char nome[100];
     int idade;
     float peso;
-}tipo_pessoa; 
+} tipo_pessoa;
 
 int main(int argc, char *argv[])
 {
@@ -24,6 +24,6 @@ int main(int argc, char *argv[])
     cout << "Nome: " << pp->nome << endl; // para acessar a struct com um ponteiro vc deve utilizar a seta '->' ou (*pp).
     cout << "Idade: " << pp->idade << endl;
     cout << "Peso: " << pp->peso << endl;
-    
+
     return 0;
 }
