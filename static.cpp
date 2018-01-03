@@ -1,5 +1,5 @@
 /*
-	Membros estáticos
+	Membros estï¿½ticos
 	Sinalisado com a palavra chave 'static'
 */
 
@@ -8,15 +8,16 @@ using namespace std;
 
 class Estudante
 {
-protected:
+  protected:
 	static int total_estudantes;
-public:
+
+  public:
 	Estudante()
 	{
 		total_estudantes++;
 	}
 
-	void showTotal
+	void showTotal()
 	{
 		cout << "Total de estudantes: " << total_estudantes << endl;
 	}
@@ -33,7 +34,7 @@ int main(int argc, char *argv[])
 {
 	Estudante e1, e2, e3;
 
-	e1.showTotal;
+	e1.showTotal();
 
 	return 0;
 }
