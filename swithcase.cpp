@@ -1,4 +1,4 @@
-// if else (se senão)
+// 11: if else (se senão)
 // switch case
 
 #include <iostream>
@@ -8,11 +8,11 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
+	setlocale(LC_ALL, "Portuguese");
 	int x;
 	cout << "Digite um valor inteiro: " << endl;
 	cin >> x;
-	if(x==7)
+	if (x == 7)
 	{
 		cout << "Você digitou o número 7.";
 	}
@@ -22,21 +22,22 @@ int main()
 	}
 	cout << endl;
 	system("pause");
-	
+
 	// Estrutura realizada com switch case
-	
-	cout << "-----------------------------" << endl << endl;
-	
-	switch(x)
+
+	cout << "-----------------------------" << endl
+		 << endl;
+
+	switch (x)
 	{
-		case 7:
-			cout << "você digitou o 7.";
-			break;
-		default:
-			cout << "Você não digitou o número 7.";
-			break;
+	case 7:
+		cout << "você digitou o 7.";
+		break;
+	default:
+		cout << "Você não digitou o número 7.";
+		break;
 	}
-	
+
 	cout << endl;
 	system("pause");
 }
