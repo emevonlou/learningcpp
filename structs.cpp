@@ -1,4 +1,4 @@
-//structs: Tem por objetivo agrupar os dados.
+// 78: structs: Tem por objetivo agrupar os dados.
 #include <iostream>
 #include <string.h> // strcpy()
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 struct pessoa // Agrupando os dados
 {
     // Toda struct é publica
-    char nome[100]; 
+    char nome[100];
     int idade;
     float peso;
 };
@@ -22,6 +22,6 @@ int main(int argc, char *argv[])
     cout << "Nome: " << p.nome << endl;
     cout << "Idade: " << p.idade << endl;
     cout << "Peso: " << p.peso << endl;
-    
+
     return 0;
 }
