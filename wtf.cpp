@@ -1,4 +1,4 @@
-// 46: solving life troubles
+// 46: solving life troubles.
 #include <iostream>
 using namespace std;
 
