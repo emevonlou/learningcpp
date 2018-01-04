@@ -1,4 +1,4 @@
-// 24: variável char com chaves apresentando o caractere null
+// 24: Variável char com chaves apresentando o caractere 'null'.
 #include <iostream>
 using namespace std;
 
