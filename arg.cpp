@@ -7,8 +7,8 @@ int main(int argc, char *argv[])
 {
     /* 
         argc = arg(argumentos) c(counter)
-        eu posso passar argumentos para o meu programa
-        --o primeiro argumento sempre é o nome
+        Eu posso passar argumentos para o meu programa
+        --O primeiro argumento sempre é o nome
         do proprio programa.
 
     */
