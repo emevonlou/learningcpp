@@ -8,9 +8,10 @@ int main(int argc, char *argv[])
     int i = 0;
 
     /*
-    while(nome[i] != '\0')
+        while(nome[i] != '\0')
         cout << nome[i++];
     */
+
     do
     {
         cout << nome[i];
