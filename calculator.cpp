@@ -1,11 +1,11 @@
 /*
 1:
----> Calculator
----> allowed operations:
----> + -> Sum
----> - -> subtraction
----> * -> multiplication
----> / -> Division
+	---> Calculator
+	---> allowed operations:
+	---> + -> Sum
+	---> - -> subtraction
+	---> * -> multiplication
+	---> / -> Division
 */
 
 #include <iostream>
