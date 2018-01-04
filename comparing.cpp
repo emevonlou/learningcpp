@@ -1,8 +1,8 @@
 // 16:
-#include <iostream>  // Entrada e saida de dados
-#include <cstdlib>   // System
-#include <cstring>   // Biblioteca de funções de manipulação com strings
-using namespace std; // Declaração de espaço de nomes
+#include <iostream>  // Entrada e saida de dados.
+#include <cstdlib>   // System.
+#include <cstring>   // Biblioteca de funções de manipulação com strings.
+using namespace std; // Declaração de espaço de nomes.
 
 int main()
 {
