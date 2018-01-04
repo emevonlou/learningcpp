@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     const int vet[3] = {1, 2, 3};
     const int *p1 = &vet[0];
     int const *p2 = &vet[1];
-    int *const p3 = new int[3]; // você deve inicializar quando declarado
+    int *const p3 = new int[3]; // Você deve inicializar quando declarado.
     const char *const p4 = "Emanuelle";
     // Não se consegue alterar o valor dele, nem os caracteres que aponta.
 
@@ -33,10 +33,10 @@ int main(int argc, char *argv[])
 
     cout << "Valor modificador: " << *p3 << endl;
 
-    cout << *(p4 + 1) << endl; // imprimindo o segundo caractere
+    cout << *(p4 + 1) << endl; // Imprimindo o segundo caractere.
 
     //int vet2[4]; aloca espaço para objetos
-    //int* pt;  um ponteiro não consegue alocar espaço para objetos, mas para endereço
+    //int* pt;  Um ponteiro não consegue alocar espaço para objetos, mas para endereço.
 
     return 0;
 }
