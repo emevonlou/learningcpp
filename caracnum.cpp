@@ -1,4 +1,4 @@
-// 3: Função isalpha() retorna 'true' se o caractere for alfabetico
+// 3: Função isalpha() retorna 'true' se o caractere for alfabetico.
 #include <iostream>
 #include <string.h>
 using namespace std;
