@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int main() // função inteira
+int main() // Função inteira.
 {
     int x, y, z, w, k;
     float soma;
