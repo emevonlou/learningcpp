@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     */
 
     cout << "argc: " << argc << endl;
-    cout << "argv[0]: " << argv[0] << endl;
+    cout << "argv[0]: " << argv[0] << endl; // imprimindo o primeiro elemento
 
     return 0;
 }
