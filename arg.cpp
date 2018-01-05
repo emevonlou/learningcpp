@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     */
 
     /*
-        argv =
+        argv = São as strings de caracteres
     
     */
 
@@ -30,7 +30,13 @@ int main(int argc, char *argv[])
     */
 
     cout << "argc: " << argc << endl;
-    cout << "argv[0]: " << argv[0] << endl; // imprimindo o primeiro elemento
+    cout << "argv[0]: " << argv[0] << endl << endl; // imprimindo o primeiro elemento
+    cout << "Quantidade de argumentos: " << argc << endl;
+    cout << "Argumentos passados: " << endl;
 
+    for(int i = 0; i < argc; i++)
+    {
+        cout << argv[i] << endl; // imprimir argumentos que foram passados
+    }
     return 0;
 }
