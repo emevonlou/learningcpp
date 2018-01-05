@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
     int idade[3] = {26, 30, 20};
 
     cout << "Nome: " << pessoas[0] << endl;
+    cout << "Idade: " << idade[0] << endl;
 
  return 0;   
 }
