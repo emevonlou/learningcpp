@@ -236,3 +236,5 @@
 	g++ -Wall -c -o protect.o protect.cpp; g++ -o protect protect.o
 119:
 	g++ -Wall -c -o static.o static.cpp; g++ -o static static.o
+120:
+	g++ -Wall -c -o arraypont.o arraypont.cpp; g++ -o arraypont arraypont.o
