@@ -238,3 +238,5 @@
 	g++ -Wall -c -o static.o static.cpp; g++ -o static static.o
 120:
 	g++ -Wall -c -o arraypont.o arraypont.cpp; g++ -o arraypont arraypont.o
+121:
+	g++ -Wall -c -o str.o str.cpp; g++ -o str str.o

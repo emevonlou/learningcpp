@@ -29,7 +29,6 @@ int main(int argc, char *argv[])
        que são determinadas em tempo de compilação.
     */
 
-    cout << "argc: " << argc << endl;
     cout << "argv[0]: " << argv[0] << endl << endl; // imprimindo o primeiro elemento
     cout << "Quantidade de argumentos: " << argc << endl;
     cout << "Argumentos passados: " << endl;
