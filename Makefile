@@ -242,3 +242,5 @@
 	g++ -Wall -c -o str.o str.cpp; g++ -o str str.o
 122:
 	g++ -Wall -c -o str1.o str1.cpp; g++ -o str1 str1.o
+123:
+	g++ -Wall -c -o str2.o str2.cpp; g++ -o str2 str2.o
