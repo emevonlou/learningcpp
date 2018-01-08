@@ -240,3 +240,5 @@
 	g++ -Wall -c -o arraypont.o arraypont.cpp; g++ -o arraypont arraypont.o
 121:
 	g++ -Wall -c -o str.o str.cpp; g++ -o str str.o
+122:
+	g++ -Wall -c -o str1.o str1.cpp; g++ -o str1 str1.o
