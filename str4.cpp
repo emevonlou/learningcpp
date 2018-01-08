@@ -11,11 +11,13 @@ typedef struct pessoa
 
 int main(int argc, char *argv[])
 {
-    t_pessoa *p;
+    t_pessoa* pessoa;
+    t_pessoa* ppessoa;
 
-    p->idade = 26;
+    ppessoa = pessoa;
+    ppessoa->26;
 
-    cout << p->idade << endl;
+    cout << ppessoa->idade << endl;
 
     return 0;
 }
