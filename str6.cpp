@@ -6,7 +6,7 @@ struct Pessoa
 {
     int idade;
 
-    Pessoa(int idade);
+    Pessoa(int idade); // prototipo do construtor
 
     void setIdade(int idade)
     {
@@ -19,7 +19,7 @@ struct Pessoa
     }
 };
 
-Pessoa::Pessoa(int idade)
+Pessoa::Pessoa(int idade) // implementacao do construtor
 {
     this->idade = idade;
 }
