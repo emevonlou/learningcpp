@@ -7,7 +7,7 @@ struct Pessoa
     int idade;
     int numero_sorte;
 
-    Pessoa(int idade) // primeiro construtor
+    Pessoa(int idade) // Primeiro Construtor.
     {
         this->idade = idade;
     }
