@@ -6,7 +6,7 @@ struct Pessoa
 {
     int idade;
 
-    Pessoa(int idade)
+    Pessoa(int idade) // construtor
     {
         this->idade = idade;
     }
