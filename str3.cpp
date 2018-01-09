@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
     t_pessoa p[3];
 
-    strcpy(p[0].nome, "Emanuelle"); // acessa a struct atraves do ponto
+    strcpy(p[0].nome, "Emanuelle"); // Acessa a Struct através do ponto.
     p[0].idade = 38;
 
     strcpy(p[1].nome, "Joaquim");
