@@ -1,11 +1,12 @@
+// 126:
 #include <iostream>
 using namespace std;
 
-struct pessoa
+struct Pessoa
 {
     int idade;
 
-    void setIdade(int idade)
+    Pessoa(int idade)
     {
         this->idade = idade;
     }
@@ -15,11 +16,11 @@ struct pessoa
     }
 };
 
+
 int main(int argc, char *argv[])
 {
-    pessoa p;
+    Pessoa p(20);
 
-    p.setIdade(20);
     cout << p.getIdade() << endl;
 
     return 0;
