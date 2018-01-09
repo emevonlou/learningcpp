@@ -3,7 +3,7 @@
 #include <string.h>
 using namespace std;
 
-typedef struct pessoa
+typedef struct pessoa // typedef = proprio tipo
 {
     char nome[100];
     int idade;
@@ -11,11 +11,11 @@ typedef struct pessoa
 
 int main(int argc, char *argv[])
 {
-    t_pessoa* pessoa;
+    t_pessoa pessoa;
     t_pessoa* ppessoa;
 
-    ppessoa = pessoa;
-    ppessoa->26;
+    ppessoa = &pessoa;
+    ppessoa->idade = 26;
 
     cout << ppessoa->idade << endl;
 
