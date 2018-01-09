@@ -19,7 +19,7 @@ struct Pessoa
     }
 };
 
-Pessoa::Pessoa(int idade) // implementacao do construtor
+Pessoa::Pessoa(int idade) // Implementação do Construtor
 {
     this->idade = idade;
 }
