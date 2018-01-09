@@ -29,7 +29,6 @@ struct Pessoa
     }
 };
 
-
 int main(int argc, char *argv[])
 {
     Pessoa p(20);
