@@ -24,7 +24,6 @@ Pessoa::Pessoa(int idade) // Implementação do Construtor.
     this->idade = idade;
 }
 
-
 int main(int argc, char *argv[])
 {
     Pessoa p(20);
