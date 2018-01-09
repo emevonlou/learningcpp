@@ -7,7 +7,7 @@ typedef struct pessoa
 {
     char nome[100];
     int idade;
-}t_pessoa;
+} t_pessoa;
 
 int main(int argc, char *argv[])
 {
