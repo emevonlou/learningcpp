@@ -12,7 +12,7 @@ struct Pessoa
         this->idade = idade;
     }
 
-    Pessoa(int idade, int num_sorte) // segundo construtor
+    Pessoa(int idade, int num_sorte) // Segundo Construtor.
     {
         this->idade = idade;
         this->numero_sorte = num_sorte;
