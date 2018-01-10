@@ -19,11 +19,14 @@ int main(int argc, char *argv[])
     strcpy(p.nome, "Emanuelle");
     p.idade = 38;
 
-    cout << "Nome: " << p.nome << endl;
-    cout << "Idade: " << p.idade << endl;
+    cout << "Digite o ano do seu nasc: " << endl;
+    cin >> p.ano;
     cout << "Digite seu CPF: " << endl;
     cin >> p.cpf;
+    cout << "Nome: " << p.nome << endl;
+    cout << "Idade: " << p.idade << endl;
     cout << "Seu CPF eh: " << p.cpf << endl;
+    cout << "O ano do seu nascimento eh: " << p.ano << endl;
 
     return 0;
 }
