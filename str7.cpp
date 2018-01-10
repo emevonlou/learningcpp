@@ -17,15 +17,15 @@ int main(int argc, char *argv[])
     t_pessoa p;
 
 
-    cout << "Digite seu nome: " << p.nome << endl;
+    cout << "Digite seu nome: " << endl;
     cin >> p.nome;
     cout << "Digite o ano do seu nasc: " << endl;
     cin >> p.ano;
+    p.idade = 2018 - p.ano;
     cout << "Digite seu CPF: " << endl;
     cin >> p.cpf;
-    cout << "Idade: " << p.idade << endl;
     cout << "Seu CPF eh: " << p.cpf << endl;
-    cout << "O ano do seu nascimento eh: " << p.ano << endl;
+    cout << "Sua idade eh: " << p.idade << endl;
 
     return 0;
 }
