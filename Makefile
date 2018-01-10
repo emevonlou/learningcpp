@@ -254,3 +254,5 @@
 	g++ -Wall -c -o str6.o str6.cpp; g++ -o str6 str6.o
 128:
 	g++ -Wall -c -o str7.o str7.cpp; g++ -o str7 str7.o
+129:
+	g++ -Wall -c -o mda.o mda.cpp; g++ -o mda mda.o
