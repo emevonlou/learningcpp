@@ -12,7 +12,7 @@ typedef struct pessoa // typedef = proprio tipo
 int main(int argc, char *argv[])
 {
     t_pessoa pessoa;
-    t_pessoa* ppessoa;
+    t_pessoa *ppessoa;
 
     ppessoa = &pessoa;
     ppessoa->idade = 26;
