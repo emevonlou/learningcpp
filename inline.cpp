@@ -1,4 +1,4 @@
-// funcoes inline
+// 130: funcoes inline
 #include <iostream>
 using namespace std;
 
