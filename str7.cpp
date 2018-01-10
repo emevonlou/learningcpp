@@ -16,7 +16,6 @@ int main(int argc, char *argv[])
 {
     t_pessoa p;
 
-
     cout << "Digite seu nome: " << endl;
     cin >> p.nome;
     cout << "Digite o ano do seu nasc: " << endl;
