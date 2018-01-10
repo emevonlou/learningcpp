@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void Eme()
+inline void Eme()  // func inline cobram mais espaco na memoria
 {
     cout << "Learning C++" << endl;
 }
