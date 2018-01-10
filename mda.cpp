@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
     int num = 10;
 
-    cout << "Quadrado: " << quad() << endl; // 
+    cout << "Quadrado: " << quad() << endl; // func sem parametros
 
     return 0;
 }
