@@ -33,8 +33,8 @@ int main(int argc, char *argv[])
     lista.push_back(p1);
     lista.push_back(p2);
     lista.push_back(p3);
-    // lista.pop_front(); Deleta o primeiro elemento
-    // lista.pop_back(); Deleta o último elemento
+    // lista.pop_front(); Deleta o primeiro elemento.
+    // lista.pop_back(); Deleta o último elemento.
 
     list<Pessoa>::iterator it;
 
