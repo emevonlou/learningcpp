@@ -1,8 +1,8 @@
-// 130: funcoes inline
+// 130: funcoes inline.
 #include <iostream>
 using namespace std;
 
-inline void Eme()  // funcoes inline cobram mais espaco na memoria.
+inline void Eme()  // Funcoes inline cobram mais espaco na memoria.
 {
     cout << "Learning C++" << endl;
 }
