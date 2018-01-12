@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-inline void Eme()  // Funcoes inline cobram mais espaco na memoria.
+inline void Eme() // Funcoes 'inline' cobram mais espaco na memoria.
 {
     cout << "Learning C++" << endl;
 }
