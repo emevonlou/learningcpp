@@ -2,8 +2,8 @@
 	112:
 	Heranca!
 	-Transmite propriedades.
-	-Permite que vc descreva coisas de forma econ�mica.
-	-Uma classe herda caracter�sticas de outra classe.
+	-Permite que vc descreva coisas de forma economica.
+	-Uma classe herda caracteristicas de outra classe.
 */
 #include <iostream>
 #include <string.h>
