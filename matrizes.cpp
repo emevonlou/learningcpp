@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     int mat[2][2] = {{1, 2}, {3, 4}};
     /* 
         Dois colchetes(o primeiro das linhas, o segundo das colunas)
-        Matriz inicializada(primeira linha{1,2};segunda linha{3,4})
+        Matriz inicializada(primeira linha{1,2};segunda linha{3,4}).
     */
     for (int i = 0; i < 2; i++)
     {
