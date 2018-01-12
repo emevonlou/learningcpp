@@ -1,4 +1,4 @@
-//Com a palavra-chave 'new' você consegue alocar memória.
+// 113: Com a palavra-chave 'new' você consegue alocar memória.
 #include <iostream>
 using namespace std;
 
