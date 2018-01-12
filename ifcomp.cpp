@@ -9,28 +9,28 @@ int main(void)
 
   cout << "Qual a sua idade?" << endl;
   cin >> idade;
-  cout << "Digite (m)para Masculino, (f)para Feminino" << endl;
+  cout << "Digite (m)para Masculino, (f)para Feminino: " << endl;
   cin >> sexo;
 
   if (idade >= 18)
   {
-    cout << "Você pode dirigir" << endl;
+    cout << "Você pode dirigir." << endl;
 
     if (sexo == 'm')
     {
 
-      cout << "Você precisa ir no Serviço Militar" << endl;
+      cout << "Você precisa ir no Serviço Militar." << endl;
     }
   }
   else
   {
     if (idade > 16)
     {
-      cout << "Você já pode votar" << endl;
+      cout << "Você já pode votar." << endl;
     }
     else
     {
-      cout << "Você não pode votar nem dirigir" << endl;
+      cout << "Você não pode votar nem dirigir." << endl;
     }
   }
 
