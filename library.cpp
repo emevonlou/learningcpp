@@ -1,6 +1,6 @@
 // 15:
 #include <iostream>
-#include <cstring> //Biblioteca da função strlen()
+#include <cstring> //Biblioteca da função strlen().
 #include <cstdlib>
 using namespace std;
 
