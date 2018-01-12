@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     c1.setAno(2017);
 
     Carro c2("Fiat", 2017);
-    c2.setAno(2018); // unica maneira de alterar
+    c2.setAno(2018); // Unica maneira de alterar.
 
     cout << c1.getMarca() << endl;
     cout << c1.getAno() << endl;
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     cout << c1.pneus << endl;
     cout << c2.pneus << endl;
 
-    c1.pneus = 5; // atributo static pertence a classe
+    c1.pneus = 5; // Atributo static pertence a classe.
 
     cout << c1.pneus << endl;
     cout << c2.pneus << endl;
