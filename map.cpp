@@ -6,7 +6,7 @@
     onde cada elemento é um par
     composto pela chave e pelo valor.
     Você mapeia um valor através da chave.
-    Obs: O mapa não garante a ordem
+    Obs: O mapa não garante a ordem.
 */
 #include <iostream>
 #include <map>
