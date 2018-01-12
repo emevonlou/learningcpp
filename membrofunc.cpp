@@ -1,4 +1,4 @@
-// 99: Sobrecarregando funcoes membro
+// 99: Sobrecarregando funcoes membro.
 #include <iostream>
 using namespace std;
 
