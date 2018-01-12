@@ -1,4 +1,4 @@
-// 55: loop dentro de outro loop
+// 55: Loop dentro de outro loop.
 #include <iostream>
 using namespace std;
 
@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
     int n = 1;
 
-    while (n <= 10) // a cada interação do n, vamos contar 10 vezes o i
+    while (n <= 10) // A cada interação do n, vamos contar 10 vezes o i.
     {
         int i = 1;
 
