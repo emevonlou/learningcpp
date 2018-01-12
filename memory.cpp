@@ -3,7 +3,7 @@
     --Alocando memória dinamicamente(Fora da pilha)--
     O C++ oferece uma área extra na memória
     com o objetivo de alocação de memória.
-    conhecido pelo nome de Heap(pilha)
+    conhecido pelo nome de Heap(pilha).
 */
 #include <iostream>
 using namespace std;
@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
     char *p = new char[256];
     /*
-        'new' é a palavra reservada para a alocação de memoria
+        'new' é a palavra reservada para a alocação de memoria.
         No caso, a palavra-chave retorna um ponteiro para o array
         recém criado.
         A pilha de memória não é alocada até o momento de execução.
