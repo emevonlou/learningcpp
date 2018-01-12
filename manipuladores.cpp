@@ -1,5 +1,5 @@
 // 75:
-#include <iostream> //Tem implementada palavras especiais pra manipularmos a formatação.
+#include <iostream> // Tem implementada palavras especiais pra manipularmos a formatação.
 #include <stdlib.h>
 using namespace std;
 
