@@ -1,4 +1,4 @@
-// 29: modificando o valor da variavel dentro de outra função
+// 29: Modificando o valor da variavel dentro de outra função.
 #include <iostream>
 using namespace std;
 
@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
     pvar = &var;
 
-    foo(pvar); // ou foo(&var)
+    foo(pvar); // Ou foo(&var).
     cout << var << endl;
 
     return 0;
