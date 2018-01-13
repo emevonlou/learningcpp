@@ -1,4 +1,4 @@
-// 22: Operação Ternaria
+// 22: Operação Ternaria.
 #include <iostream>
 using namespace std;
 
@@ -8,6 +8,6 @@ int main(void)
 
     cout << "Digite um numero e te direi se eh par ou impar: " << endl;
     cin >> n;
-    // Operacao ternaria
+    // Operacao ternaria.
     (n % 2 == 0) ? cout << "Numero par." : cout << "Numero impar." << endl;
 }
