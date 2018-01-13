@@ -1,9 +1,9 @@
 /*
 	116:
-	Sobrecarregando Operadores
-	C++ permite que voc� defina os operadores existentes
+	Sobrecarregando Operadores:
+	C++ permite que voce defina os operadores existentes
 	para as classes que criar.
-	O operador deve ser uma fun��o membro.
+	O operador deve ser uma funcao membro.
 */
 #include <iostream>
 #include <string.h>
@@ -34,7 +34,7 @@ class Estudante
   public:
 	Estudante(const char *novoNome, int novoID)
 	{ /*
-		O construtor aloca mem�ria da pilha para uso
+		O construtor aloca memoria da pilha para uso
 		da armazenagem do nome do aluno.
 	  */
 		cout << "Construindo novo nome!" << endl;
@@ -53,16 +53,16 @@ class Estudante
 		cout << "Destruindo" << nome << endl;
 		destruct();
 	}
-	// Sobrecarregar o operador de designa��o
+	// Sobrecarregar o operador de designacao.
 	Estudante &operator=(Estudante &origem)
 	{
 		if (this != &origem)
 		{
 			cout << "Atribuindo " << origem.nome << "para" << nome << endl;
-			// primeiramente destr�i o objeto existente com destruct
+			// Primeiramente destroi o objeto existente com 'destruct'.
 			destruct();
 
-			//copia o objeto origem
+			// Copia o objeto 'origem'.
 			init(origem.nome, origem.ID);
 		}
 		return *this;
@@ -81,7 +81,7 @@ class Estudante
 void fun()
 {
 	/*
-		A fun��o fun() cria inicialmente o objeto 'e1'
+		A funcao fun() cria inicialmente o objeto 'e1'.
 
 	*/
 	Estudante e1("Emanuelle", 1111);
@@ -89,11 +89,11 @@ void fun()
 
 	e2 = e1;
 	/*
-		A fun��o designa e2 para e1.
-		� copiado o ponteiro e1.nome em
-		e2.nome de modo que os dois objetos
+		A funcao designa e2 para e1.
+		Eh copiado o ponteiro e1.nome em
+		e2.nome, de modo que os dois objetos
 		passam a apontar para o mesmo bloco
-		de mem�ria da pilha.
+		de memoria da pilha.
 	*/
 }
 
