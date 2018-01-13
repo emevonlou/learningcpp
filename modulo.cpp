@@ -1,4 +1,4 @@
-// 42: Calcula o resto da divisão
+// 42: Calcula o resto da divisão.
 #include <iostream>
 using namespace std;
 
