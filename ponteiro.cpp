@@ -9,8 +9,8 @@ int main(int argc, char *argv[])
 
     // Sempre inicializar um ponteiro antes de utiliza-lo.
     pvar = &var;           // &var é o endereço da variável var.
-    cout << *pvar << endl; // acessa o conteúdo da variável var atraves do ponteiro
-    *pvar = 20;            // muda o valor da variável através do ponteiro
+    cout << *pvar << endl; // Acessa o conteúdo da variável var atraves do ponteiro.
+    *pvar = 20;            // Muda o valor da variável através do ponteiro.
     cout << var << endl;
 
     return 0;
