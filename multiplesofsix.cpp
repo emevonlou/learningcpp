@@ -1,7 +1,7 @@
 // 8:
 #include <iostream>
-#include <cstdlib>   // System
-using namespace std; // declaração de espaço de nomes- serve pra resolver conflitos de nomes
+#include <cstdlib>   // System("pause");
+using namespace std; // Declaração de espaço de nomes(Serve pra resolver conflitos de nomes).
 
 int main()
 {
