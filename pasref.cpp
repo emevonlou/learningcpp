@@ -1,7 +1,7 @@
 /*
 	117:
-	O c++ permite declarar uma fun��o que aceite
-	seu argumento por refer�ncia
+	O c++ permite declarar uma funcao que aceite
+	seu argumento por referencia.
 */
 #include <iostream>
 using namespace std;
