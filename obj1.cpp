@@ -1,16 +1,15 @@
-// 82: Programando com classe(agrupamento de dados com classe)
+// 82: Programando com classe(agrupamento de dados com classe).
 #include <iostream>
 using namespace std;
 
-class Pessoa   // nome da classe com letra maiúscula
+class Pessoa // Nome da classe com letra maiúscula.
 {
-private:    // modificador de acesso
+  private: // Modificador de acesso.
     int idade;
     float peso;
 
-public:
-
-    Pessoa(int idade, float peso) // construtor
+  public:
+    Pessoa(int idade, float peso) // Construtor.
     {
         this->idade = idade;
         this->peso = peso;
@@ -35,21 +34,20 @@ public:
     {
         return peso;
     }
-
 };
 
 int main(int argc, char *argv[])
 {
-    Pessoa pessoa(38, 40);  // construindo o objeto usando o construtor.
-    Pessoa* ppessoa;
+    Pessoa pessoa(38, 40); // Construindo o objeto usando o construtor.
+    Pessoa *ppessoa;
 
     ppessoa = &pessoa;
 
-   // pessoa.setIdade(38);  // Acesso aos membros do objeto
-   // pessoa.setPeso(44.3);
+    // pessoa.setIdade(38);  // Acesso aos membros do objeto.
+    // pessoa.setPeso(44.3);
 
     cout << "Idade: " << ppessoa->getIdade() << endl;
     cout << "Peso: " << ppessoa->getPeso() << endl;
 
- return 0;
+    return 0;
 }
