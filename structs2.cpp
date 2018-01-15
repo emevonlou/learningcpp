@@ -3,7 +3,7 @@
 #include <string.h> // strcpy()
 using namespace std;
 
-typedef struct pessoa //Definindo um nome para 'struct pessoa' com typedef
+typedef struct pessoa // Definindo um nome para 'struct pessoa' com typedef.
 {
     char nome[100];
     int idade;
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     pp->idade = 38;
     pp->peso = 44.3;
 
-    cout << "Nome: " << pp->nome << endl; // para acessar a struct com um ponteiro vc deve utilizar a seta '->' ou (*pp).
+    cout << "Nome: " << pp->nome << endl; // Para acessar a struct com um ponteiro vc deve utilizar a seta '->' ou (*pp).
     cout << "Idade: " << pp->idade << endl;
     cout << "Peso: " << pp->peso << endl;
 
