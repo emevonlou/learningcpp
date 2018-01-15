@@ -1,4 +1,4 @@
-// 68: passagem por valor
+// 68: Passagem por valor.
 #include <iostream>
 using namespace std;
 
