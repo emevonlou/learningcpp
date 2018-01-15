@@ -3,12 +3,12 @@
 #include <string.h> // strcpy()
 using namespace std;
 
-typedef struct pessoa //Definindo um nome para 'struct pessoa' com typedef
+typedef struct pessoa // Definindo um nome para 'struct pessoa' com typedef.
 {
     char nome[100];
     int idade;
     float peso;
-} tipo_pessoa; // ao invés de digitar sempre 'struct pessoa', digita 'tipo_pessoa'
+} tipo_pessoa; // Ao invés de digitar sempre 'struct pessoa', digita 'tipo_pessoa'.
 
 int main(int argc, char *argv[])
 {
