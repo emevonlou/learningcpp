@@ -1,7 +1,7 @@
 /* 
     87:
   -----Container Stack(Pilha)------
-    O primeiro elemento a entrar é o último a sair
+    O primeiro elemento a entrar é o último a sair.
 */
 
 #include <iostream>
