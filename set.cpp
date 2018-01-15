@@ -1,7 +1,7 @@
 /*
     91:
     -----set(conjunto)------
-    Não aceita elementos repetidos
+    Não aceita elementos repetidos.
 */
 #include <iostream>
 #include <set>
