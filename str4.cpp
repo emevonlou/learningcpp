@@ -1,9 +1,9 @@
-// 125: Acessando structs com ponteiro
+// 125: Acessando structs com ponteiro.
 #include <iostream>
 #include <string.h>
 using namespace std;
 
-typedef struct pessoa // typedef = proprio tipo
+typedef struct pessoa // typedef = proprio tipo.
 {
     char nome[100];
     int idade;
