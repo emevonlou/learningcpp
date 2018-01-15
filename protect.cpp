@@ -1,32 +1,32 @@
 /* 
-	Membros protegidos(Protected)
+	Membros protegidos(Protected):
 	Inacessiveis de fora da classe.
-	permite que uma classe esteja protegida
-	e seja responsavel pela sua pr�pria situa��o interna.
+	Permite que uma classe esteja protegida
+	e seja responsavel pela sua propria situacao interna.
 */
 #include <iostream>
 using namespace std;
 
 class Estudante
 {
-  protected: // Membros protegidos
+  protected: // Membros protegidos.
 	int idade;
 
   public:
-	void setIdade(int idade) //
+	void setIdade(int idade) 
 	{
 		this->idade = idade;
 		cout << "Idade: " << idade << endl;
 	}
 };
 
-int main(int argc, char *argv[]) // fun��o externa
+int main(int argc, char *argv[]) // funcao externa.
 {
-	Estudante e; // Objeto
+	Estudante e; // Objeto.
 
 	e.setIdade(28);
 	/*
-		setIdade � membro da classe Estudante
+		'setIdade' eh o membro da classe Estudante
 		Ent�o pode acessar o membro protegido
 		'idade' da classe.
 	*/
