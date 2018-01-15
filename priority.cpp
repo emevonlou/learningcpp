@@ -9,13 +9,13 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    priority_queue<int> fila; // Fila de prioridade
+    priority_queue<int> fila; // Fila de prioridade.
 
     fila.push(20);
     fila.push(10);
     fila.push(50);
 
-    fila.pop(); // deleta o primeiro número maior e prevalece o segundo
+    fila.pop(); // Deleta o primeiro número maior e prevalece o segundo.
 
     cout << fila.top() << endl;
     cout << "Tamanho: " << fila.size() << endl;
