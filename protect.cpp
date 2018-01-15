@@ -20,14 +20,14 @@ class Estudante
 	}
 };
 
-int main(int argc, char *argv[]) // funcao externa.
+int main(int argc, char *argv[]) // Funcao externa.
 {
 	Estudante e; // Objeto.
 
 	e.setIdade(28);
 	/*
-		'setIdade' eh o membro da classe Estudante
-		Ent�o pode acessar o membro protegido
+		'setIdade' eh o membro da classe 'Estudante',
+		Entao pode acessar o membro protegido
 		'idade' da classe.
 	*/
 
