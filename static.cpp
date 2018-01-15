@@ -1,7 +1,7 @@
 /*
 	119:
-	Membros est�ticos
-	Sinalisado com a palavra chave 'static'
+	Membros estaticos:
+	Sinalisado com a palavra chave 'static'.
 */
 
 #include <iostream>
