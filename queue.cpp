@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     fila.push("cat");
     fila.push("fish");
 
-    fila.pop(); // remove sempre o primeiro elemento da fila
+    fila.pop(); // Remove sempre o primeiro elemento da fila.
 
     cout << "Primeiro elemento: " << fila.front() << endl;
     cout << "Tamanho da fila: " << fila.size() << endl;
