@@ -1,5 +1,5 @@
-// 11: if else (se senão)
-// switch case
+// 11: if else (se senão).
+// switch/case.
 
 #include <iostream>
 #include <cstdlib>
@@ -23,7 +23,7 @@ int main()
 	cout << endl;
 	system("pause");
 
-	// Estrutura realizada com switch case
+	// Estrutura realizada com switch case.
 
 	cout << "-----------------------------" << endl
 		 << endl;
