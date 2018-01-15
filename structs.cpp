@@ -3,9 +3,9 @@
 #include <string.h> // strcpy()
 using namespace std;
 
-struct pessoa // Agrupando os dados
+struct pessoa // Agrupando os dados.
 {
-    // Toda struct é publica
+    // Toda struct é publica.
     char nome[100];
     int idade;
     float peso;
