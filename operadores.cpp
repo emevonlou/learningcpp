@@ -1,4 +1,4 @@
-// 43: operadores unários.
+// 43: Operadores unários.
 #include <iostream>
 using namespace std;
 
