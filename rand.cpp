@@ -1,8 +1,8 @@
 // 9:
 #include <iostream> // cin, cout
-#include <cstdlib>  // system,random(rand)
-#include <time.h>   // time
-//#include <conio.h>  // Funções do windows
+#include <cstdlib>  // System,random(rand).
+#include <time.h>   // Time.
+//#include <conio.h>  // Funções do windows.
 
 using namespace std;
 
@@ -32,7 +32,7 @@ int main()
 			b[i] = rand() % 10;
 			cout << b[i] << " ";
 		}
-		//a = getch(); // verifica valor randomico pausadamente
+		//a = getch(); Verifica valor randomico pausadamente.
 		if (a == 97)
 		{
 			b[i] = rand() % 100 + 1;
