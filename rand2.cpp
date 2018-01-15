@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    srand(time(0)); // conta os segundos no meu computador e gera um valor
+    srand(time(0)); // Conta os segundos no meu computador e gera um valor.
     cout << rand();
 
     for (int i = 0; i < 20; i++)
