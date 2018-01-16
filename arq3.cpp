@@ -14,18 +14,20 @@ int main(int argc, char *argv[])
     char c = in.get();  // Metodo 'get' retorna o proximo caractere.
     texto.push_back(c); // Insere o caractere na string dando um push_back(c).
 
-    cout << "\nMostrando cada caractere:\n" << endl;
+    cout << "\nMostrando cada caractere:\n"
+         << endl;
 
     // Loop pra percorrer o arquivo e mostrar caractere por caractere.
-    while(in.good()) // Função good não possui parametros.
+    while (in.good()) // Função good não possui parametros.
     {
         // Enquanto for possivel extrair caracteres do arquivo...
-        cout << c; // Mostrando o primeiro caractere.
-        c = in.get(); // Pegando o proximo caractere.
+        cout << c;          // Mostrando o primeiro caractere.
+        c = in.get();       // Pegando o proximo caractere.
         texto.push_back(c); // Inserindo o caractere na minha string caso queira usar novamente.
     }
 
-    cout << "\nMostrando a string: \n" << texto << endl;
+    cout << "\nMostrando a string: \n"
+         << texto << endl;
 
     return 0;
 }
