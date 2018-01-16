@@ -260,3 +260,5 @@
 	g++ -Wall -c -o inline.o inline.cpp; g++ -o inline inline.o
 131:
 	g++ -Wall -c -o arq2.o arq2.cpp; g++ -o arq2 arq2.o
+132:
+	g++ -Wall -c -o arq3.o arq3.cpp; g++ -o arq3 arq3.o
