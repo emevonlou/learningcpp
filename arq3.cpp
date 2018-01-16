@@ -12,12 +12,12 @@ int main(int argc, char *argv[])
     string texto;
     // Classe string redimenciona automaticamente para a quant de dados necessaria.
     char c = in.get();  // Metodo 'get' retorna o proximo caractere.
-    texto.push_back(c); // Insere o caractere na string dando um push_back(c)
+    texto.push_back(c); // Insere o caractere na string dando um push_back(c).
 
     cout << "\nMostrando cada caractere:\n" << endl;
 
-    // Loop pra percorrer o arquivo e mostrar caractere por caractere
-    while(in.good()) // Função good não possui parametros
+    // Loop pra percorrer o arquivo e mostrar caractere por caractere.
+    while(in.good()) // Função good não possui parametros.
     {
         // Enquanto for possivel extrair caracteres do arquivo...
         cout << c; // mostrando o primeiro caractere
