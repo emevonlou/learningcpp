@@ -1,4 +1,4 @@
-// Abrir um arquivo para a saida.(Escrever no arquivo)
+// Abrir um arquivo para a saida.(Escrever no arquivo).
 // 133:
 #include <iostream>
 #include <fstream>
