@@ -10,8 +10,8 @@ int main(int argc, char *argv[])
     ifstream in("teste.txt");
 
     string texto;
-    // Classe string redimenciona automaticamente para a quant de dados necessaria
-    char c = in.get();  // metodo 'get' retorna o proximo caractere
+    // Classe string redimenciona automaticamente para a quant de dados necessaria.
+    char c = in.get();  // Metodo 'get' retorna o proximo caractere.
     texto.push_back(c); // Insere o caractere na string dando um push_back(c)
 
     cout << "\nMostrando cada caractere:\n" << endl;
