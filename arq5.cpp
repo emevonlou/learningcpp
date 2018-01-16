@@ -7,9 +7,9 @@ int main(int argc,char *argv[])
     ifstream in("teste.txt");
     char c;
 
-    while(true) // enquanto for verdade
+    while(true) // Enquanto for verdade, faça:
     {
-        in >> c; // operador de deslocamento a direita
+        in >> c; // Operador de deslocamento a direita.
         if(in.fail()) // Função pra testar se tem algum caractere pra ser lido.
             break; // Se não tiver nenhum caractere pra ser lido,vai dar um um break.
         cout << c;
