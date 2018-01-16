@@ -20,9 +20,9 @@ int main(int argc, char *argv[])
     while(in.good()) // Função good não possui parametros.
     {
         // Enquanto for possivel extrair caracteres do arquivo...
-        cout << c; // mostrando o primeiro caractere
-        c = in.get(); // pegando o proximo caractere
-        texto.push_back(c); // Inserindo o caractere na minha string caso queira usar nov
+        cout << c; // Mostrando o primeiro caractere.
+        c = in.get(); // Pegando o proximo caractere.
+        texto.push_back(c); // Inserindo o caractere na minha string caso queira usar novamente.
     }
 
     return 0;
