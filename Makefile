@@ -258,3 +258,5 @@
 	g++ -Wall -c -o mda.o mda.cpp; g++ -o mda mda.o
 130:
 	g++ -Wall -c -o inline.o inline.cpp; g++ -o inline inline.o
+131:
+	g++ -Wall -c -o arq2.o arq2.cpp; g++ -o arq2 arq2.o
