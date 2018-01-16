@@ -1,5 +1,5 @@
 // 131:
-#include <iostream> // serve pra executar o fluxo de 'io'(Entrada e saida)
+#include <iostream> // Serve pra executar o fluxo de 'io'(Entrada e saida).
 using namespace std;
 
 int main(int argc, char *argv[])
