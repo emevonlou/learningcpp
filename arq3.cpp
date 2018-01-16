@@ -25,5 +25,7 @@ int main(int argc, char *argv[])
         texto.push_back(c); // Inserindo o caractere na minha string caso queira usar novamente.
     }
 
+    cout << "\nMostrando a string: \n" << texto << endl;
+
     return 0;
 }
