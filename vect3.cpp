@@ -13,7 +13,10 @@ int main(int argc, char *argv[])
 
     vector<int>::iterator it = v.begin();
     // Begin retorna o iterator que aponta para o primeiro elemento.
-    cout << *it << endl;
+    for(it = v.begin(); it != v.end(); it++)
+    {
+        cout << *it << endl;
+    }
 
   return 0;
 }
