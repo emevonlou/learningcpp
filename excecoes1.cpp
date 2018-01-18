@@ -20,10 +20,10 @@ int main(int argc, char *argv[])
 {
     try
     {
-        cout << "Fatorial de 5: " << fat(5) << endl;
+        cout << "Fatorial de 5: " << fat(5) << endl; // tento executar esses blocos.
         cout << "Fatorial de -5: " << fat(-5) << endl;
     }
-    catch (const char *e)
+    catch (const char *e) // Se ocorrer algum erro, sera capturado pelos 'Catchs'
     {
         cerr << "Erro: " << e << endl;
     }
