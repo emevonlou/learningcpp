@@ -9,9 +9,9 @@ using namespace std;
 
 double div(double n1, double n2)
 {
-    if(n2 == 0)
+    if (n2 == 0)
         throw "Divisao por zero!!\n";
-    return n1/n2;
+    return n1 / n2;
 }
 
 int fat(int n) // Fatorial.
@@ -32,11 +32,12 @@ int main(int argc, char *argv[])
         // cout << "10/0 = " << div(10, 0) << endl;
     }
     catch (const char *e) // Se ocorrer algum erro, sera capturado pelos 'Catchs'.
-    {
+    {                     // Exibe a frase com erro.
         cerr << "Erro: " << e << endl;
     }
-    catch (...)  // Voce pode ter varios 'Catchs' pra capturar a excecao.
-    {
+    catch (...) // Voce pode ter varios 'Catchs' pra capturar a excecao.
+    {           // Pega qualquer outra coisa.
+
         cerr << "Erro inesperado!" << endl;
     }
 
