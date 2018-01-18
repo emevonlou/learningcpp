@@ -2,7 +2,7 @@
      Palavras reservadas 'try', 'catch','throw'.
      *Try: Tentar executar um bloco de codigo;
      *Catch: Pegar algo para tratar;
-     *Trow: Lança uma excecao(erro) que a funcao pode pear através do 'catch'.
+     *Trow: Lança uma excecao(erro) que a funcao pode pegar através do 'catch'.
 */
 #include <iostream>
 using namespace std;
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     {
         cerr << "Erro: " << e << endl;
     }
-    catch (...)
+    catch (...)  // Voce pode ter varios 'Catchs' pra capturar a excecao.
     {
         cerr << "Erro inesperado!" << endl;
     }
