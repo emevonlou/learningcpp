@@ -266,3 +266,5 @@
 	g++ -Wall -c -o arq4.o arq4.cpp; g++ -o arq4 arq4.o
 134:
 	g++ -Wall -c -o arq5.o arq5.cpp; g++ -o arq5 arq5.o
+135:
+	g++ -Wall -c -o excecoes1.o excecoes1.cpp; g++ -o excecoes1 excecoes1.o
