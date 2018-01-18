@@ -29,7 +29,8 @@ int main(int argc, char *argv[])
     {
         cout << "Fatorial de 5: " << fat(5) << endl; // tento executar esses blocos.
         // cout << "Fatorial de -5: " << fat(-5) << endl;
-        // cout << "10/0 = " << div(10, 0) << endl;
+        // cout << "10/0: " << div(10,0); // erro inesperado que a ide do professor não identificou.
+
     }
     catch (const char *e) // Se ocorrer algum erro, sera capturado pelos 'Catchs'.
     {                     // Exibe a frase com erro.
