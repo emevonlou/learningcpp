@@ -11,7 +11,7 @@ int main(int atgc, char *argv[])
     v.push_back(30);
     v.push_back(40);
 
-
+    int tam = v.size();
 
     return 0;
 }
