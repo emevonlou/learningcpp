@@ -9,14 +9,13 @@ using namespace std;
 
 int fat(int n) // Fatorial
 {
-    if(n == 0 || n == 1)
+    if (n == 0 || n == 1)
         return 1; // Porque fatorial de zero ou um é um.
     return n * fat(n - 1);
 }
 
 int main(int argc, char *argv[])
 {
-
 
     return 0;
 }
