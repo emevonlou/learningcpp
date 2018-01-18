@@ -7,6 +7,13 @@
 #include <iostream>
 using namespace std;
 
+double div(double n1, double n2)
+{
+    if(n2 == 0)
+        throw "Divisao por zero!!\n";
+    return n1/n2;
+}
+
 int fat(int n) // Fatorial
 {
     if (n < 0)
@@ -21,7 +28,8 @@ int main(int argc, char *argv[])
     try
     {
         cout << "Fatorial de 5: " << fat(5) << endl; // tento executar esses blocos.
-        cout << "Fatorial de -5: " << fat(-5) << endl;
+        // cout << "Fatorial de -5: " << fat(-5) << endl;
+        // cout << "10/0 = " << div(10,0) << endl;
     }
     catch (const char *e) // Se ocorrer algum erro, sera capturado pelos 'Catchs'
     {
