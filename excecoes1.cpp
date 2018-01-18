@@ -1,5 +1,5 @@
 /*
-     Palavras reservadas 'try', 'catch','trhow'.
+     Palavras reservadas 'try', 'catch','throw'.
      *Try: Tentar executar um bloco de codigo;
      *Catch: Pegar algo para tratar;
      *Trow: Lança uma excecao(erro) que a funcao pode pear através do 'catch'.
@@ -9,6 +9,8 @@ using namespace std;
 
 int fat(int n) // Fatorial
 {
+    if (n < 0)
+        throw "Numero negativo!!!";
     if (n == 0 || n == 1)
         return 1; // Porque fatorial de zero ou um é um.
     return n * fat(n - 1);
@@ -16,6 +18,19 @@ int fat(int n) // Fatorial
 
 int main(int argc, char *argv[])
 {
+    try
+    {
+        cout << "Fatorial de 5: " << fat(5) << endl;
+        cout << "Fatorial de -5: " << fat(-5) << endl;
+    }
+    catch (const char *e)
+    {
+        cerr << "Erro: " << e << endl;
+    }
+    catch (...)
+    {
+        cerr << "Erro inesperado!" << endl;
+    }
 
     return 0;
 }
