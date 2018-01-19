@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     v[2] = 30;
     
     cout << "Primeiro elemento: " << *v.begin() << endl; 
-    cout << "Ultimo elemento: " << *v.end() << endl;  
+    cout << "Ultimo elemento: " << *(--v.end()) << endl;  
     // Precisa usar * pra acessar o conteudo.
     return 0;
 }
