@@ -274,3 +274,5 @@
 	g++ -Wall -c -o vect2.o vect2.cpp; g++ -o vect2 vect2.o
 138:
 	g++ -Wall -c -o vect3.o vect3.cpp; g++ -o vect3 vect3.o
+139:
+	g++ -Wall -c -o vect4.o vect4.cpp; g++ -o vect4 vect4.o
