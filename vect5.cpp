@@ -20,5 +20,9 @@ int main(int argc, char *argv[])
     }
 
     vector<int>::iterator it;
+    for(it = v.begin(); it != v.end(); it++)
+    {
+        
+    }
     return 0;
 }
