@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
     vector<int>::iterator it = v.begin(); // Atribuindo valor para it(iterador).
     // Begin retorna o iterator que aponta para o primeiro elemento.
     for (it = v.begin(); it != v.end(); it++) // Iterar usando iterador.
-    {
-        cout << *it << endl;
+    {  
+        cout << *it << endl; // Imprimindo todos os numeros com *it.
     }
 
     return 0;
