@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 
     vector<int>::iterator it = v.begin(); // Atribuindo valor para it(iterador).
     
-    cout << "Primeiro elemento: " << *v.begin() << endl; 
+    cout << "Primeiro elemento: " << *v.begin() << endl;  
+    // Precisa usar * pra acessar o conteudo.
     return 0;
 }
