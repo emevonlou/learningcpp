@@ -11,9 +11,10 @@ int main(int argc, char *argv[])
     v[1] = 20;
     v[2] = 30;
 
-    vector<int>::iterator it = v.begin(); // Atribuindo valor para it(iterador).
+    // vector<int>::iterator it = v.begin(); // Atribuindo valor para it(iterador).
     
-    cout << "Primeiro elemento: " << *v.begin() << endl;  
+    cout << "Primeiro elemento: " << *v.begin() << endl; 
+    cout << "Ultimo elemento: " << *v.end() << endl;  
     // Precisa usar * pra acessar o conteudo.
     return 0;
 }
