@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     vector<int>::iterator it;
     for(it = v.begin(); it != v.end(); it++)
     {
-        
+        cout << *it << endl;
     }
     return 0;
 }
