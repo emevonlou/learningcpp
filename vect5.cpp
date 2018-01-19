@@ -12,6 +12,11 @@ int main(int argc, char *argv[])
     v[2] = 30;
     
     vector<int>::reverse_iterator rit;
-    int i = 0; // 
+    int i = 0; // Utilizada para atribuir valores para o vetor.
+
+    for(rit = v.rbegin(); rit != v.rend(); rit++) // 
+    {
+
+    }
     return 0;
 }
