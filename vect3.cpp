@@ -6,7 +6,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 
-    vector<int> v(3); // obtendo 3 como tamanho inicial do vetor.
+    vector<int> v(3); // Obtendo 3 como tamanho inicial do vetor.
     v[0] = 10;
     v[1] = 20;
     v[2] = 30;
