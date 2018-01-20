@@ -10,14 +10,14 @@ int main(int argc, char *argv[])
     if(v.empty())
         cout << "Vetor vazio!\n";
     else
-        cout << "Vetor nao vazio\n";
+        cout << "Vetor NAO vazio\n";
 
     v.push_back(10); // inserindo o elemento 10.
 
     if(v.empty())
         cout << "Vetor vazio!\n";
     else
-        cout << "Vetor nao vazio\n";
+        cout << "Vetor NAO vazio\n";
 
     return 0;
 }
