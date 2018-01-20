@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    vector<int> v(3); // vetor agreegando 3 valores.
+    vector<int> v;
 
     if(v.empty())
         cout << "Vetor vazio!\n";
