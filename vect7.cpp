@@ -10,8 +10,8 @@ int main(int argc, char *argv[])
     v.push_back(2);
     v.push_back(3);
 
-    while (!v.empty()) // vai repetir enquanto o vetor nao for vazio.
-        v.pop_back();  // deletando todos os elementos.
+    while (!v.empty()) // Vai repetir enquanto o vetor nao for vazio.
+        v.pop_back();  // Deletando todos os elementos.
 
     if (v.empty())
         cout << "Vazio.\n";
