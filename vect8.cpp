@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     v[0] = 1;
     v[1] = 2;
 
-    cout << v.back() << endl; // Vai retornar o ultimo elemento inserido.
+    cout << v.back() << endl;  // Vai retornar o ultimo elemento inserido.
     cout << v.front() << endl; // Vai reornar o primeiro elemento inserido.
 
     return 0;
