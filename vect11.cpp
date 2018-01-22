@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     a.swap(b);
     for (unsigned int i = 0; i < a.size(); i++)
         cout << a[i] << endl;
-    for (unsigned int j = 0; j < a.size(); j++)
+    for (unsigned int j = 0; j < b.size(); j++)
         cout << b[j] << endl;
 
     return 0;
