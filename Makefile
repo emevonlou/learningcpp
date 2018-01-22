@@ -284,3 +284,5 @@
 	g++ -Wall -c -o vect7.o vect7.cpp; g++ -o vect7 vect7.o
 143:
 	g++ -Wall -c -o vect8.o vect8.cpp; g++ -o vect8 vect8.o
+144:
+	g++ -Wall -c -o vect9.o vect9.cpp; g++ -o vect9 vect9.o
