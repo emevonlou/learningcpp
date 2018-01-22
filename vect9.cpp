@@ -1,4 +1,4 @@
-// 144:
+// 144: Funçao 'at()'
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -11,6 +11,6 @@ int main(int argc, char *argv[])
     v[1] = 20;
     v[2] = 30;
 
-    cout << v.at(1) << endl; // Passa a posição utilizando a função 'at'.
+    cout << v.at(1) << endl; // Passa a posição utilizando a função 'at()'.
     return 0;
 }
