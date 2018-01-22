@@ -1,4 +1,4 @@
-// 146:
+// Função clear().
 #include <iostream>
 #include <vector>
 using namespace std;
