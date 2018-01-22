@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
     v.insert(it, 40);
     v.insert(it + 2, 60);
     v.erase(v.begin() + 1); // Apaga o segundo elemento do vetor.
+    v.erase(v.begin()); // apaga o primeiro elemento.
 
     for (unsigned int i = 0; i < v.size(); i++)
         cout << v[i] << endl;
