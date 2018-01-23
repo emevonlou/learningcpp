@@ -5,23 +5,23 @@
 
 int main()
 {
-    int iSecret, iGuess;
+    int s, iGuess;
 
     /* initialize random seed: */
     srand(time(NULL));
 
     /* generate secret number between 1 and 100: */
-    iSecret = rand() % 100 + 1;
+    s = rand() % 100 + 1;
 
     do
     {
         printf("Guess the number (1 to 100): ");
         scanf("%d", &iGuess);
-        if (iSecret < iGuess)
+        if (s < iGuess)
             puts("The secret number is lower");
-        else if (iSecret > iGuess)
+        else if (s > iGuess)
             puts("The secret number is higher");
-    } while (iSecret != iGuess);
+    } while (s != iGuess);
 
     puts("Congratulations!");
     return 0;
