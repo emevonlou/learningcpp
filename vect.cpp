@@ -12,7 +12,7 @@ int main(int atgc, char *argv[])
     v.push_back(40);
 
     int tam = v.size(); // Função que retorna o tamanho do vetor.
-    for(int i = 0; i < tam; i++)
+    for (int i = 0; i < tam; i++)
     {
         cout << v[i] << endl;
     }
