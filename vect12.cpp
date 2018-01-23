@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     vector<int> v(3, 10);
 
     cout << v.size() << endl;
-    v.clear(); // Deleta todos os elementos do vetor
+    v.clear(); // Deleta todos os elementos do vetor.
     cout << v.size() << endl;
 
     return 0;
