@@ -1,4 +1,4 @@
-// 139:
+// 139: Usando * para acessar o conteudo.
 #include <iostream>
 #include <vector>
 using namespace std;
