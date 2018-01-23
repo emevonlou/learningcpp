@@ -1,6 +1,6 @@
 // 145: Função insert().
 #include <iostream>
-#include <vector>
+#include <vector> // insert()
 using namespace std;
 
 int main(int argc, char *argv[])
