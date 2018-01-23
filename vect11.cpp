@@ -1,4 +1,4 @@
-// 146:
+// 146: Funçao swap().
 #include <iostream>
 #include <vector>
 using namespace std;

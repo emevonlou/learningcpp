@@ -1,4 +1,4 @@
-// 145: Função insert()
+// 145: Função insert().
 #include <iostream>
 #include <vector>
 using namespace std;
