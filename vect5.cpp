@@ -1,4 +1,4 @@
-// 140:
+// 140: funcao .rbegin() e rend().
 #include <iostream>
 #include <vector>
 using namespace std;
