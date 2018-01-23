@@ -1,4 +1,4 @@
-// string randomico
+// string randomico.
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -6,7 +6,7 @@
 using namespace std;
 
 static const char think[] =
-    "Emanuel Levinas!";
+    "Emmanuel Levinas!";
 
 int stringLength = sizeof(think) - 1;
 
