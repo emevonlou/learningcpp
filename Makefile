@@ -294,3 +294,5 @@
 	g++ -Wall -c -o vect12.o vect12.cpp; g++ -o vect12 vect12.o
 148:
 	g++ -Wall -c -o levinas.o levinas.cpp; g++ -o levinas levinas.o
+149:
+	g++ -Wall -c -o randtm.o randtm.cpp; g++ -o randtm randtm.o
