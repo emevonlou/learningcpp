@@ -1,18 +1,19 @@
+// string randomico
 #include <iostream>
 #include <string>
 #include <cstdlib>
 #include <ctime>
 using namespace std;
 
-static const char alphanum[] =
+static const char think[] =
     "Emanuel Levinas!";
 
-int stringLength = sizeof(alphanum) - 1;
+int stringLength = sizeof(think) - 1;
 
 char genRandom() // Random string generator function.
 {
 
-    return alphanum[rand() % stringLength];
+    return think[rand() % stringLength];
 }
 
 int main()
