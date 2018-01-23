@@ -1,6 +1,6 @@
-// 147: Função clear().
+// 147: 
 #include <iostream>
-#include <vector>
+#include <vector> // Clear()
 using namespace std;
 
 int main(int argc, char *argv[])
