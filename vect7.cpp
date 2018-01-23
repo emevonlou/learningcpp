@@ -1,4 +1,4 @@
-// 142:
+// 142: Funcao empty() e pop_back().
 #include <iostream>
 #include <vector>
 using namespace std;
