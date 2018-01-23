@@ -1,8 +1,8 @@
-// string randomico.
+// 148: string randomico.
 #include <iostream>
 #include <string> 
-#include <cstdlib> // srand, rand
-#include <ctime> // time()
+#include <cstdlib> // srand(), rand().
+#include <ctime> // time().
 using namespace std;
 
 static const char think[] =
