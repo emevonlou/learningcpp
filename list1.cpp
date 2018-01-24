@@ -34,8 +34,9 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
-    // Acessando o primeiro elemento de l1- front e back
+    // Acessando o primeiro e e ultimo elemento de l1- front e back
     cout << "Primeiro elemento de l1: " << l1.front();
+    cout << "\nUltimo elemento de l1: " << l1.back();
 
     return 0;
 }
