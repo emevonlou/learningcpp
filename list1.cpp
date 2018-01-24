@@ -1,4 +1,5 @@
 /* 
+    150:
     Listas:
     * A list não prealoca espaços na memoria para elementos futuros.
     * Cada elemento requer espaco extra para o no que detem o elemnto.
@@ -6,10 +7,20 @@
     * Você nao pode acessar aleatoriamente os elementos.
 */
 #include <iostream>
+#include <list>
 using namespace std;
 
 int main(int argc, char *argv[])
 {
+    list<int> l1;
+    list<int> l2;
+    list<int>::iterator it;
+
+    l1.push_back(10);
+    l1.push_front(20);
+    l1.push_back(30);
+
+    cout << "Mostrando os elementos de l1: " << endl;
 
     return 0;
 }
