@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     }
 
     // Acessando o primeiro elemento de l1- front e back
-
+    cout << "Primeiro elemento de l1: " << l1.front();
 
     return 0;
 }
