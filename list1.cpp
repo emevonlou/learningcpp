@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     }
 
     cout << "Mostrando os elementos de l2: " << endl;
-    for(it = l2.begin(); it != l2.end(); it++)
+    for (it = l2.begin(); it != l2.end(); it++)
     {
         cout << *it << endl;
     }
@@ -43,7 +43,9 @@ int main(int argc, char *argv[])
 
     // l1: 20,10, 30
     // removendo o primeiro elemento de l1
-    l1.pop_front(); 
+    l1.pop_front(); // remove o 20.
+    // removendo o ultimo eleemento de l1
+    l1.pop_back(); // remove o 30
 
     return 0;
 }
