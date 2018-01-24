@@ -3,7 +3,8 @@
     * O vetor prealoca espaços para elementos futuros.
     * No vector cada elemento requer espaço somente para o tipo dele.
     * nao possui elementos extras.
-    
+    * Pode acessar aleatoriamente os elementos.
+
 */
 #include <iostream>
 #include <vector>
