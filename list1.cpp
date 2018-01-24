@@ -41,5 +41,9 @@ int main(int argc, char *argv[])
     // Tamanho de l1
     cout << "\nTamanho de l1: " << l1.size();
 
+    // l1: 20,10, 30
+    // removendo o primeiro elemento de l1
+    l1.pop_front(); 
+
     return 0;
 }
