@@ -1,6 +1,6 @@
 // 146: Funçao swap().
 #include <iostream> // cout
-#include <vector> // swap()
+#include <vector>   // swap()
 using namespace std;
 
 int main(int argc, char *argv[])

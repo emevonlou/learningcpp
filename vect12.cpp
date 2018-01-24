@@ -1,4 +1,4 @@
-// 147: 
+// 147:
 #include <iostream>
 #include <vector> // Clear()
 using namespace std;
