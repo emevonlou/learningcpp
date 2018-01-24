@@ -23,5 +23,10 @@ int main(int argc, char *argv[])
 
     cout << "Mostrando os elementos de l1: " << endl;
 
+    for(it = l1.begin(); it != l1.end(); it++)
+    {
+        cout << *it << endl;
+    }
+
     return 0;
 }
