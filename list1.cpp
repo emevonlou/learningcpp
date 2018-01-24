@@ -38,5 +38,7 @@ int main(int argc, char *argv[])
     cout << "Primeiro elemento de l1: " << l1.front();
     cout << "\nUltimo elemento de l1: " << l1.back();
 
+    // Tamanho de l1
+
     return 0;
 }
