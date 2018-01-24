@@ -28,5 +28,12 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
+    cout << "Mostrando os elementos de l2: " << endl;
+    for(it = l2.begin(); it != l2.end(); it++)
+    {
+        cout << *it << endl;
+    }
+
+
     return 0;
 }
