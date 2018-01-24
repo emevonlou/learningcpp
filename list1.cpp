@@ -39,6 +39,7 @@ int main(int argc, char *argv[])
     cout << "\nUltimo elemento de l1: " << l1.back();
 
     // Tamanho de l1
+    cout << "\nTamanho de l1: " << l1.size();
 
     return 0;
 }
