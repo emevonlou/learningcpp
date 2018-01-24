@@ -12,10 +12,11 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    list<int> l1;
-    list<int> l2;
+    list<int> l1; // Lista de inteiros vazia
+    list<int> l2(3,10); // Trẽs inteiros com o valor 10 
     list<int>::iterator it;
 
+    //
     l1.push_back(10);
     l1.push_front(20);
     l1.push_back(30);
