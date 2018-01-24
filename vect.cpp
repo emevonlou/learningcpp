@@ -1,6 +1,9 @@
 /* 
     136:
-    Vector:
+    * O vetor prealoca espaços para elementos futuros.
+    * No vector cada elemento requer espaço somente para o tipo dele.
+    * nao possui elementos extras.
+    
 */
 #include <iostream>
 #include <vector>
