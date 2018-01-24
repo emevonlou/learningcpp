@@ -34,6 +34,8 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
+    // Acessando o primeiro elemento de l1- front e back
+
 
     return 0;
 }
