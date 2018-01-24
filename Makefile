@@ -296,3 +296,5 @@
 	g++ -Wall -c -o levinas.o levinas.cpp; g++ -o levinas levinas.o
 149:
 	g++ -Wall -c -o randtm.o randtm.cpp; g++ -o randtm randtm.o
+150:
+	g++ -Wall -c -o list1.o list1.cpp; g++ -o list1 list1.o
