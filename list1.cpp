@@ -34,14 +34,14 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
-    // Acessando o primeiro e e ultimo elemento de l1- front e back
+    // Acessando o primeiro e e ultimo elemento de l1- front e back.
     cout << "Primeiro elemento de l1: " << l1.front();
     cout << "\nUltimo elemento de l1: " << l1.back();
 
-    // Tamanho de l1
+    // Tamanho de l1.
     cout << "\nTamanho de l1: " << l1.size();
 
-    // l1: 20,10, 30
+    // l1: 20,10, 30.
     // removendo o primeiro elemento de l1.
     l1.pop_front(); // remove o 20.
     // removendo o ultimo eleemento de l1.
@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 
     cout << "Novo tamanho de l2: " << l2.size() << endl;
 
-    // Atribuindo elementos a l2
+    // Atribuindo elementos a l2.
     int vet[] = {1, 2, 3, 4};
     l2.assign(vet, vet + 4);
 
@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
-    // Inserindo um elemento em l2
+    // Inserindo um elemento em l2.
     l2.insert(l2.begin(), 100);
     cout << "Mostrando novamente os elementos de l2: " << endl;
 
