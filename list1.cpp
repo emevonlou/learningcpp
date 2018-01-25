@@ -72,6 +72,8 @@ int main(int argc, char *argv[])
 
     // Inserindo um elemento em l2
     l2.insert(l2.begin(), 100);
+cout << "Mostrando novamente os elementos de l2: " << endl;
+
 
     for(it = l2.begin(); it != l2.end(); it++)
     {
