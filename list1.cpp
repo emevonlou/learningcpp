@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
     }
 
     // Removendo todos os elementos de l2
-    while(!l2.empty())
+    while (!l2.empty())
         l2.pop_front();
 
     cout << "Novo tamanho de l2: " << l2.size() << endl;
@@ -65,17 +65,16 @@ int main(int argc, char *argv[])
     l2.assign(vet, vet + 4);
 
     cout << "Mostrando novos elementos de l2: " << endl;
-    for(it = l2.begin(); it != l2.end(); it++)
+    for (it = l2.begin(); it != l2.end(); it++)
     {
         cout << *it << endl;
     }
 
     // Inserindo um elemento em l2
     l2.insert(l2.begin(), 100);
-cout << "Mostrando novamente os elementos de l2: " << endl;
+    cout << "Mostrando novamente os elementos de l2: " << endl;
 
-
-    for(it = l2.begin(); it != l2.end(); it++)
+    for (it = l2.begin(); it != l2.end(); it++)
     {
         cout << *it << endl;
     }
