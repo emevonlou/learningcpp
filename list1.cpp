@@ -60,5 +60,11 @@ int main(int argc, char *argv[])
 
     cout << "Novo tamanho de l2: " << l2.size() << endl;
 
+    // Atribuindo elementos a l2
+    int vet[] = {1, 2, 3, 4};
+    l2.assign(vet, vet + 3);
+
+    
+
     return 0;
 }
