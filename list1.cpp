@@ -58,5 +58,7 @@ int main(int argc, char *argv[])
     while(!l2.empty())
         l2.pop_front();
 
+    cout << "Novo tamanho de l2: " << l2.size() << endl;
+
     return 0;
 }
