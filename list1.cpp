@@ -62,9 +62,13 @@ int main(int argc, char *argv[])
 
     // Atribuindo elementos a l2
     int vet[] = {1, 2, 3, 4};
-    l2.assign(vet, vet + 3);
+    l2.assign(vet, vet + 4);
 
-    
+    cout << "Mostrando novos elementos de l2: " << endl;
+    for(it = l2.begin(); it != l2.end(); it++)
+    {
+        cout << *it << endl;
+    }
 
     return 0;
 }
