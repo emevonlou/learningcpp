@@ -54,5 +54,9 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
+    // Removendo todos os elementos de l2
+    while(!l2.empty())
+        l2.pop_front();
+
     return 0;
 }
