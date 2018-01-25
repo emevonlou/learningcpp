@@ -81,6 +81,7 @@ int main(int argc, char *argv[])
 
     it = l2.begin();
     it++; // Aponta para o segundo elemento
+    l2.insert(l2.begin(), 100);
 
     return 0;
 }
