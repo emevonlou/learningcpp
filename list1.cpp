@@ -17,9 +17,9 @@ int main(int argc, char *argv[])
     list<int>::iterator it;
 
     // Inserindo elementos em l1 - push_back e push_front.
-    l1.push_back(10);  // l1:10
-    l1.push_front(20); // l1: 20, 10
-    l1.push_back(30);  // l1: 20, 10, 30
+    l1.push_back(10);  // l1:10.
+    l1.push_front(20); // l1: 20, 10.
+    l1.push_back(30);  // l1: 20, 10, 30.
 
     cout << "Mostrando os elementos de l1: " << endl;
 
