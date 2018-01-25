@@ -42,10 +42,10 @@ int main(int argc, char *argv[])
     cout << "\nTamanho de l1: " << l1.size();
 
     // l1: 20,10, 30
-    // removendo o primeiro elemento de l1
+    // removendo o primeiro elemento de l1.
     l1.pop_front(); // remove o 20.
-    // removendo o ultimo eleemento de l1
-    l1.pop_back(); // remove o 30
+    // removendo o ultimo eleemento de l1.
+    l1.pop_back(); // remove o 30.
 
     cout << "\nMostrando novamente os elementos de l1: " << endl;
 
@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
-    // Removendo todos os elementos de l2
+    // Removendo todos os elementos de l2.
     while (!l2.empty())
         l2.pop_front();
 
