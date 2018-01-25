@@ -70,5 +70,13 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
+    // Inserindo um elemento em l2
+    l2.insert(l2.begin(), 100);
+
+    for(it = l2.begin(); it != l2.end(); it++)
+    {
+        cout << *it << endl;
+    }
+
     return 0;
 }
