@@ -79,5 +79,8 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
+    it = l2.begin();
+    it++; // Aponta para o segundo elemento
+
     return 0;
 }
