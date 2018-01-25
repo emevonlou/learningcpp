@@ -47,5 +47,12 @@ int main(int argc, char *argv[])
     // removendo o ultimo eleemento de l1
     l1.pop_back(); // remove o 30
 
+    cout << "\nMostrando novamente os elementos de l1: " << endl;
+
+    for (it = l1.begin(); it != l1.end(); it++)
+    {
+        cout << *it << endl;
+    }
+
     return 0;
 }
