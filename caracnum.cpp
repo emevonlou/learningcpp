@@ -13,6 +13,10 @@ int main(int argc, char *argv[])
     }
     else
     {
+        /*
+            Você pode adicionar vários operadores de inserção após o cout.
+            cout << "Este" << "é" << "incrível!";
+        */
         cout << "Letra" << endl;
     }
     return 0;
