@@ -89,6 +89,5 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
-
     return 0;
 }

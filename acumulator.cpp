@@ -1,5 +1,10 @@
 // 5:
-#include <iostream>
+#include <iostream> 
+/*
+     (#) no início de uma linha segmenta o pré-processador
+      do compilador. Nesse caso, #include diz ao pré-processador
+      que inclua o cabeçalho <iostream>.
+*/
 using namespace std;
 
 int main() // Função inteira.
