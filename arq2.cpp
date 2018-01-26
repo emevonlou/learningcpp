@@ -14,6 +14,11 @@ int main(int argc, char *argv[])
     cin >> num;
 
     cout << "Voce digitou " << num << endl;
+    /*
+        Na maioria dos ambientes de programa,
+        o destino de saída padrão padrão é a tela. Em C ++,
+        cout é o objeto de fluxo usado para acessá-lo.
+    */
 
     return 0;
 }
