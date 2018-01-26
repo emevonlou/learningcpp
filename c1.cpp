@@ -2,6 +2,7 @@
 #include <iostream>
 using namespace std;
 
+// Um bloco é um conjunto de declarações logicamente conectadas, cercadas por chaves abertas e fechadas.
 int main(int argc, char *argv[])
 {
     int var = 10; // Variável inteira.
