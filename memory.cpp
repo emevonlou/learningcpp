@@ -28,11 +28,9 @@ int main(int argc, char *argv[])
     cout << *(p + 2) << endl;
 
     /*
-
         Quando você aloca memória fora da pilha, precisa retorná-la.
         Você retorna a memória á pilha usando a palavra reservada:
         'delete'.
-
     */
 
     delete[] p;
