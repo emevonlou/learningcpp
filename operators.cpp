@@ -32,11 +32,12 @@ class Estudante
 	}
 
   public:
-	Estudante(const char *novoNome, int novoID)
-	{ /*
+	/*
 		O construtor aloca memoria da pilha para uso
 		da armazenagem do nome do aluno.
-	  */
+	*/
+	Estudante(const char *novoNome, int novoID)
+	{
 		cout << "Construindo novo nome!" << endl;
 
 		init(novoNome, novoID);
