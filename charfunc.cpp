@@ -1,7 +1,7 @@
 // 64:
 #include <iostream>
 #include <string.h>
-#include <ctype.h>
+// #include <ctype.h>
 using namespace std;
 
 int main(int argc, char *argv[])
