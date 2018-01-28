@@ -11,7 +11,8 @@ int main(int argc, char *argv[])
     v[1] = 20;
     v[2] = 30;
 
-    vector<int>::iterator it = v.begin(); // Atribuindo valor para it(iterador).
+    // Atribuindo valor para it(iterador).
+    vector<int>::iterator it = v.begin(); 
     // Begin retorna o iterator que aponta para o primeiro elemento.
     for (it = v.begin(); it != v.end(); it++) // Iterar usando iterador.
     {
