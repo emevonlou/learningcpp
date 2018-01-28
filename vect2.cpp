@@ -10,8 +10,9 @@ int main(int argc, char *argv[])
     v[1] = 20;
     v[2] = 30;
 
+    // Para comparações entre expressoes inteiras com sinal e sem sinal use 'unsigned'.
     for (unsigned int i = 0; i < v.size(); i++)
-    { // Para comparações entre expressoes inteiras com sinal e sem sinal use 'unsigned'.
+    { 
         cout << v[i] << endl;
     }
 
