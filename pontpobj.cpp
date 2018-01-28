@@ -19,10 +19,11 @@ public:
 
 int main(int argc, char *argv[])
 {
+
 	Carro carro;
 	carro* pcarro;
 	
-	pcarro = &carro;
+	*pcarro = &carro;
 
 	pcarro->mostrarMensagem();
 	return 0;
