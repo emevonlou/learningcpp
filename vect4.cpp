@@ -11,9 +11,10 @@ int main(int argc, char *argv[])
     v[1] = 20;
     v[2] = 30;
 
+    // Precisa usar * pra acessar o conteudo.
     cout << "Primeiro elemento: " << *v.begin() << endl;
     cout << "Ultimo elemento: " << *(--v.end()) << endl;
-    // Precisa usar * pra acessar o conteudo.
+    
 
     return 0;
 }
