@@ -14,10 +14,10 @@ int main(int argc, char *argv[])
         cout << "\t0 - Sair do programa " << endl;
         cout << "\t1 - Calculadora" << endl;
         cout << "menu->";
-        cin >>  menu;
+        cin >> menu;
         cout << "\t\t>> " << menu << endl;
 
-        if(menu != 0)
+        if (menu != 0)
         {
             int menuInterno = 0;
             do
@@ -34,37 +34,37 @@ int main(int argc, char *argv[])
                 cout << "Menu> " << endl;
                 cin >> menuInterno;
 
-                if(menuInterno != 5 && menuInterno != 0)
+                if (menuInterno != 5 && menuInterno != 0)
                 {
-                    cout << "Calc>" << total << ((menuInterno == 1)? "+" : (menuInterno == 2)? "-":(menuInterno == 3)? "*": "/");
+                    cout << "Calc>" << total << ((menuInterno == 1) ? "+" : (menuInterno == 2) ? "-" : (menuInterno == 3) ? "*" : "/");
                     cin >> valor;
                 }
-                if(menuInterno != 0)
+                if (menuInterno != 0)
                 {
-                    switch(menuInterno)
+                    switch (menuInterno)
                     {
-                        case 1:
-                            total += valor;
-                            break;
-                        case 2:
-                            total -= valor;
-                        case 3:
-                            total *= valor;
-                        case 4:
-                            total /= valor;
-                            break;
-                        case 5:
-                            cout << "\t\t-----------------------------------" << endl;
-                            cout << "\t\tValor total: " << total << endl;
-                            cout << "---------------------------------------" << endl;
-                            break;
+                    case 1:
+                        total += valor;
+                        break;
+                    case 2:
+                        total -= valor;
+                    case 3:
+                        total *= valor;
+                    case 4:
+                        total /= valor;
+                        break;
+                    case 5:
+                        cout << "\t\t-----------------------------------" << endl;
+                        cout << "\t\tValor total: " << total << endl;
+                        cout << "---------------------------------------" << endl;
+                        break;
                     }
                 }
 
-            }while(menuInterno != 0);
+            } while (menuInterno != 0);
         }
 
-    }while(menu != 0);
-    
+    } while (menu != 0);
+
     return 0;
 }
