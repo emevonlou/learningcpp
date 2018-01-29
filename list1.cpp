@@ -95,5 +95,11 @@ int main(int argc, char *argv[])
     for (it = l2.begin(); it != l2.end(); it++)
         cout << *it << endl;
 
+    // apagando os dois primeiros numeros
+    list<int>::iterator it2 = l2.begin();
+    it2++;
+    it2++;
+    l2.erase(l2.begin(), it2);
+    
     return 0;
 }
