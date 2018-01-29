@@ -108,7 +108,8 @@ int main(int argc, char *argv[])
 
     // remover todods os elementos - funcao clear
     l2.clear();
-    
+    cout << "\nTamanho de l2: " << l2.size() << endl;
+
 
 
     return 0;
