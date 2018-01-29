@@ -100,6 +100,8 @@ int main(int argc, char *argv[])
     it2++;
     it2++;
     l2.erase(l2.begin(), it2);
-    
+
+    // Mostrando novamente os elementos de l2
+
     return 0;
 }
