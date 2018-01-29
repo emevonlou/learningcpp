@@ -112,6 +112,8 @@ int main(int argc, char *argv[])
 
     // funcao splice - transfere elementos de uma lista pra outra
     list<int> lista1(2,10), lista2(2, 20);
+    it = lista1.begin();
+    
 
 
 
