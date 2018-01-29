@@ -300,3 +300,5 @@
 	g++ -Wall -c -o list1.o list1.cpp; g++ -o list1 list1.o
 151:
 	g++ -Wall -c -o pontpobj.o pontpobj.cpp; g++ -o pontpobj pontpobj.o
+152:
+	g++ -Wall -c -o stream.o stream.cpp; g++ -o stream stream.o
