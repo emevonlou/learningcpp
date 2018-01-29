@@ -115,8 +115,10 @@ int main(int argc, char *argv[])
     it = lista1.begin();
 
     // Transfere elementos de l2 para l1
-    l1.splice(it, lista2);
-    
+    lista1.splice(it, lista2);
+    for (it = lista1.begin(); it != lista1.end(); it++)
+        cout << *it << endl;
+
 
 
 
