@@ -114,10 +114,12 @@ int main(int argc, char *argv[])
     list<int> lista1(2,10), lista2(2, 20);
     it = lista1.begin();
 
-    // Transfere elementos de l2 para l1
+    // Transfere elementos de lista2 para lista1
     lista1.splice(it, lista2);
     for (it = lista1.begin(); it != lista1.end(); it++)
         cout << *it << endl;
+
+    cout << "\nTamanho de lista2: " << l2.size() << endl;
 
 
 
