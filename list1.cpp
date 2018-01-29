@@ -89,5 +89,9 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
+    // Inserindo duas vezes o valor 50 na primeira posicao
+    l2.insert(l2.begin(),2, 50);
+    
+
     return 0;
 }
