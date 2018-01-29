@@ -12,5 +12,7 @@ int main(int argc, char *argv[])
         n++;
     }
 
+    clog << "With 'clog' is Better! YaY" << endl;
+
     return 0;
 }
