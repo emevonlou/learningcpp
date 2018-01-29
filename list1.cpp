@@ -90,11 +90,10 @@ int main(int argc, char *argv[])
     }
 
     // Inserindo duas vezes o valor 50 na primeira posicao
-    l2.insert(l2.begin(),2, 50);
+    l2.insert(l2.begin(), 2, 50);
     cout << "\nElementos de l2: " << endl;
-    for(it = l2.begin(); it != l2.end(); it++)
-            cout << *it << endl;
-
+    for (it = l2.begin(); it != l2.end(); it++)
+        cout << *it << endl;
 
     return 0;
 }
