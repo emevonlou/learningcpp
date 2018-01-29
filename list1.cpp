@@ -106,5 +106,10 @@ int main(int argc, char *argv[])
     for (it = l2.begin(); it != l2.end(); it++)
         cout << *it << endl;
 
+    // remover todods os elementos - funcao clear
+    l2.clear();
+    
+
+
     return 0;
 }
