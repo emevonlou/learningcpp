@@ -121,6 +121,10 @@ int main(int argc, char *argv[])
 
     cout << "\nTamanho de lista2: " << l2.size() << endl;
 
+    // remover todos os elementos iguais a um valor
+    // funcao remove
+    
+
 
 
 
