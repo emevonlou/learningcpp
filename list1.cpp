@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 
     it = l2.begin();
     it++; // Aponta para o segundo elemento
-    l2.insert(l2.begin(), 100);
+    l2.insert(it, 200);
 
     cout << "Mostrando elementos de l2: " << endl;
     for (it = l2.begin(); it != l2.end(); it++)
