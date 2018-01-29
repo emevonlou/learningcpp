@@ -110,6 +110,9 @@ int main(int argc, char *argv[])
     l2.clear();
     cout << "\nTamanho de l2: " << l2.size() << endl;
 
+    // funcao splice - transfere elementos de uma lista pra outra
+    
+
 
 
     return 0;
