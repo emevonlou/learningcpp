@@ -152,6 +152,7 @@ int main(int argc, char *argv[])
     // Ordenacao de listas
     int vet3[] = {17, 60, 5, 30, 50};
     list<int> lista4(vet3, vet3 + 5);
-    
+    lista4.sort(); // Ordena crescentemente.
+
     return 0;
 }
