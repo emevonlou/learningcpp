@@ -124,7 +124,7 @@ int main(int argc, char *argv[])
     // Remover todos os elementos iguais a um valor.
     // Funcao remove.
     lista1.remove(20);
-   // for (it = lista1.begin(); it != lista1.end(); it++)
+    for (it = lista1.begin(); it != lista1.end(); it++)
         cout << *it << endl;
 
     return 0;
