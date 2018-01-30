@@ -144,6 +144,10 @@ int main(int argc, char *argv[])
     // Removendo todos os elementos pares de lista 3.
     lista3.remove_if(par);
 
+    cout << "\nElementos da lista3 depois da remocao:\n" << endl;
+    for (it = lista3.begin(); it != lista3.end(); it++)
+        cout << *it << " ";
+
 
 
     return 0;
