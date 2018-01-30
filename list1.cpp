@@ -133,6 +133,9 @@ int main(int argc, char *argv[])
     int vet2[] = {6, 8, 10, 5, 20, 21};
     list<int> lista3(vet2, vet2 + 6);
     cout << "\nElementos da lista3 antes da remocao:\n" << endl;
+    for (it = lista3.begin(); it != lista3.end(); it++)
+        cout << *it << " ";
+
 
     return 0;
 }
