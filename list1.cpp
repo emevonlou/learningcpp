@@ -144,11 +144,14 @@ int main(int argc, char *argv[])
     // Removendo todos os elementos pares de lista 3.
     lista3.remove_if(par);
 
-    cout << "\nElementos da lista3 depois da remocao:\n" << endl;
+    cout << "\n\nElementos da lista3 depois da remocao:\n" << endl;
     for (it = lista3.begin(); it != lista3.end(); it++)
         cout << *it << " ";
+    cout << endl;
 
-
-
+    // Ordenacao de listas
+    int vet3[] = {17, 60, 5, 30, 50};
+    list<int> lista4(vet3, vet3 + 5);
+    
     return 0;
 }
