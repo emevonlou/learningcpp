@@ -128,5 +128,9 @@ int main(int argc, char *argv[])
     for (it = lista1.begin(); it != lista1.end(); it++)
         cout << *it << endl;
 
+    // funcao remove_if
+    // remove se ocorrer determinada condicao
+    
+
     return 0;
 }
