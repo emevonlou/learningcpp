@@ -10,7 +10,10 @@
 #include <list>
 using namespace std;
 
-
+bool par(const int & n)
+{
+    return(n%2 == 0);
+}
 
 int main(int argc, char *argv[])
 {
@@ -139,7 +142,7 @@ int main(int argc, char *argv[])
         cout << *it << " ";
 
     // Removendo todos os elementos pares de lista 3.
-    // lista3.remove_if(par);
+    lista3.remove_if(par);
 
 
 
