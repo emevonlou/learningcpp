@@ -10,6 +10,8 @@
 #include <list>
 using namespace std;
 
+
+
 int main(int argc, char *argv[])
 {
     list<int> l1;        // Lista de inteiros vazia.
@@ -34,7 +36,7 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
-    // Acessando o primeiro e e ultimo elemento de l1- front e back.
+    // Acessando o primeiro e e ultimo elemento de l1 - front e back.
     cout << "Primeiro elemento de l1: " << l1.front();
     cout << "\nUltimo elemento de l1: " << l1.back();
 
@@ -43,9 +45,9 @@ int main(int argc, char *argv[])
 
     // l1: 20,10, 30.
     // removendo o primeiro elemento de l1.
-    l1.pop_front(); // remove o 20.
-    // removendo o ultimo eleemento de l1.
-    l1.pop_back(); // remove o 30.
+    l1.pop_front(); // Remove o 20.
+    // Removendo o ultimo eleemento de l1.
+    l1.pop_back(); // Remove o 30.
 
     cout << "\nMostrando novamente os elementos de l1: " << endl;
 
@@ -95,7 +97,7 @@ int main(int argc, char *argv[])
     for (it = l2.begin(); it != l2.end(); it++)
         cout << *it << endl;
 
-    // apagando os dois primeiros numeros.
+    // Apagando os dois primeiros numeros.
     list<int>::iterator it2 = l2.begin();
     it2++;
     it2++;
@@ -128,16 +130,17 @@ int main(int argc, char *argv[])
     for (it = lista1.begin(); it != lista1.end(); it++)
         cout << *it << endl;
 
-    // funcao remove_if
-    // remove se ocorrer determinada condicao
+    // funcao remove_if.
+    // remove se ocorrer determinada condicao.
     int vet2[] = {6, 8, 10, 5, 20, 21};
     list<int> lista3(vet2, vet2 + 6);
     cout << "\nElementos da lista3 antes da remocao:\n" << endl;
     for (it = lista3.begin(); it != lista3.end(); it++)
         cout << *it << " ";
 
-    // Removendo todos os elementos pares de lista 3
+    // Removendo todos os elementos pares de lista 3.
     // lista3.remove_if(par);
+
 
 
     return 0;
