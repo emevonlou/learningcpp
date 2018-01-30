@@ -111,7 +111,7 @@ int main(int argc, char *argv[])
     cout << "\nTamanho de l2: " << l2.size() << endl;
 
     // Funcao splice - transfere elementos de uma lista pra outra.
-    list<int> lista1(2,10), lista2(2, 20);
+    list<int> lista1(2, 10), lista2(2, 20);
     it = lista1.begin();
 
     // Transfere elementos de lista2 para lista1.
@@ -123,9 +123,6 @@ int main(int argc, char *argv[])
 
     // Remover todos os elementos iguais a um valor.
     // Funcao remove.
-    
-
-
 
     return 0;
 }
