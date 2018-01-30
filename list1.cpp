@@ -89,13 +89,13 @@ int main(int argc, char *argv[])
         cout << *it << endl;
     }
 
-    // Inserindo duas vezes o valor 50 na primeira posicao
+    // Inserindo duas vezes o valor 50 na primeira posicao.
     l2.insert(l2.begin(), 2, 50);
     cout << "\nElementos de l2: " << endl;
     for (it = l2.begin(); it != l2.end(); it++)
         cout << *it << endl;
 
-    // apagando os dois primeiros numeros
+    // apagando os dois primeiros numeros.
     list<int>::iterator it2 = l2.begin();
     it2++;
     it2++;
