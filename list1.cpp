@@ -101,12 +101,12 @@ int main(int argc, char *argv[])
     it2++;
     l2.erase(l2.begin(), it2);
 
-    // Mostrando novamente os elementos de l2
+    // Mostrando novamente os elementos de l2.
     cout << "\nElementos de l2: " << endl;
     for (it = l2.begin(); it != l2.end(); it++)
         cout << *it << endl;
 
-    // remover todods os elementos - funcao clear
+    // Remover todods os elementos - funcao clear().
     l2.clear();
     cout << "\nTamanho de l2: " << l2.size() << endl;
 
