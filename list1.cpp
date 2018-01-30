@@ -153,6 +153,9 @@ int main(int argc, char *argv[])
     int vet3[] = {17, 60, 5, 30, 50};
     list<int> lista4(vet3, vet3 + 5);
     lista4.sort(); // Ordena crescentemente.
+    cout << "\n\nElementos da lista3 depois da remocao:\n" << endl;
+    for (it = lista4.begin(); it != lista4.end(); it++)
+        cout << *it << " ";
 
     return 0;
 }
