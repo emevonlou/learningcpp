@@ -130,8 +130,8 @@ int main(int argc, char *argv[])
     for (it = lista1.begin(); it != lista1.end(); it++)
         cout << *it << endl;
 
-    // funcao remove_if.
-    // remove se ocorrer determinada condicao.
+    // Funcao remove_if.
+    // Remove se ocorrer determinada condicao.
     int vet2[] = {6, 8, 10, 5, 20, 21};
     list<int> lista3(vet2, vet2 + 6);
     cout << "\nElementos da lista3 antes da remocao:\n" << endl;
