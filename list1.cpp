@@ -130,7 +130,8 @@ int main(int argc, char *argv[])
 
     // funcao remove_if
     // remove se ocorrer determinada condicao
-    
+    int vet2[] = {6, 8, 10, 5, 20, 21};
+    list<int> lista3(vet2, vet2 + 6);
 
     return 0;
 }
