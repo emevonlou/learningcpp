@@ -164,7 +164,9 @@ int main(int argc, char *argv[])
     lista5.push_back("C++");
     lista5.push_back("Ruby");
     lista5.push_back("haskell");
+    lista5.sort();
     
+
 
 
 
