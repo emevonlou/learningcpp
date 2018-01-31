@@ -10,16 +10,16 @@
 #include <list>
 using namespace std;
 
-bool par(const int & n)
+bool par(const int &n)
 {
-    return(n%2 == 0);
+    return (n % 2 == 0);
 }
 
-bool comparar_tamanho(const string& s1, const string& s2)
+bool comparar_tamanho(const string &s1, const string &s2)
 {
     // Se o tamanho da primeira string deve vir antes,
-    // Entao retorna true. 
-    if(s1.length() < s2.length())
+    // Entao retorna true.
+    if (s1.length() < s2.length())
         return true;
     return false;
 }
@@ -146,14 +146,16 @@ int main(int argc, char *argv[])
     // Remove se ocorrer determinada condicao.
     int vet2[] = {6, 8, 10, 5, 20, 21};
     list<int> lista3(vet2, vet2 + 6);
-    cout << "\nElementos da lista3 antes da remocao:\n" << endl;
+    cout << "\nElementos da lista3 antes da remocao:\n"
+         << endl;
     for (it = lista3.begin(); it != lista3.end(); it++)
         cout << *it << " ";
 
     // Removendo todos os elementos pares de lista 3.
     lista3.remove_if(par);
 
-    cout << "\n\nElementos da lista3 depois da remocao:\n" << endl;
+    cout << "\n\nElementos da lista3 depois da remocao:\n"
+         << endl;
     for (it = lista3.begin(); it != lista3.end(); it++)
         cout << *it << " ";
     cout << endl;
@@ -162,7 +164,8 @@ int main(int argc, char *argv[])
     int vet3[] = {17, 60, 5, 30, 50};
     list<int> lista4(vet3, vet3 + 5);
     lista4.sort(); // Ordena crescentemente.
-    cout << "\n\nElementos da lista3 depois da remocao:\n" << endl;
+    cout << "\n\nElementos da lista3 depois da remocao:\n"
+         << endl;
     for (it = lista4.begin(); it != lista4.end(); it++)
         cout << *it << endl;
 
@@ -175,21 +178,15 @@ int main(int argc, char *argv[])
     lista5.push_back("haskell");
     lista5.sort();
     cout << "\n\nElementos de lista5 ordenados:\n";
-    for(it5 = lista5.begin(); it5 !=lista5.end(); it5++)
+    for (it5 = lista5.begin(); it5 != lista5.end(); it5++)
         cout << *it << endl;
 
     // Ordenando usando algum criterio
     // Exemplo: ordenando pelo tamanho da string
     lista5.sort(comparar_tamanho);
     cout << "\n\nElementos de lista5 ordenados pelo tamanho:\n";
-    for(it5 = lista5.begin(); it5 !=lista5.end(); it5++)
+    for (it5 = lista5.begin(); it5 != lista5.end(); it5++)
         cout << *it << endl;
-
-
-
-
-
-
 
     return 0;
 }
