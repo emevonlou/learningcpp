@@ -17,6 +17,8 @@ bool par(const int & n)
 
 bool comparar_tamanho(const string& s1, const string& s2)
 {
+    // Se o tamanho da primeira string deve vir antes,
+    // Entao retorna true. 
     if(s1.length() < s2.length())
         return true;
     return false;
@@ -179,6 +181,9 @@ int main(int argc, char *argv[])
     // Ordenando usando algum criterio
     // Exemplo: ordenando pelo tamanho da string
     lista5.sort(comparar_tamanho);
+    cout << "\n\nElementos de lista5 ordenados pelo tamanho:\n";
+    for(it5 = lista5.begin(); it5 !=lista5.end(); it5++)
+        cout << *it << endl;
 
 
 
