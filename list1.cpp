@@ -158,7 +158,8 @@ int main(int argc, char *argv[])
         cout << *it << endl;
 
     // Ordenando strings.
-    
+    list<string> lista5;
+
 
     return 0;
 }
