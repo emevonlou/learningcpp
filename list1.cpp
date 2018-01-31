@@ -169,6 +169,10 @@ int main(int argc, char *argv[])
     for(it5 = lista5.begin(); it5 !=lista5.end(); it5++)
         cout << *it << endl;
 
+    // Ordenando usando algum criterio
+    //
+
+
 
 
 
