@@ -160,7 +160,8 @@ int main(int argc, char *argv[])
     // Ordenando strings.
     list<string> lista5;
     list<string>::iterator it5;
-    
+    lista5.push_back("python");
+
 
 
     return 0;
