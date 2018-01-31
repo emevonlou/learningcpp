@@ -26,7 +26,9 @@ int main(int argc, char *argv[])
     // setw-> vou ter um campo de 20 caracteres onde vou armazenar um valor.
     cout << setw(20) << "Nome da pessoa: " << setw(10) << "Idade";
     cout << setw(20) << p1.nome << setw(10) << p1.idade;
-    
+    cout << setw(20) << p2.nome << setw(10) << p2.idade;
+    cout << setw(20) << p3.nome << setw(10) << p3.idade;
+
     
 
     return 0;
