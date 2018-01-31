@@ -170,7 +170,9 @@ int main(int argc, char *argv[])
         cout << *it << endl;
 
     // Ordenando usando algum criterio
-    //
+    // Exemplo: ordenando pelo tamanho da string
+    
+
 
 
 
