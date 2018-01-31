@@ -155,7 +155,7 @@ int main(int argc, char *argv[])
     lista4.sort(); // Ordena crescentemente.
     cout << "\n\nElementos da lista3 depois da remocao:\n" << endl;
     for (it = lista4.begin(); it != lista4.end(); it++)
-        cout << *it << " ";
+        cout << *it << endl;
 
     return 0;
 }
