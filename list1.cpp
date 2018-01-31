@@ -157,7 +157,7 @@ int main(int argc, char *argv[])
     for (it = lista4.begin(); it != lista4.end(); it++)
         cout << *it << endl;
 
-    // Ordenando strings.
+    // Ordenando strings.(Alfabeticamente)
     list<string> lista5;
     list<string>::iterator it5;
     lista5.push_back("python");
