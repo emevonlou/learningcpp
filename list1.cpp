@@ -164,14 +164,14 @@ int main(int argc, char *argv[])
     lista5.push_back("C++");
     lista5.push_back("Ruby");
     lista5.push_back("haskell");
-    lista5.sort();
+    // lista5.sort();
     cout << "\n\nElementos de lista5 ordenados:\n";
     for(it5 = lista5.begin(); it5 !=lista5.end(); it5++)
         cout << *it << endl;
 
     // Ordenando usando algum criterio
     // Exemplo: ordenando pelo tamanho da string
-    
+
 
 
 
