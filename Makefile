@@ -302,3 +302,5 @@
 	g++ -Wall -c -o pontpobj.o pontpobj.cpp; g++ -o pontpobj pontpobj.o
 152:
 	g++ -Wall -c -o stream.o stream.cpp; g++ -o stream stream.o
+153:
+	g++ -Wall -c -o setw.o setw.cpp; g++ -o setw setw.o
