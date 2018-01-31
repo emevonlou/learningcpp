@@ -160,7 +160,7 @@ int main(int argc, char *argv[])
         cout << *it << " ";
     cout << endl;
 
-    // Ordenacao de listas
+    // Ordenacao de listas.
     int vet3[] = {17, 60, 5, 30, 50};
     list<int> lista4(vet3, vet3 + 5);
     lista4.sort(); // Ordena crescentemente.
@@ -169,7 +169,7 @@ int main(int argc, char *argv[])
     for (it = lista4.begin(); it != lista4.end(); it++)
         cout << *it << endl;
 
-    // Ordenando strings.(Alfabeticamente)
+    // Ordenando strings.(Alfabeticamente).
     list<string> lista5;
     list<string>::iterator it5;
     lista5.push_back("python");
@@ -181,12 +181,12 @@ int main(int argc, char *argv[])
     for (it5 = lista5.begin(); it5 != lista5.end(); it5++)
         cout << *it << endl;
 
-    // Ordenando usando algum criterio
-    // Exemplo: ordenando pelo tamanho da string
+    // Ordenando usando algum criterio.
+    // Exemplo: ordenando pelo tamanho da string.
     lista5.sort(comparar_tamanho);
     cout << "\n\nElementos de lista5 ordenados pelo tamanho:\n";
     for (it5 = lista5.begin(); it5 != lista5.end(); it5++)
-        cout << *it << endl;
+        cout << *it5 << " - Tamanho: " << (*it5).length() << endl;
 
     return 0;
 }
