@@ -161,9 +161,10 @@ int main(int argc, char *argv[])
     list<string> lista5;
     list<string>::iterator it5;
     lista5.push_back("python");
-    lista5.push_back("python");
-    lista5.push_back("python");
-    lista5.push_back("python");
+    lista5.push_back("C++");
+    lista5.push_back("Ruby");
+    lista5.push_back("haskell");
+    
 
 
 
