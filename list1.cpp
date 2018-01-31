@@ -15,6 +15,13 @@ bool par(const int & n)
     return(n%2 == 0);
 }
 
+bool comparar_tamanho(const string& s1, const string& s2)
+{
+    if(s1.length() < s2.length())
+        return true;
+    return false;
+}
+
 int main(int argc, char *argv[])
 {
     list<int> l1;        // Lista de inteiros vazia.
@@ -164,14 +171,14 @@ int main(int argc, char *argv[])
     lista5.push_back("C++");
     lista5.push_back("Ruby");
     lista5.push_back("haskell");
-    // lista5.sort();
+    lista5.sort();
     cout << "\n\nElementos de lista5 ordenados:\n";
     for(it5 = lista5.begin(); it5 !=lista5.end(); it5++)
         cout << *it << endl;
 
     // Ordenando usando algum criterio
     // Exemplo: ordenando pelo tamanho da string
-
+    lista5.sort(comparar_tamanho);
 
 
 
