@@ -30,6 +30,7 @@ class fila
             fila.pop_front();
             return e;
         }
+        throw "Fila vazia!!";
     }
 };
 
