@@ -37,7 +37,24 @@ class fila
     {
         if(!this->vazia())
             return fila.front();
+        throw "Fila vazia!!!";
     }
+
+    // Funcao para retornar o ultimo elemento da fila
+    T final()
+    {
+        if(!this->vazia())
+            return fila.back();
+        throw "Fila Vazia!!!";
+        
+    }
+
+    // funcao pra retornar o tamanho da minha fila
+    int tamanho()
+    {
+        return fila.size();
+    }
+
 };
 
 int main(int argc, char *argv[])
