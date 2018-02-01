@@ -10,7 +10,24 @@ using namespace std;
 template<class T> 
 class fila
 {
-
+private:
+    list<T> fila;
+public:
+    void inserir(const T& e)
+    {
+        fila.push_back(e);
+    }
+    bool vazia()
+    {
+        return fila.empty();
+    }
+    T remover()
+    {
+        if(!this->vazia())
+        {
+            T e = fila.front();
+        }
+    }
 };
 
 int main(int argc, char *argv[])
