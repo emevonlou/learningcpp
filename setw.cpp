@@ -5,13 +5,13 @@ using namespace std;
 
 class Pessoa
 {
-public:
+  public:
     string nome;
     int idade;
 
     // construtor
     // Onde o usuario ira passar o nome e a idade dessa pessoa.
-    Pessoa(const string& nome, const int& idade) 
+    Pessoa(const string &nome, const int &idade)
     {
         this->nome.assign(nome);
         this->idade = idade;
@@ -30,8 +30,5 @@ int main(int argc, char *argv[])
     cout << setw(20) << p2.nome << setw(10) << p2.idade << endl;
     cout << setw(20) << p3.nome << setw(10) << p3.idade << endl;
 
-    
-
     return 0;
 }
-
