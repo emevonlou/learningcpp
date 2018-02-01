@@ -64,5 +64,15 @@ int main(int argc, char *argv[])
     else
         cout << "Fila nao vazia!\n";
 
+    try
+    {
+        double e = f1.remover();
+        cout << "Removido o elemento: " << e << endl;
+    }
+    catch(const char* msg)
+    {
+        cerr << "Erro: " << msg << endl;
+    }
+
     return 0;
 }
