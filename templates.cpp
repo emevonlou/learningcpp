@@ -32,6 +32,12 @@ class fila
         }
         throw "Fila vazia!!";
     }
+
+    T frente()
+    {
+        if(!this->vazia())
+            return fila.front();
+    }
 };
 
 int main(int argc, char *argv[])
