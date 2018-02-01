@@ -7,13 +7,14 @@ using namespace std;
 
 // Com a mesma funcao eu realizo duas operacoes,
 // com tipos diferentes.
-template<class T> 
+template <class T>
 class fila
 {
-private:
+  private:
     list<T> fila;
-public:
-    void inserir(const T& e)
+
+  public:
+    void inserir(const T &e)
     {
         fila.push_back(e);
     }
@@ -23,7 +24,7 @@ public:
     }
     T remover()
     {
-        if(!this->vazia())
+        if (!this->vazia())
         {
             T e = fila.front();
             fila.pop_front();
@@ -34,7 +35,6 @@ public:
 
 int main(int argc, char *argv[])
 {
-    
 
     return 0;
 }
