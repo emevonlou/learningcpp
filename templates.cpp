@@ -59,6 +59,12 @@ class fila
 
 int main(int argc, char *argv[])
 {
+    fila<double> f1;
+    cout << "Antes de inserrir elementos: \n";
+    if(f1.vazia())
+        cout << "Fila vazia!!\n;";
+    else
+        cout << "Fila nao vazia!\n";
 
     return 0;
 }
