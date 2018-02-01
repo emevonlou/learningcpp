@@ -27,6 +27,7 @@ public:
         {
             T e = fila.front();
             fila.pop_front();
+            return e;
         }
     }
 };
