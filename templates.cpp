@@ -26,6 +26,7 @@ public:
         if(!this->vazia())
         {
             T e = fila.front();
+            fila.pop_front();
         }
     }
 };
