@@ -74,5 +74,17 @@ int main(int argc, char *argv[])
         cerr << "Erro: " << msg << endl;
     }
 
+    f1.inserir(5.67);
+    f1.inserir(5.67);
+    f1.inserir(5.67);
+
+    cout << "\nDEPOIS de inserir elementos...\n";
+    
+    if (f1.vazia())
+        cout << "Fila vazia!!\n;";
+    else
+        cout << "Fila nao vazia!\n";
+
+
     return 0;
 }
