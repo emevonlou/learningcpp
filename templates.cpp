@@ -1,6 +1,8 @@
 // 154:
 // Na fila, o primeiro elemnto a entrar é o primeiro a sair.
+// Implementamos filas usando templates.
 #include <iostream>
+#include <list>
 using namespace std;
 
 // Com a mesma funcao eu realizo duas operacoes.
