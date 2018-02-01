@@ -35,7 +35,7 @@ class fila
 
     T frente()
     {
-        if(!this->vazia())
+        if (!this->vazia())
             return fila.front();
         throw "Fila vazia!!!";
     }
@@ -43,10 +43,9 @@ class fila
     // Funcao para retornar o ultimo elemento da fila
     T final()
     {
-        if(!this->vazia())
+        if (!this->vazia())
             return fila.back();
         throw "Fila Vazia!!!";
-        
     }
 
     // funcao pra retornar o tamanho da minha fila
@@ -54,14 +53,13 @@ class fila
     {
         return fila.size();
     }
-
 };
 
 int main(int argc, char *argv[])
 {
     fila<double> f1;
     cout << "Antes de inserrir elementos: \n";
-    if(f1.vazia())
+    if (f1.vazia())
         cout << "Fila vazia!!\n;";
     else
         cout << "Fila nao vazia!\n";
