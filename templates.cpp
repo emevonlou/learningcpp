@@ -7,10 +7,11 @@ using namespace std;
 
 // Com a mesma funcao eu realizo duas operacoes,
 // com tipos diferentes.
-template<typename T> T soma(T n1, T n2)
+template<class T> 
+class fila
 {
-    return n1 + n2;
-}
+
+};
 
 int main(int argc, char *argv[])
 {
