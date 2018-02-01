@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
         double e = f1.remover();
         cout << "Removido o elemento: " << e << endl;
     }
-    catch(const char* msg)
+    catch (const char *msg)
     {
         cerr << "Erro: " << msg << endl;
     }
@@ -84,7 +84,6 @@ int main(int argc, char *argv[])
         cout << "Fila vazia!!\n;";
     else
         cout << "Fila nao vazia!\n";
-
 
     return 0;
 }
