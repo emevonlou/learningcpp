@@ -1,4 +1,5 @@
 // 154:
+// Na fila, o primeiro elemnto a entrar é o primeiro a sair.
 #include <iostream>
 using namespace std;
 
