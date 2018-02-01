@@ -15,8 +15,7 @@ class fila
 
 int main(int argc, char *argv[])
 {
-    cout << "Soma de inteiros: " << soma(10,20) << endl;
-    cout << "Soma de reais: " << soma(1.5, 3.5) << endl;
+    
 
     return 0;
 }
