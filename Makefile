@@ -304,3 +304,5 @@
 	g++ -Wall -c -o stream.o stream.cpp; g++ -o stream stream.o
 153:
 	g++ -Wall -c -o setw.o setw.cpp; g++ -o setw setw.o
+154:
+	g++ -Wall -c -o templates.o templates.cpp; g++ -o templates templates.o
