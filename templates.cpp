@@ -5,8 +5,8 @@
 #include <list>
 using namespace std;
 
-// Com a mesma funcao eu realizo duas operacoes.
-// Com tipos diferentes.
+// Com a mesma funcao eu realizo duas operacoes,
+// com tipos diferentes.
 template<typename T> T soma(T n1, T n2)
 {
     return n1 + n2;
