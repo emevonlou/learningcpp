@@ -94,5 +94,14 @@ int main(int argc, char *argv[])
         cerr << "erro: " << msg << endl;
     }
 
+     try
+    {
+        cout << "Elemento do Final: " << f1.final() << endl;
+    }
+    catch(const char *msg)
+    {
+        cerr << "erro: " << msg << endl;
+    }
+
     return 0;
 }
