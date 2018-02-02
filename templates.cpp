@@ -129,5 +129,14 @@ try
         cerr << "erro: " << msg << endl;
     }
 
+    try
+    {
+        cout << "Elemento do final: " << f2.final() << endl;
+    }
+    catch (const char *msg)
+    {
+        cerr << "erro: " << msg << endl;
+    }
+
     return 0;
 }
