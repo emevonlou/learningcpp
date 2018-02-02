@@ -306,3 +306,5 @@
 	g++ -Wall -c -o setw.o setw.cpp; g++ -o setw setw.o
 154:
 	g++ -Wall -c -o templates.o templates.cpp; g++ -o templates templates.o
+155:
+	g++ -Wall -c -o encad.o encad.cpp; g++ -o encad encad.o
