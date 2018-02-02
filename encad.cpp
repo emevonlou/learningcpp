@@ -55,6 +55,7 @@ public:
     void mostrar()
     {
         cout << "Imprimindo todos os elementos..." << endl;
+        No* c = cabeca;
     }
 };
 
