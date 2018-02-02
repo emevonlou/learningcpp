@@ -113,5 +113,21 @@ int main(int argc, char *argv[])
         cerr << "erro: " << msg << endl;
     }
 
+    fila<string> f2;
+
+    f2.inserir("C++");
+    f2.inserir("Python");
+    f2.inserir("Ruby");
+    cout << "\nFila de strings\n";
+
+try
+    {
+        cout << "Elemento da frente: " << f2.frente() << endl;
+    }
+    catch (const char *msg)
+    {
+        cerr << "erro: " << msg << endl;
+    }
+
     return 0;
 }
