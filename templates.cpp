@@ -105,7 +105,8 @@ int main(int argc, char *argv[])
 
     try
     {
-        
+        double e = f1.remover();
+        cout << "removido o elemento: " << e << endl;
     }
     catch(const char *msg)
     {
