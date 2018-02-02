@@ -23,6 +23,11 @@ public:
         return prox;
     }
 
+    void setProx(No* p)
+    {
+       prox = p; 
+    }
+
 };
 
 int main(int argc, char *argv[])
