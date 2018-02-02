@@ -89,16 +89,16 @@ int main(int argc, char *argv[])
     {
         cout << "Elemento da frente: " << f1.frente() << endl;
     }
-    catch(const char *msg)
+    catch (const char *msg)
     {
         cerr << "erro: " << msg << endl;
     }
 
-     try
+    try
     {
         cout << "Elemento do Final: " << f1.final() << endl;
     }
-    catch(const char *msg)
+    catch (const char *msg)
     {
         cerr << "erro: " << msg << endl;
     }
@@ -108,7 +108,7 @@ int main(int argc, char *argv[])
         double e = f1.remover();
         cout << "removido o elemento: " << e << endl;
     }
-    catch(const char *msg)
+    catch (const char *msg)
     {
         cerr << "erro: " << msg << endl;
     }
