@@ -18,6 +18,11 @@ public:
         return v;
     }
 
+    No* obterProx()
+    {
+        return prox;
+    }
+
 };
 
 int main(int argc, char *argv[])
