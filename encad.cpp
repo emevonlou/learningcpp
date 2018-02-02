@@ -64,6 +64,7 @@ public:
             while(c)
             {
                 cout << c->obterValor() << endl;
+                c = c->obterProx();
             }
         }
     }
