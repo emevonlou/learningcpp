@@ -56,6 +56,16 @@ public:
     {
         cout << "Imprimindo todos os elementos..." << endl;
         No* c = cabeca;
+
+        if(vazia())
+            cout << "A lista nao possui elementos!" << endl;
+        else 
+        {
+            while(c)
+            {
+                cout << c->obterValor() << endl;
+            }
+        }
     }
 
     bool vazia()
