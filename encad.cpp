@@ -32,7 +32,9 @@ public:
 
 class Lista
 {
-    
+private:
+    No* cabeca; // primeiro elemento da lista.
+    No* cauda;  // Ultimo elemento.
 };
 
 int main(int argc, char *argv[])
