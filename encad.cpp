@@ -57,6 +57,11 @@ public:
         cout << "Imprimindo todos os elementos..." << endl;
         No* c = cabeca;
     }
+
+    bool vazia()
+    {
+        return (cabeca == NULL);
+    }
 };
 
 int main(int argc, char *argv[])
