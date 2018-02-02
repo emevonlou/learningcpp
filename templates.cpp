@@ -120,7 +120,7 @@ int main(int argc, char *argv[])
     f2.inserir("Ruby");
     cout << "\nFila de strings\n";
 
-try
+    try
     {
         cout << "Elemento da frente: " << f2.frente() << endl;
     }
