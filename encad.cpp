@@ -51,6 +51,11 @@ public:
     {
         delete cabeca;
     }
+
+    void mostrar()
+    {
+        cout << "Imprimindo todos os elementos..." << endl;
+    }
 };
 
 int main(int argc, char *argv[])
