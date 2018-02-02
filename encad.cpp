@@ -34,7 +34,12 @@ class Lista
 {
 private:
     No* cabeca; // primeiro elemento da lista.
-    No* cauda;  // Ultimo elemento.
+    No* cauda;  // Ultimo elemento. Resto da lista.
+public:
+    Lista()
+    {
+
+    }
 };
 
 int main(int argc, char *argv[])
