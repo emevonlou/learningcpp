@@ -103,5 +103,14 @@ int main(int argc, char *argv[])
         cerr << "erro: " << msg << endl;
     }
 
+    try
+    {
+        
+    }
+    catch(const char *msg)
+    {
+        cerr << "erro: " << msg << endl;
+    }
+
     return 0;
 }
