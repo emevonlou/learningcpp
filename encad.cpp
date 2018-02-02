@@ -38,7 +38,13 @@ private:
 public:
     Lista()
     {
-
+        cabeca = NULL;
+        cauda = NULL;
+    }
+    Lista(int v)
+    {
+        cabeca = new No(v);
+        cauda = cabeca;
     }
 };
 
