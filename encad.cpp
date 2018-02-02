@@ -46,6 +46,11 @@ public:
         cabeca = new No(v);
         cauda = cabeca;
     }
+
+    virtual ~Lista()
+    {
+        delete cabeca;
+    }
 };
 
 int main(int argc, char *argv[])
