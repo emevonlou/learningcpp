@@ -85,5 +85,14 @@ int main(int argc, char *argv[])
     else
         cout << "Fila nao vazia!\n";
 
+    try
+    {
+        cout << "Elemento da frente: " << f1.frente() << endl;
+    }
+    catch(const char *msg)
+    {
+        cerr << "erro: " << msg << endl;
+    }
+
     return 0;
 }
