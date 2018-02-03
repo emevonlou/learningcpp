@@ -66,6 +66,7 @@ class Lista
                 cout << c->obterValor() << endl;
                 c = c->obterProx(); // obter o prox No
             }
+            cout << endl;
         }
     }
 
