@@ -98,6 +98,21 @@ class Lista
             cauda = novo_no;
         }
     }
+
+    int tamanho()
+    {
+        if(vazia())
+            return 0;
+        
+        No* c = cabeca;
+        int tam = 0;
+
+        do
+        {
+
+        }
+        while(c);
+    }
 };
 
 int main(int argc, char *argv[])
