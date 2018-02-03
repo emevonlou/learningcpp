@@ -1,12 +1,13 @@
+// 155:
 #include <iostream>
 using namespace std;
 
 class No
 {
-private:
+  private:
     int v;
-    No* prox; // referencia para o proximo 'No'
-public:
+    No *prox; // referencia para o proximo 'No'
+  public:
     No(int v)
     {
         this->v = v;
@@ -18,24 +19,23 @@ public:
         return v;
     }
 
-    No* obterProx()
+    No *obterProx()
     {
         return prox;
     }
 
-    void setProx(No* p)
+    void setProx(No *p)
     {
-       prox = p; 
+        prox = p;
     }
-
 };
 
 class Lista
 {
-private:
-    No* cabeca; // primeiro elemento da lista.
-    No* cauda;  // Ultimo elemento. Resto da lista.
-public:
+  private:
+    No *cabeca; // primeiro elemento da lista.
+    No *cauda;  // Ultimo elemento. Resto da lista.
+  public:
     Lista()
     {
         cabeca = NULL;
@@ -55,16 +55,16 @@ public:
     void mostrar()
     {
         cout << "Imprimindo todos os elementos..." << endl;
-        No* c = cabeca;
+        No *c = cabeca;
 
-        if(vazia())
+        if (vazia())
             cout << "A lista nao possui elementos!" << endl;
-        else 
+        else
         {
-            while(c)
+            while (c)
             {
                 cout << c->obterValor() << endl;
-                c = c->obterProx();
+                c = c->obterProx(); // obter o prox No
             }
         }
     }
