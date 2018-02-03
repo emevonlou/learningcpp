@@ -77,7 +77,7 @@ class Lista
 
     void inserir_inicio(int v)
     {
-        
+        No* novo_no = new No(v);
     }
 };
 
