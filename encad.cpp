@@ -109,7 +109,8 @@ class Lista
 
         do
         {
-
+            c =c->obterProx();
+            tam++;
         }
         while(c);
     }
