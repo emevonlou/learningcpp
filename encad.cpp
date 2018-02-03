@@ -95,6 +95,7 @@ class Lista
         else
         {
             cauda->setProx(novo_no);
+            cauda = novo_no;
         }
     }
 };
