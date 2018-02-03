@@ -78,6 +78,9 @@ class Lista
     void inserir_inicio(int v)
     {
         No* novo_no = new No(v);
+
+        novo_no->setProx(cabeca);
+        cabeca = novo_no;
     }
 };
 
