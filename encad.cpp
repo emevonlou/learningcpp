@@ -82,6 +82,17 @@ class Lista
         novo_no->setProx(cabeca);
         cabeca = novo_no;
     }
+
+    void inserir_final(int v)
+    {
+        No* novo_no = new No(v);
+
+        if(vazia())
+        {
+            cabeca = novo_no;
+            cauda = novo_no;
+        }
+    }
 };
 
 int main(int argc, char *argv[])
