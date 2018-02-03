@@ -74,6 +74,11 @@ class Lista
     {
         return (cabeca == NULL);
     }
+
+    void inserir_inicio(int v)
+    {
+        
+    }
 };
 
 int main(int argc, char *argv[])
