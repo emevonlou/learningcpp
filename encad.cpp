@@ -92,6 +92,10 @@ class Lista
             cabeca = novo_no;
             cauda = novo_no;
         }
+        else
+        {
+            cauda->setProx(novo_no);
+        }
     }
 };
 
