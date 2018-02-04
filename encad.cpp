@@ -140,6 +140,14 @@ class Lista
                 No* ant_ant = cabeca; // o No ant_ant comeca da cabeca.
                 No* ant = cabeca->obterProx(); // comeca do proximo elemento da cabeca.
                 No* corrente = cabeca->obterProx()->obterProx();
+
+                while(corrente)
+                {
+                    No* aux = ant;
+                    ant = corrente;
+                    ant_ant = aux;
+                    corrente = corrente->obterProx();
+                }
             }
         }
     }
