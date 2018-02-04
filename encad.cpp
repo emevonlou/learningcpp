@@ -147,6 +147,8 @@ class Lista
                     ant_ant = aux;
                     corrente = corrente->obterProx();
                 }
+                // Liberando memoria do ant_ant->obterProx();
+                delete ant_ant->obterProx();
             }
         }
     }
