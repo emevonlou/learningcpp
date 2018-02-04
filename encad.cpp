@@ -133,6 +133,13 @@ class Lista
             //
             if(cabeca->obterProx() == NULL)
                 cabeca = NULL;
+            else if(cabeca->obterProx()->obterProx() == NULL) // quando tem 2 Elementos.
+                cabeca->setProx(NULL);
+            else  // Quando a lista tem mais de dois elementos.
+            {
+                No* ant_ant = cabeca; // o No ant_ant comeca da cabeca.
+                No* ant = cabeca->obterProx(); // comeca do proximo elemento da cabeca.
+            }
         }
     }
 
