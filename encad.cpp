@@ -147,6 +147,7 @@ class Lista
                     ant_ant = aux;
                     corrente = corrente->obterProx();
                 }
+                // Saindo do While o 'ant' é o ultimo elemento.
                 // Liberando memoria do ant_ant->obterProx();
                 delete ant_ant->obterProx();
                 ant_ant->setProx(NULL); // porque o 'ant_ant' passa a ser o ultimo elemento.
@@ -158,6 +159,12 @@ class Lista
 
 int main(int argc, char *argv[])
 {
+    Lista l;
+
+    if (l.vazia())
+        cout << "Lista vazia\n";
+    else
+        cout << "Lista NAO vazia\n";
 
     return 0;
 }
