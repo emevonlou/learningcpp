@@ -6,7 +6,7 @@ class No
 {
   private:
     int v;
-    No *prox; // referencia para o proximo 'No'
+    No *prox; // Referencia para o proximo 'No'.
   public:
     No(int v)
     {
@@ -33,7 +33,7 @@ class No
 class Lista
 {
   private:
-    No *cabeca; // primeiro elemento da lista.
+    No *cabeca; // Primeiro elemento da lista.
     No *cauda;  // Ultimo elemento. Resto da lista.
   public:
     Lista()
@@ -64,7 +64,7 @@ class Lista
             while (c)
             {
                 cout << c->obterValor() << endl;
-                c = c->obterProx(); // obter o prox No
+                c = c->obterProx(); // Obter o prox No.
             }
             cout << endl;
         }
