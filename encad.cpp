@@ -114,6 +114,18 @@ class Lista
         }
         while(c);
     }
+
+    bool existe(int v)
+    {
+        No* c = cabeca;
+        while(c)
+        {
+            if(c->obterValor() == v)
+                return true;
+            c = c->obterProx();
+        }
+    }
+    
 };
 
 int main(int argc, char *argv[])
