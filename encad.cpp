@@ -77,7 +77,7 @@ class Lista
 
     void inserir_inicio(int v)
     {
-        No* novo_no = new No(v);
+        No *novo_no = new No(v);
 
         novo_no->setProx(cabeca);
         cabeca = novo_no;
@@ -85,9 +85,9 @@ class Lista
 
     void inserir_final(int v)
     {
-        No* novo_no = new No(v);
+        No *novo_no = new No(v);
 
-        if(vazia())
+        if (vazia())
         {
             cabeca = novo_no;
             cauda = novo_no;
@@ -101,26 +101,25 @@ class Lista
 
     int tamanho()
     {
-        if(vazia())
+        if (vazia())
             return 0;
-        
-        No* c = cabeca;
+
+        No *c = cabeca;
         int tam = 0;
 
         do
         {
-            c =c->obterProx();
+            c = c->obterProx();
             tam++;
-        }
-        while(c);
+        } while (c);
     }
 
     bool existe(int v)
     {
-        No* c = cabeca;
-        while(c)
+        No *c = cabeca;
+        while (c)
         {
-            if(c->obterValor() == v)
+            if (c->obterValor() == v)
                 return true;
             c = c->obterProx();
         }
@@ -128,22 +127,22 @@ class Lista
 
     void remover()
     {
-        if(!vazia())
+        if (!vazia())
         {
             //
-            if(cabeca->obterProx() == NULL)
+            if (cabeca->obterProx() == NULL)
                 cabeca = NULL;
-            else if(cabeca->obterProx()->obterProx() == NULL) // quando tem 2 Elementos.
+            else if (cabeca->obterProx()->obterProx() == NULL) // quando tem 2 Elementos.
                 cabeca->setProx(NULL);
-            else  // Quando a lista tem mais de dois elementos.
+            else // Quando a lista tem mais de dois elementos.
             {
-                No* ant_ant = cabeca; // o No ant_ant comeca da cabeca.
-                No* ant = cabeca->obterProx(); // comeca do proximo elemento da cabeca.
-                No* corrente = cabeca->obterProx()->obterProx();
+                No *ant_ant = cabeca;          // o No ant_ant comeca da cabeca.
+                No *ant = cabeca->obterProx(); // comeca do proximo elemento da cabeca.
+                No *corrente = cabeca->obterProx()->obterProx();
 
-                while(corrente)
+                while (corrente)
                 {
-                    No* aux = ant;
+                    No *aux = ant;
                     ant = corrente;
                     ant_ant = aux;
                     corrente = corrente->obterProx();
@@ -151,7 +150,6 @@ class Lista
             }
         }
     }
-
 };
 
 int main(int argc, char *argv[])
