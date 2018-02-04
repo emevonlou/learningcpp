@@ -125,7 +125,17 @@ class Lista
             c = c->obterProx();
         }
     }
-    
+
+    void remover()
+    {
+        if(!vazia())
+        {
+            //
+            if(cabeca->obterProx() == NULL)
+                cabeca = NULL;
+        }
+    }
+
 };
 
 int main(int argc, char *argv[])
