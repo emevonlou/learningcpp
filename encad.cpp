@@ -112,6 +112,8 @@ class Lista
             c = c->obterProx();
             tam++;
         } while (c);
+
+        return tam;
     }
 
     bool existe(int v)
@@ -196,6 +198,10 @@ int main(int argc, char *argv[])
         cout << "\nO elemento 10 nao existe na lista" << endl;
 
     l.remover(); // remove do final.
+
+    l.mostrar();
+
+    cout << "Tamanho da lista: " << l.tamanho();
 
     return 0;
 }
