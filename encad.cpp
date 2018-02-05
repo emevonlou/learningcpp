@@ -195,5 +195,7 @@ int main(int argc, char *argv[])
     else
         cout << "\nO elemento 10 nao existe na lista" << endl;
 
+    l.remover(); // remove do final.
+
     return 0;
 }
