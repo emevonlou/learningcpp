@@ -179,6 +179,8 @@ int main(int argc, char *argv[])
     l.inserir_final(40);
     l.inserir_inicio(50);
 
+    l.mostrar();
+
 
     return 0;
 }
