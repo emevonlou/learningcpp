@@ -173,5 +173,12 @@ int main(int argc, char *argv[])
     else
         cout << "\nO elemento 10 nao existe na lista" << endl;
 
+    l.inserir_final(10);
+    l.inserir_final(20);
+    l.inserir_final(30);
+    l.inserir_final(40);
+    l.inserir_inicio(50);
+
+
     return 0;
 }
