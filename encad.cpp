@@ -181,6 +181,15 @@ int main(int argc, char *argv[])
 
     l.mostrar();
 
+    if(l.vazia())
+    {
+        cout << "Lista Vazia!!" << endl;
+    }
+    else
+    {
+        cout << "Lista nao vazia!!" << endl;
+    }
+
 
     return 0;
 }
