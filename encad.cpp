@@ -129,7 +129,6 @@ class Lista
     {
         if (!vazia())
         {
-            //
             if (cabeca->obterProx() == NULL)
                 cabeca = NULL;
             else if (cabeca->obterProx()->obterProx() == NULL) // quando tem 2 Elementos.
@@ -165,6 +164,10 @@ int main(int argc, char *argv[])
         cout << "Lista vazia\n";
     else
         cout << "Lista NAO vazia\n";
+
+    l.mostrar();
+
+    
 
     return 0;
 }
