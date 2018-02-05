@@ -168,7 +168,7 @@ int main(int argc, char *argv[])
 
     l.mostrar();
 
-    if(l.existe(10))
+    if (l.existe(10))
         cout << "\nO elemento 10 existe na lista." << endl;
     else
         cout << "\nO elemento 10 nao existe na lista" << endl;
@@ -181,7 +181,7 @@ int main(int argc, char *argv[])
 
     l.mostrar();
 
-    if(l.vazia())
+    if (l.vazia())
     {
         cout << "Lista Vazia!!" << endl;
     }
@@ -190,11 +190,10 @@ int main(int argc, char *argv[])
         cout << "Lista nao vazia!!" << endl;
     }
 
-    if(l.existe(10))
+    if (l.existe(10))
         cout << "\nO elemento 10 existe na lista." << endl;
     else
         cout << "\nO elemento 10 nao existe na lista" << endl;
-
 
     return 0;
 }
