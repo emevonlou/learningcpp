@@ -308,3 +308,5 @@
 	g++ -Wall -c -o templates.o templates.cpp; g++ -o templates templates.o
 155:
 	g++ -Wall -c -o encad.o encad.cpp; g++ -o encad encad.o
+156:
+	g++ -Wall -c -o saninhada.o saninhada.cpp; g++ -o saninhada saninhada.o
