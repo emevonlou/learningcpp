@@ -23,7 +23,8 @@ int main(int argc, char *argv[])
     e.curso.preco = 10;
 
     cout << "Nome da pessoa: " << e.nome << endl;
-    
+    cout << "Curso: " << e.curso.nome << endl;
+    cout << "Preco do curso: " << e.curso.preco << endl;
 
     return 0;
 }
