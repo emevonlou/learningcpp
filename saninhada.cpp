@@ -16,6 +16,14 @@ typedef struct Estudante  // struct aninhada.
 
 int main(int argc, char *argv[])
 {
+    t_Estudante e;
+
+    strcpy(e.nome, "Emanuelle");
+    strcpy(e.curso.nome, "C++ para iniciantes!");
+    e.curso.preco = 10;
+
+    cout << "Nome da pessoa: " << e.nome << endl;
+    
 
     return 0;
 }
