@@ -30,7 +30,15 @@ public:
         return dir;
     }
 
-    
+    void setEsq(No* no)
+    {
+        esq = no;
+    }
+
+    void setDir(No* no)
+    {
+        dir = no;
+    }
 };
 
 int main(int argc, char *argv[])
