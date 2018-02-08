@@ -19,6 +19,18 @@ public:
     {
         return chave;
     }
+
+    No* getEsq()
+    {
+        return esq;
+    }
+
+    No* getDir()
+    {
+        return dir;
+    }
+
+    
 };
 
 int main(int argc, char *argv[])
