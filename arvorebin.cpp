@@ -69,7 +69,12 @@ class Arvore
                 No *novo_no = new No(chave);
                 no->setEsq(novo_no);
             }
+            else
+            {
+                inserirAux(no->getEsq(), chave);
+            }
         }
+        
     }
 };
 
