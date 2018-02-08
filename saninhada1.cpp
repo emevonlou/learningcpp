@@ -22,5 +22,10 @@ int main(int argc, char *argv[])
 {
     t_pessoa pessoa;
 
+    pessoa.carro.preco = 25000;
+    pessoa.casa.preco = 2000000;
+
+    
+
     return 0;
 }
