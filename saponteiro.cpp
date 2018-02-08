@@ -17,6 +17,10 @@ typedef struct Aluno
 int mais(int argc, char *argv[])
 {
     t_aluno aluno = {"Manu", {"UFP"}};
+    t_aluno * ptr_aluno;
+    ptr_aluno = &aluno;
+
+    cout << "Aluno: ," << ptr_aluno->nome << endl;
 
     return 0;
 }
