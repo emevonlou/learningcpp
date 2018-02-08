@@ -25,7 +25,8 @@ int main(int argc, char *argv[])
     pessoa.carro.preco = 25000;
     pessoa.casa.preco = 2000000;
 
-    
+    cout << "Preco do carro: " << pessoa.carro.preco << endl;
+    cout << "Preco da casa: " << pessoa.casa.preco << endl;
 
     return 0;
 }
