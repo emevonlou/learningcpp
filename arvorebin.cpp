@@ -74,7 +74,18 @@ class Arvore
                 inserirAux(no->getEsq(), chave);
             }
         }
-        
+        else if(chave > no->getChave())
+        {
+            if(no->getDir() == NULL)
+            {
+                No* novo_no = new No(chave);
+                no->setDir(novo_no);
+            }
+            else
+            {
+                inserirAux(no->getDir(), chave);
+            }
+        }
     }
 };
 
