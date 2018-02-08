@@ -11,6 +11,13 @@ public:
     No(int chave)
     {
         this->chave = chave;
+        esq = NULL;
+        dir = NULL;
+    }
+
+    int getChave()
+    {
+        return chave;
     }
 };
 
