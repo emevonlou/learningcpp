@@ -92,6 +92,16 @@ class Arvore
     {
         return raiz;
     }
+
+    void emOrdem(No* no)
+    {
+        if(no != NULL)
+        {
+            emOrdem(no->getEsq());
+            cout << no->getChave() << " ";
+            emOrdem(no->getDir());
+        }
+    }
 };
 
 int main(int argc, char *argv[])
