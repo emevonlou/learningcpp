@@ -6,7 +6,7 @@ typedef struct Pessoa
     struct Carro
     {
         double preco;
-    };
+    };  // Sempre finalize a struct com pomnto e virgula.
 
     struct Casa
     {
