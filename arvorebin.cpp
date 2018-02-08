@@ -74,11 +74,11 @@ class Arvore
                 inserirAux(no->getEsq(), chave);
             }
         }
-        else if(chave > no->getChave())
+        else if (chave > no->getChave())
         {
-            if(no->getDir() == NULL)
+            if (no->getDir() == NULL)
             {
-                No* novo_no = new No(chave);
+                No *novo_no = new No(chave);
                 no->setDir(novo_no);
             }
             else
@@ -88,14 +88,14 @@ class Arvore
         }
     }
 
-    No* getRaiz()
+    No *getRaiz()
     {
         return raiz;
     }
 
-    void emOrdem(No* no)
+    void emOrdem(No *no)
     {
-        if(no != NULL)
+        if (no != NULL)
         {
             emOrdem(no->getEsq());
             cout << no->getChave() << " ";
@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
     arv.inserir(7);
 
     cout << "Percorrendo em Ordem: ";
-    
+    arv.emOrdem(arv.getRaiz());
 
     return 0;
 }
