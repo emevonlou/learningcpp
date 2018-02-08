@@ -41,6 +41,19 @@ public:
     }
 };
 
+class Arvore
+{
+private:
+    No* raiz;
+
+public:
+    Arvore()
+    {
+        raiz = NULL;
+    }
+
+};
+
 int main(int argc, char *argv[])
 {
 
