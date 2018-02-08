@@ -312,3 +312,5 @@
 	g++ -Wall -c -o saninhada.o saninhada.cpp; g++ -o saninhada saninhada.o
 157:
 	g++ -Wall -c -o saninhada1.o saninhada1.cpp; g++ -o saninhada1 saninhada1.o
+158:
+	g++ -Wall -c -o arvorebin.o arvorebin.cpp; g++ -o arvorebin arvorebin.o
