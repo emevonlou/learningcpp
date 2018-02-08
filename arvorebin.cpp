@@ -52,6 +52,26 @@ public:
         raiz = NULL;
     }
 
+    void inserir(int chave)
+    {
+        if(raiz == NULL)
+            raiz = new No(chave);
+        else
+            inserirAux(raiz,chave);
+    }
+
+    void inserirAux(No* no, int chave)
+    {
+        if(chave < no->getChave())
+        {
+            if(no->getEsq() == NULL)
+            {
+                No* novo_no = new No(chave);
+                no->setEsq(novo_no);
+            }
+        }
+    }
+
 };
 
 int main(int argc, char *argv[])
