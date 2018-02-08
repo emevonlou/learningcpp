@@ -106,6 +106,20 @@ class Arvore
 
 int main(int argc, char *argv[])
 {
+    Arvore arv;
+
+    arv.inserir(8);
+    arv.inserir(10);
+    arv.inserir(14);
+    arv.inserir(13);
+    arv.inserir(3);
+    arv.inserir(1);
+    arv.inserir(6);
+    arv.inserir(4);
+    arv.inserir(7);
+
+    cout << "Percorrendo em Ordem: ";
+    
 
     return 0;
 }
