@@ -3,11 +3,11 @@ using namespace std;
 
 class No
 {
-private:
+  private:
     No *esq, *dir;
     int chave;
 
-public:
+  public:
     No(int chave)
     {
         this->chave = chave;
@@ -20,22 +20,22 @@ public:
         return chave;
     }
 
-    No* getEsq()
+    No *getEsq()
     {
         return esq;
     }
 
-    No* getDir()
+    No *getDir()
     {
         return dir;
     }
 
-    void setEsq(No* no)
+    void setEsq(No *no)
     {
         esq = no;
     }
 
-    void setDir(No* no)
+    void setDir(No *no)
     {
         dir = no;
     }
@@ -43,10 +43,10 @@ public:
 
 class Arvore
 {
-private:
-    No* raiz;
+  private:
+    No *raiz;
 
-public:
+  public:
     Arvore()
     {
         raiz = NULL;
@@ -54,24 +54,23 @@ public:
 
     void inserir(int chave)
     {
-        if(raiz == NULL)
+        if (raiz == NULL)
             raiz = new No(chave);
         else
-            inserirAux(raiz,chave);
+            inserirAux(raiz, chave);
     }
 
-    void inserirAux(No* no, int chave)
+    void inserirAux(No *no, int chave)
     {
-        if(chave < no->getChave())
+        if (chave < no->getChave())
         {
-            if(no->getEsq() == NULL)
+            if (no->getEsq() == NULL)
             {
-                No* novo_no = new No(chave);
+                No *novo_no = new No(chave);
                 no->setEsq(novo_no);
             }
         }
     }
-
 };
 
 int main(int argc, char *argv[])
