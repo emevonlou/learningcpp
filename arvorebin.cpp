@@ -87,6 +87,11 @@ class Arvore
             }
         }
     }
+
+    No* getRaiz()
+    {
+        return raiz;
+    }
 };
 
 int main(int argc, char *argv[])
