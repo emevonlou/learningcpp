@@ -314,3 +314,5 @@
 	g++ -Wall -c -o saninhada1.o saninhada1.cpp; g++ -o saninhada1 saninhada1.o
 158:
 	g++ -Wall -c -o arvorebin.o arvorebin.cpp; g++ -o arvorebin arvorebin.o
+159:
+	g++ -Wall -c -o namespace.o namespace.cpp; g++ -o namespace namespace.o
