@@ -22,7 +22,7 @@ namespace ns2
     public:
         void imprimir()
         {
-            
+            std::cout << "Ola, sou a classe A do namespace ns2\n";
         }
     };
 }
