@@ -14,6 +14,7 @@ namespace ns2
 int main(int argc, char *argv[])
 {
     std::cout << ns1::num << std::endl;
+    std::cout << ns2::num << std::endl;
 
     return 0;
 }
