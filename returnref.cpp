@@ -16,12 +16,11 @@ typedef struct Pessoa
     int idade;
     double peso, altura;
 
-}t_pessoa;
+} t_pessoa;
 
-int main(int argc, char*argv[])
+int main(int argc, char *argv[])
 {
     t_pessoa pessoa = {"Emanuelle", 39, 45.44, 1.55};
 
-    
     return 0;
 }
