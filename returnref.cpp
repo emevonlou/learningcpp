@@ -1,4 +1,5 @@
 /*
+    160:
     Uma função que retorna uma referência
     funciona como um 'apelido' para a variavel
     que esta sendo referenciada.
