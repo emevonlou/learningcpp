@@ -1,3 +1,4 @@
+// 159:
 #include <iostream>
 
 namespace ns1
@@ -10,12 +11,9 @@ namespace ns2
     int num = 50;
 }
 
-// using namespace ns1;
-using namespace ns2;
-
 int main(int argc, char *argv[])
 {
-    std::cout << num << std::endl;
+    std::cout << ns1::num << std::endl;
 
     return 0;
 }
