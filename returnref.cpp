@@ -30,5 +30,7 @@ int main(int argc, char *argv[])
 {
     t_pessoa pessoa = {"Emanuelle", 39, 45.44, 1.55};
 
+    cout << "IMC: " << calcular_imc(pessoa) << endl;
+    
     return 0;
 }
