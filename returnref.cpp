@@ -20,8 +20,10 @@ typedef struct Pessoa
 
 double& calcular_imc(t_pessoa & pessoa)
 {
-    double result = pessoa.peso/ (pessoa.altura * pessoa.altura);
+    double result = pessoa.peso / (pessoa.altura * pessoa.altura);
     double& imc = result;
+
+    return imc;
 }
 
 int main(int argc, char *argv[])
