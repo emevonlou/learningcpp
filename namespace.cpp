@@ -3,12 +3,12 @@
 
 namespace ns1
 {
-    int num = 42;
+int num = 42;
 }
 
 namespace ns2
 {
-    int num = 50;
+int num = 50;
 }
 
 int main(int argc, char *argv[])
