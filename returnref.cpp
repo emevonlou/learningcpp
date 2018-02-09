@@ -18,6 +18,11 @@ typedef struct Pessoa
 
 } t_pessoa;
 
+double& calcular_imc(t_pessoa & pessoa)
+{
+    double result = pessoa.peso/ (pessoa.altura * pessoa.altura);
+}
+
 int main(int argc, char *argv[])
 {
     t_pessoa pessoa = {"Emanuelle", 39, 45.44, 1.55};
