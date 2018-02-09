@@ -3,28 +3,28 @@
 
 namespace ns1
 {
-    int num = 42;
-    class A
+int num = 42;
+class A
+{
+  public:
+    void imprimir()
     {
-    public:
-        void imprimir()
-        {
-            std::cout << "Olá, sou a classe A do namespace ns1\n";
-        }
-    };
+        std::cout << "Olá, sou a classe A do namespace ns1\n";
+    }
+};
 }
 
 namespace ns2
 {
-    int num = 50;
-    class A
+int num = 50;
+class A
+{
+  public:
+    void imprimir()
     {
-    public:
-        void imprimir()
-        {
-            std::cout << "Ola, sou a classe A do namespace ns2\n";
-        }
-    };
+        std::cout << "Ola, sou a classe A do namespace ns2\n";
+    }
+};
 }
 
 int main(int argc, char *argv[])
