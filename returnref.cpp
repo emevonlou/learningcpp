@@ -19,11 +19,11 @@ typedef struct Pessoa
 
 } t_pessoa;
 
-double& calcular_imc(t_pessoa & pessoa)
+double &calcular_imc(t_pessoa &pessoa)
 {
     // double result = pessoa.peso / (pessoa.altura * pessoa.altura);
     double result = pessoa.peso / pow(pessoa.altura, 2);
-    double& imc = result;
+    double &imc = result;
 
     return imc;
 }
