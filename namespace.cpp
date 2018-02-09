@@ -19,7 +19,11 @@ namespace ns2
     int num = 50;
     class A
     {
-
+    public:
+        void imprimir()
+        {
+            
+        }
     };
 }
 
