@@ -320,3 +320,5 @@
 	g++ -Wall -c -o returnref.o returnref.cpp; g++ -o returnref returnref.o
 161:
 	g++ -Wall -c -o extern.o extern.cpp; g++ -o extern extern.o
+162:
+	g++ -Wall -c -o varstatic.o varstatic.cpp; g++ -o varstatic varstatic.o
