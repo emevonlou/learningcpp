@@ -318,3 +318,5 @@
 	g++ -Wall -c -o namespace.o namespace.cpp; g++ -o namespace namespace.o
 160:
 	g++ -Wall -c -o returnref.o returnref.cpp; g++ -o returnref returnref.o
+161:
+	g++ -Wall -c -o extern.o extern.cpp; g++ -o extern extern.o
