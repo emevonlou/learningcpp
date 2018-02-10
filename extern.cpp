@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int var = 10;  // variavel externa.(Memoria alocada.)
+int var = 10; // variavel externa.(Memoria alocada.)
 
 void print_var()
 {
