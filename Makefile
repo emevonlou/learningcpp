@@ -322,3 +322,5 @@
 	g++ -Wall -c -o extern.o extern.cpp; g++ -o extern extern.o
 162:
 	g++ -Wall -c -o varstatic.o varstatic.cpp; g++ -o varstatic varstatic.o
+163:
+	g++ -Wall -c -o get.o get.cpp; g++ -o get get.o 
