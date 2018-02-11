@@ -33,6 +33,21 @@ class Vetor
     {
         delete[] vet;
     }
+
+    bool inserir(int e, int pos)
+    {
+        if(pos < max && pos >= 0)
+        {
+            vet[pos] = e;
+            return true;
+        }
+        return false;
+    }
+
+    int& operator[](int i)
+    {
+        
+    }
 };
 
 int main(int argc, char *argv[])
