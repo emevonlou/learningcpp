@@ -22,6 +22,8 @@ public:
             cerr << "Erro: Limite maximo maior do que 1000000." << endl;
             exit(1);
         }
+
+        this->max = max;
     }
 };
 
