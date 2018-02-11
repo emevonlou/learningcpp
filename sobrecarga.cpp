@@ -46,7 +46,12 @@ class Vetor
 
     int& operator[](int i)
     {
-        
+        if(i < 0 || i >= max)
+        {
+            cerr << "Erro: Acesso invalido ao vetor!" << endl;
+            exit(1);
+        }
+        return vet[i];
     }
 };
 
