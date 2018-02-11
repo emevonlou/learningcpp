@@ -45,6 +45,7 @@ class Vetor
         if (pos < max && pos >= 0)
         {
             vet[pos] = e;
+            
             return true;
         }
         return false;
@@ -55,6 +56,11 @@ class Vetor
         if (i < 0 || i >= max)
         {
             cerr << "Erro: Acesso invalido ao vetor!" << endl;
+            exit(1);
+        }
+        else if(vet_pos[i] == 0)
+        {
+            cerr << "Erro: Nessa posicao nao existe elemento" << endl;
             exit(1);
         }
         return vet[i];
