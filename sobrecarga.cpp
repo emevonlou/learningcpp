@@ -28,6 +28,11 @@ public:
         // Alocar espaço.
         vet = (int*)malloc(max * sizeof(int));
     }
+
+    ~Vetor()
+    {
+        delete[] vet;
+    }
 };
 
 int main(int argc, char *argv[])
