@@ -6,7 +6,7 @@ using namespace std;
 class Vetor
 {
   private:
-    int *vet;
+    int *vet, *vet_pos;
     int max;
 
   public:
@@ -27,6 +27,7 @@ class Vetor
 
         // Alocar espaço.
         vet = (int *)malloc(max * sizeof(int));
+        vet_pos = (int*)malloc(max * sizeof(int));
     }
 
     ~Vetor()
@@ -82,7 +83,7 @@ int main(int argc, char *argv[])
 
     cout << "Primeiro eleemento: " << v[0] << endl;
     cout << "Terceiro elemento: " << v[2] << endl;
-    cout << "Trigesimo elemento: " << v[30] << endl;
+    cout << "Segundo elemento: " << v[1] << endl;
 
     return 0;
 }
