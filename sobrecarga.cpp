@@ -24,6 +24,9 @@ public:
         }
 
         this->max = max;
+
+        // Alocar espaço.
+        vet = (int*)malloc(max * sizeof(int));
     }
 };
 
