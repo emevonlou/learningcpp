@@ -28,6 +28,11 @@ class Vetor
         // Alocar espaço.
         vet = (int *)malloc(max * sizeof(int));
         vet_pos = (int*)malloc(max * sizeof(int));
+
+        for(int i = 0; i < max; i++)
+        {
+            vet_pos[i] = 0;
+        }
     }
 
     ~Vetor()
