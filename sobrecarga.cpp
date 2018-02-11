@@ -80,5 +80,8 @@ int main(int argc, char *argv[])
     else
         cout << "Erro ao inserir o elemento\n";
 
+    cout << "Primeiro eleemento: " << v[0] << endl;
+    cout << "Terceiro elemento: " << v[2] << endl;
+
     return 0;
 }
