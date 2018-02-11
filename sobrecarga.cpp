@@ -82,6 +82,7 @@ int main(int argc, char *argv[])
 
     cout << "Primeiro eleemento: " << v[0] << endl;
     cout << "Terceiro elemento: " << v[2] << endl;
+    cout << "Trigesimo elemento: " << v[30] << endl;
 
     return 0;
 }
