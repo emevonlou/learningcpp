@@ -57,6 +57,28 @@ class Vetor
 
 int main(int argc, char *argv[])
 {
+    Vetor(10);
+
+    if(v.inserir(10,0))
+    {
+        cout << "Elemento inserido com sucesso.\n";
+    }
+    else
+        cout << "Erro ao inserir o elemento\n";
+
+    if(v.inserir(11,2))
+    {
+        cout << "Elemento inserido com sucesso.\n";
+    }
+    else
+        cout << "Erro ao inserir o elemento\n";
+
+    if(v.inserir(12,10))
+    {
+        cout << "Elemento inserido com sucesso.\n";
+    }
+    else
+        cout << "Erro ao inserir o elemento\n";
 
     return 0;
 }
