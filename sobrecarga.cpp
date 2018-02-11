@@ -36,7 +36,7 @@ class Vetor
 
     bool inserir(int e, int pos)
     {
-        if(pos < max && pos >= 0)
+        if (pos < max && pos >= 0)
         {
             vet[pos] = e;
             return true;
@@ -44,9 +44,9 @@ class Vetor
         return false;
     }
 
-    int& operator[](int i)
+    int &operator[](int i)
     {
-        if(i < 0 || i >= max)
+        if (i < 0 || i >= max)
         {
             cerr << "Erro: Acesso invalido ao vetor!" << endl;
             exit(1);
@@ -59,21 +59,21 @@ int main(int argc, char *argv[])
 {
     Vetor v(10);
 
-    if(v.inserir(10,0))
+    if (v.inserir(10, 0))
     {
         cout << "Elemento inserido com sucesso.\n";
     }
     else
         cout << "Erro ao inserir o elemento\n";
 
-    if(v.inserir(11,2))
+    if (v.inserir(11, 2))
     {
         cout << "Elemento inserido com sucesso.\n";
     }
     else
         cout << "Erro ao inserir o elemento\n";
 
-    if(v.inserir(12,10))
+    if (v.inserir(12, 10))
     {
         cout << "Elemento inserido com sucesso.\n";
     }
