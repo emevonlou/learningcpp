@@ -1,5 +1,6 @@
 // 164: Sobrecarregando o operador de indice: []
 #include <iostream>
+#include <stdlib.h> // função exit();
 using namespace std;
 
 class Vetor
@@ -14,7 +15,12 @@ public:
         if(max <0)
         {
             cerr << "Erro: Limite maximo menor que 0." << endl;
-
+            exit(1);
+        }
+        else if(max > 1000000)
+        {
+            cerr << "Erro: Limite maximo maior do que 1000000." << endl;
+            exit(1);
         }
     }
 };
