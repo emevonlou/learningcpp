@@ -70,9 +70,9 @@ class Vetor
     {
         int cont = 0;
 
-        for(int i = 0; i < max; i++)
+        for (int i = 0; i < max; i++)
         {
-            if(vet_pos[i] == 1)
+            if (vet_pos[i] == 1)
                 cont++;
         }
         return cont;
