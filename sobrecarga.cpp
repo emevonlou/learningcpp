@@ -45,7 +45,7 @@ class Vetor
         if (pos < max && pos >= 0)
         {
             vet[pos] = e;
-            
+            vet_pos[pos] = 1;
             return true;
         }
         return false;
