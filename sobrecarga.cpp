@@ -57,7 +57,7 @@ class Vetor
 
 int main(int argc, char *argv[])
 {
-    Vetor(10);
+    Vetor v(10);
 
     if(v.inserir(10,0))
     {
