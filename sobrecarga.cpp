@@ -5,19 +5,19 @@ using namespace std;
 
 class Vetor
 {
-private:
+  private:
     int *vet;
     int max;
 
-public:
+  public:
     Vetor(int max)
     {
-        if(max <0)
+        if (max < 0)
         {
             cerr << "Erro: Limite maximo menor que 0." << endl;
             exit(1);
         }
-        else if(max > 1000000)
+        else if (max > 1000000)
         {
             cerr << "Erro: Limite maximo maior do que 1000000." << endl;
             exit(1);
@@ -26,7 +26,7 @@ public:
         this->max = max;
 
         // Alocar espaço.
-        vet = (int*)malloc(max * sizeof(int));
+        vet = (int *)malloc(max * sizeof(int));
     }
 
     ~Vetor()
@@ -37,6 +37,6 @@ public:
 
 int main(int argc, char *argv[])
 {
-    
+
     return 0;
 }
