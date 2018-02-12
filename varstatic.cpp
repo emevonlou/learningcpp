@@ -12,12 +12,12 @@ int main(int argc, char *argv[])
 {
     string nome;
 
-    while(true)
+    while (true)
     {
         cout << "Digite o nome da pessoa: ";
         cin >> nome;
         cout << "ID gerado para o usuario " << nome << ":" << gerarID() << endl;
     }
-    
+
     return 0;
 }
