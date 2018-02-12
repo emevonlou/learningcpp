@@ -1,4 +1,4 @@
-// make 153:
+// 153:
 #include <iostream>
 #include <iomanip> // setw()
 using namespace std;
@@ -9,7 +9,7 @@ class Pessoa
     string nome;
     int idade;
 
-    // construtor
+    // Construtor.
     // Onde o usuario ira passar o nome e a idade dessa pessoa.
     Pessoa(const string &nome, const int &idade)
     {
