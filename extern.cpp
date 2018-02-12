@@ -1,8 +1,8 @@
-// 161: keyboard extern
+// 161: keyboard extern.
 #include <iostream>
 using namespace std;
 
-int var = 10; // variavel externa.(Memoria alocada.)
+int var = 10; // Variavel externa(Memoria alocada).
 
 void print_var()
 {
