@@ -47,5 +47,15 @@ int main(int argc, char *argv[])
 
     cout << "\nDepois de limpar(clear) a fila: ";
 
+    if (fila.empty())
+        cout << "Fila vazia!!\n";
+    else
+        cout << "Fila NAO vazia!!\n";
+
+    // Inserindo elementos novamente.
+    fila.push_front(10);
+    fila.push_front(20);
+    fila.push_back(30);
+
     return 0;
 }
