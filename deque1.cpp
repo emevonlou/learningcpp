@@ -62,6 +62,10 @@ int main(int argc, char *argv[])
     fila.erase(fila.begin() + 1);
 
     cout << "\nMostrando os elementos da fila: ";
+    it = fila.begin();
+    while(it != fila.end())
+        cout << *it++ << " ";
+    cout << "\n";
 
     return 0;
 }
