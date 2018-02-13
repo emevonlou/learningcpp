@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
     // Limpar toda a fila
     fila.clear();
 
-
+    cout << "\nDepois de limpar(clear) a fila: ";
 
     return 0;
 }
