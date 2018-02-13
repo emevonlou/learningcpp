@@ -1,4 +1,6 @@
-*.o
-*.exe
-.vs
-.vscode
+*
+!README.md
+!.gitignore
+!Makefile
+!*.cpp
+!teste
