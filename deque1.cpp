@@ -30,7 +30,11 @@ int main(int argc, char *argv[])
 
     cout << "\nDepois de inserir os elementos:\n"; 
 
-    
+    if (fila.empty())
+        cout << "Fila vazia!!\n";
+    else
+        cout << "Fila NAO vazia!!\n";
+
 
     return 0;
 }
