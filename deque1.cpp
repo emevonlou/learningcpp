@@ -15,6 +15,12 @@ int main(int argc, char *argv[])
     deque<int> fila; 
 
     cout << "Antes de inserir os elementos: "; 
+
+    if(fila.empty())
+        cout << "Fila vazia!!\n";
+    else
+        cout << "Fila NAO vazia!!\n";
+
     
     return 0;
 }
