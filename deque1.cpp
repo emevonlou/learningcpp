@@ -12,11 +12,11 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    deque<int> fila; 
+    deque<int> fila;
 
-    cout << "Antes de inserir os elementos: "; 
+    cout << "Antes de inserir os elementos: ";
 
-    if(fila.empty())
+    if (fila.empty())
         cout << "Fila vazia!!\n";
     else
         cout << "Fila NAO vazia!!\n";
@@ -25,8 +25,12 @@ int main(int argc, char *argv[])
     fila.push_back(10);
     fila.push_back(20);
     // Inserir elemento no inicio da fila
-    fila.push_front(30);
+    fila.push_front(30); 
+    // Fila: 30 10 20
+
+    cout << "\nDepois de inserir os elementos:\n"; 
+
     
-    
+
     return 0;
 }
