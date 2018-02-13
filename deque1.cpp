@@ -35,6 +35,8 @@ int main(int argc, char *argv[])
     else
         cout << "Fila NAO vazia!!\n";
 
+    cout << "\nMostrando os elementos da fila: ";
+
     deque<int>::iterator it = fila.begin();
     while (it != fila.end())  // Enquanto não chegar ao final da fila
         cout << *it++ << " "; // Incrementando o iterador pra apontar pro prox elem da fila.
