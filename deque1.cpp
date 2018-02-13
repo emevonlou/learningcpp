@@ -61,5 +61,7 @@ int main(int argc, char *argv[])
     // Removendo o segundo elemento
     fila.erase(fila.begin() + 1);
 
+    cout << "\nMostrando os elementos da fila: ";
+
     return 0;
 }
