@@ -56,6 +56,10 @@ int main(int argc, char *argv[])
     fila.push_front(10);
     fila.push_front(20);
     fila.push_back(30);
+    // Fila: 20 10 30
+
+    // Removendo o segundo elemento
+    fila.erase(fila.begin() + 1);
 
     return 0;
 }
