@@ -67,8 +67,8 @@ int main(int argc, char *argv[])
         cout << *it++ << " ";
     cout << "\n";
 
-    cout << "\nElemento da frente: " << fila.front();
-
+    cout << "\n\nElemento da frente: " << fila.front();
+    cout << "\n\nUltimo elemento: " << fila.back();
 
     return 0;
 }
