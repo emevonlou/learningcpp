@@ -42,5 +42,10 @@ int main(int argc, char *argv[])
         cout << *it++ << " "; // Incrementando o iterador pra apontar pro prox elem da fila.
     cout << "\n";
 
+    // Limpar toda a fila
+    fila.clear();
+
+
+
     return 0;
 }
