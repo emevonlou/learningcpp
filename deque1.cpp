@@ -23,7 +23,9 @@ int main(int argc, char *argv[])
 
     // Inserir elementos ao final da fila.
     fila.push_back(10);
-    fila.push_back(10);
+    fila.push_back(20);
+    // Inserir elemento no inicio da fila
+    fila.push_front(30);
     
     
     return 0;
