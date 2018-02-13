@@ -25,16 +25,17 @@ int main(int argc, char *argv[])
     fila.push_back(10);
     fila.push_back(20);
     // Inserir elemento no inicio da fila
-    fila.push_front(30); 
+    fila.push_front(30);
     // Fila: 30 10 20
 
-    cout << "\nDepois de inserir os elementos:\n"; 
+    cout << "\nDepois de inserir os elementos:\n";
 
     if (fila.empty())
         cout << "Fila vazia!!\n";
     else
         cout << "Fila NAO vazia!!\n";
 
+    deque<int>:: iterator it = fila.begin();
 
     return 0;
 }
