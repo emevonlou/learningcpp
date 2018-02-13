@@ -21,6 +21,10 @@ int main(int argc, char *argv[])
     else
         cout << "Fila NAO vazia!!\n";
 
+    // Inserir elementos ao final da fila.
+    fila.push_back(10);
+    fila.push_back(10);
+    
     
     return 0;
 }
