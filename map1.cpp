@@ -26,5 +26,10 @@ int main(int argc, char *argv[])
         cout << "Mapa nao vazio!!";
     }
 
+    if(mapa.count(1) > 0)
+        cout << "1 eh elemento do mapa." << endl;
+    else
+        cout << "1 nao eh elemento do mapa." << endl;
+        
     return 0;
 }
