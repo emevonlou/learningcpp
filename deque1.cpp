@@ -70,13 +70,13 @@ int main(int argc, char *argv[])
     cout << "\n\nElemento da frente: " << fila.front();
     cout << "\n\nUltimo elemento: " << fila.back();
 
-    it= fila.begin() + 1;
+    it = fila.begin() + 1;
     fila.insert(it, 10);
 
     cout << "\n\nMostrando os elementos: ";
 
     it = fila.begin();
-    while(it != fila.end())
+    while (it != fila.end())
         cout << *it++ << " ";
     cout << endl;
 
