@@ -81,6 +81,8 @@ int main(int argc, char *argv[])
     
     // remover elementos do inicio
     fila.pop_front();
+    // remover elementos do final
+    fila.pop_back();
 
     return 0;
 }
