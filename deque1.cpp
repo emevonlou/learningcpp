@@ -70,5 +70,8 @@ int main(int argc, char *argv[])
     cout << "\n\nElemento da frente: " << fila.front();
     cout << "\n\nUltimo elemento: " << fila.back();
 
+    it= fila.begin() + 1;
+    fila.insert(it, 10);
+
     return 0;
 }
