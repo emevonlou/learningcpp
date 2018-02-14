@@ -75,7 +75,10 @@ int main(int argc, char *argv[])
 
     cout << "\n\nMostrando os elementos: ";
 
-    
+    it = fila.begin();
+    while(it != fila.end())
+        cout << *it++ << " ";
+    cout << endl;
 
     return 0;
 }
