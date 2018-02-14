@@ -78,7 +78,9 @@ int main(int argc, char *argv[])
     it = fila.begin();
     while (it != fila.end())
         cout << *it++ << " ";
-    cout << endl;
+    
+    // remover elementos do inicio
+    fila.pop_front();
 
     return 0;
 }
