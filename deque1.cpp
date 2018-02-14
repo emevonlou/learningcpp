@@ -73,5 +73,9 @@ int main(int argc, char *argv[])
     it= fila.begin() + 1;
     fila.insert(it, 10);
 
+    cout << "\n\nMostrando os elementos: ";
+
+    
+
     return 0;
 }
