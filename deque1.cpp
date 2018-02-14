@@ -84,5 +84,7 @@ int main(int argc, char *argv[])
     // remover elementos do final
     fila.pop_back();
 
+    cout << "\n\nTamanho da fila: " << fila.size() << endl;
+
     return 0;
 }
