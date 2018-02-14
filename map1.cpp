@@ -14,7 +14,8 @@ int main(int argc, char *argv[])
     cout << mapa[2] << endl;
     cout << mapa[3] << endl;
 
-    mapa.clear();
+    // Limpar todos os elementos do mapa
+    // mapa.clear();
 
     if(mapa.empty())
     {
