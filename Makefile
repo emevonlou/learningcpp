@@ -328,3 +328,5 @@
 	g++ -Wall -c -o sobrecarga.o sobrecarga.cpp; g++ -o sobrecarga sobrecarga.o
 165:
 	g++ -Wall -c -o deque1.o deque1.cpp; g++ -o deque1 deque1.o
+166:
+	g++ -Wall -c -o map1.o map1.cpp; g++ -o map1 map1.o

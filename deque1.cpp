@@ -1,4 +1,5 @@
-/* 
+/*
+    165:
     deque:
     Uma fila mais flexivel onde podemos inserir 
     e remover tanto no inicio como no final
@@ -78,7 +79,7 @@ int main(int argc, char *argv[])
     it = fila.begin();
     while (it != fila.end())
         cout << *it++ << " ";
-    
+
     // remover elementos do inicio
     fila.pop_front();
     // remover elementos do final
