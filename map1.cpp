@@ -14,5 +14,16 @@ int main(int argc, char *argv[])
     cout << mapa[2] << endl;
     cout << mapa[3] << endl;
 
+    mapa.clear();
+
+    if(mapa.empty())
+    {
+        cout << "Mapa Vazio!";
+    }
+    else
+    {
+        cout << "Mapa nao vazio!!";
+    }
+
     return 0;
 }
