@@ -14,5 +14,9 @@ int main(int argc, char *argv[])
         };
     map<int, string> mapa(pares, pares + 3);
 
+    cout << mapa[1] << endl;
+    cout << mapa[2] << endl;
+    cout << mapa[3] << endl;
+
     return 0;
 }
