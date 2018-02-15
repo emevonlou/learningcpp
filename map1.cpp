@@ -1,4 +1,4 @@
-// 166:
+// 166: A 'map' é um container associativo.
 #include <iostream>
 #include <map>
 using namespace std;
@@ -55,6 +55,7 @@ int main(int argc, char *argv[])
     for (it = mapa.begin(); it != mapa.end(); ++it)
         // it->first = acessa a chave; it->second = acessa o valor associado a chave.
         cout << "A chave " << it->first << " => " << it->second << endl;
+
 
     return 0;
 }
