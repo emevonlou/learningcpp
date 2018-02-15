@@ -47,6 +47,9 @@ int main(int argc, char *argv[])
         cout << "\nChave 2 NAO existe!\n";
     else
         cout << "\nChave 2 existe!\n";
-        
+
+    it = mapa.begin();
+    mapa.insert(pair<int, string>(2,"Joaquim"));
+
     return 0;
 }
