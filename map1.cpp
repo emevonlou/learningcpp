@@ -37,7 +37,8 @@ int main(int argc, char *argv[])
         cout << "A chave " << it->first << " => " << it->second << endl;
 
     // A Funçao find() retorna um iterador para o elemento.
-    
+    it = mapa.find(2); // procuro pela chave com o valor 2.
+    mapa. erase(it);    // Quero excluir o elemento cuja chave é 2.
 
     return 0;
 }
