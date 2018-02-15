@@ -40,5 +40,11 @@ int main(int argc, char *argv[])
     it = mapa.find(2); // procuro pela chave com o valor 2.
     mapa.erase(it);    // Quero excluir o elemento cuja chave é 2.
 
+    cout << endl;
+
+    for (it = mapa.begin(); it != mapa.end(); ++it)
+        // it->first = acessa a chave; it->second = acessa o valor associado a chave.
+        cout << "A chave " << it->first << " => " << it->second << endl;
+
     return 0;
 }
