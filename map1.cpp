@@ -66,5 +66,7 @@ int main(int argc, char *argv[])
 
     multimap<int, string>::iterator it2 = mm.find(1);
 
+    cout << it2->second << endl;
+
     return 0;
 }
