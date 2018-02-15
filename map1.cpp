@@ -30,6 +30,9 @@ int main(int argc, char *argv[])
         cout << "1 eh elemento do mapa." << endl;
     else
         cout << "1 nao eh elemento do mapa." << endl;
+
+    map<int, string>::iterator it;
+
         
     return 0;
 }
