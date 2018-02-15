@@ -32,7 +32,10 @@ int main(int argc, char *argv[])
         cout << "1 nao eh elemento do mapa." << endl;
 
     map<int, string>::iterator it;
-
+    for(it = mapa.begin(); it != mapa.end(); ++it)
+    {
+        
+    }
         
     return 0;
 }
