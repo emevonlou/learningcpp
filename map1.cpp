@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
     
     while(it2 != mm.end())
     {
-        cout << it->first << "=>" << it->second << endl;
+        cout << it2->first << "=>" << it2->second << endl;
         it2++;
     }
 
