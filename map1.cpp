@@ -33,9 +33,8 @@ int main(int argc, char *argv[])
 
     map<int, string>::iterator it;
     for(it = mapa.begin(); it != mapa.end(); ++it)
-    {
         cout << "A chave " << it->first << " => " << it->second << endl;
-    }
+
         
     return 0;
 }
