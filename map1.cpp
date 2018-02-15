@@ -71,6 +71,7 @@ int main(int argc, char *argv[])
     while(it2 != mm.end())
     {
         cout << it->first << "=>" << it->second << endl;
+        it2++;
     }
 
     return 0;
