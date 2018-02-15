@@ -56,6 +56,9 @@ int main(int argc, char *argv[])
         // it->first = acessa a chave; it->second = acessa o valor associado a chave.
         cout << "A chave " << it->first << " => " << it->second << endl;
 
+    // Utilizando multimap.
+    multimap<int, string> mm;
+    
 
     return 0;
 }
