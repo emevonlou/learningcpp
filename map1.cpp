@@ -42,9 +42,11 @@ int main(int argc, char *argv[])
 
     cout << endl;
 
-    for (it = mapa.begin(); it != mapa.end(); ++it)
-        // it->first = acessa a chave; it->second = acessa o valor associado a chave.
-        cout << "A chave " << it->first << " => " << it->second << endl;
-
+    // Verificando se uma chave existe.
+    if(mapa.find(2) == mapa.end())
+        cout << "\nChave 2 NAO existe!\n";
+    else
+        cout << "\nChave 2 existe!\n";
+        
     return 0;
 }
