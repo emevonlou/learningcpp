@@ -58,7 +58,10 @@ int main(int argc, char *argv[])
 
     // Utilizando multimap.
     multimap<int, string> mm;
-    
+    mm.insert(pair<int, string>(1, "python 2"));
+    mm.insert(pair<int, string>(1, "python 3"));
+    mm.insert(pair<int, string>(2, "C"));
+    mm.insert(pair<int, string>(2, "C++"));
 
     return 0;
 }
