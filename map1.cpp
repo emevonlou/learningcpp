@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     // Limpar todos os elementos do mapa
     // mapa.clear();
 
-    if(mapa.empty())
+    if (mapa.empty())
     {
         cout << "Mapa Vazio!";
     }
@@ -26,16 +26,18 @@ int main(int argc, char *argv[])
         cout << "Mapa nao vazio!!";
     }
 
-    if(mapa.count(1) > 0)
+    if (mapa.count(1) > 0)
         cout << "1 eh elemento do mapa." << endl;
     else
         cout << "1 nao eh elemento do mapa." << endl;
-
+    // Mostrando todos os elementos.
     map<int, string>::iterator it;
-    for(it = mapa.begin(); it != mapa.end(); ++it)
+    for (it = mapa.begin(); it != mapa.end(); ++it)
         // it->first = acessa a chave; it->second = acessa o valor associado a chave.
         cout << "A chave " << it->first << " => " << it->second << endl;
 
-        
+    // A Funçao find() retorna um iterador para o elemento.
+    
+
     return 0;
 }
