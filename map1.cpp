@@ -64,15 +64,20 @@ int main(int argc, char *argv[])
     mm.insert(pair<int, string>(2, "C++"));
     mm.insert(pair<int, string>(3, "Ruby"));
 
-    multimap<int, string>::iterator it2 = mm.find(1);
+    //multimap<int, string>::iterator it2 = mm.find(1);
 
-    cout << it2->second << endl;
+    // cout << it2->second << endl;
     
-    while(it2 != mm.end())
+   /* while(it2 != mm.end())
     {
         cout << it2->first << "=>" << it2->second << endl;
         it2++;
     }
+    */
+
+    multimap<int, string>::iterator it_low, it_up;
+
+    it_low = mm.lower_bound(2);
 
     return 0;
 }
