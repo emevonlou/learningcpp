@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
 
     map<int, string>::iterator it;
     for(it = mapa.begin(); it != mapa.end(); ++it)
+        // it->first = acessa a chave; it->second = acessa o valor associado a chave.
         cout << "A chave " << it->first << " => " << it->second << endl;
 
         
