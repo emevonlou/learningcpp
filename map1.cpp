@@ -62,6 +62,9 @@ int main(int argc, char *argv[])
     mm.insert(pair<int, string>(1, "python 3"));
     mm.insert(pair<int, string>(2, "C"));
     mm.insert(pair<int, string>(2, "C++"));
+    mm.insert(pair<int, string>(3, "Ruby"));
+
+    multimap<int, string>::iterator it2 = mm.find(1);
 
     return 0;
 }
