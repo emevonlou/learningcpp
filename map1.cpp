@@ -75,10 +75,15 @@ int main(int argc, char *argv[])
     }
     */
 
-    multimap<int, string>::iterator it_low, it_up;
+    multimap<int, string>::iterator it_low, it_up, it2;
 
     it_low = mm.lower_bound(2);  // limite inferior.
     it_up = mm.upper_bound(4);   // limite superior.
+
+    for(it2 = it_low; it2 != it_up; ++it2)
+    {
+
+    }
 
     return 0;
 }
