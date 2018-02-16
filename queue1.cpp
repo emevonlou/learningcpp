@@ -28,10 +28,12 @@ int main(int argc, char *argv[])
     while(!fila.empty())
     {
         int e = fila.front();
-        fila.pop();
+        cout << e << " ";
+        fila.pop(); // Removendo o elemento do inicio.
     }
 
-    fila.pop();   // Removendo o elemento do inicio.
+    cout << endl;
+
 
     return 0;
 }
