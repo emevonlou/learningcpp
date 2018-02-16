@@ -24,5 +24,7 @@ int main(int argc, char *argv[])
 
     cout << "Primeiro elemento: " << fila.front() << endl;
 
+    fila.pop();   // Removendo o elemento do inicio.
+
     return 0;
 }
