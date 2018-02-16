@@ -17,5 +17,10 @@ int main(int argc, char *argv[])
     // Mostrando o ultimo elemento.
     cout << fila.back() << endl;
 
+    if(fila.empty())
+        cout << "Fila vazia\n";
+    else
+        cout << "Fila NAO vazia!\n";
+
     return 0;
 }
