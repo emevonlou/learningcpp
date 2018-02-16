@@ -23,11 +23,14 @@ int main(int argc, char *argv[])
         cout << "\nA fila NAO esta vazia!";
 
     cout << "\nMostrando os elementos: " << endl;
-    while(!pq.empty())
+    /* while(!pq.empty())
     {
         cout << pq.top() << " "; // imprimindo o elemento do topo.
         pq.pop();   // Retirando o elemento.
     }
+    */
+    
+    cout << "\nTmanho da fila: " << pq.size() << endl;
 
     cout << endl;
 
