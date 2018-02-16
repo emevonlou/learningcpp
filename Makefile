@@ -330,3 +330,5 @@
 	g++ -Wall -c -o deque1.o deque1.cpp; g++ -o deque1 deque1.o
 166:
 	g++ -Wall -c -o map1.o map1.cpp; g++ -o map1 map1.o
+167:
+	g++ -Wall -c -o queue1.o queue1.cpp; g++ -o queue1 queue1.o
