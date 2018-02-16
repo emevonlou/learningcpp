@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     pq.push(15);
     pq.push(50);
 
-    cout << "Elemento do topo: " <<  pq.top() << endl;
+    cout << "Elemento do topo: " << pq.top() << endl;
     // Verificando o elemento de maior prioridade(valor).
 
     if (pq.empty())
@@ -25,10 +25,10 @@ int main(int argc, char *argv[])
     cout << "\nTamanho da fila: " << pq.size() << endl;
 
     cout << "\nMostrando os elementos: " << endl;
-    while(!pq.empty())
+    while (!pq.empty())
     {
         cout << pq.top() << " "; // imprimindo o elemento do topo.
-        pq.pop();   // Retirando o elemento.
+        pq.pop();                // Retirando o elemento.
     }
 
     cout << endl;
