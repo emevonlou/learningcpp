@@ -22,5 +22,7 @@ int main(int argc, char *argv[])
     else
         cout << "\nFila NAO vazia!\n";
 
+    cout << "Primeiro elemento: " << fila.front() << endl;
+
     return 0;
 }
