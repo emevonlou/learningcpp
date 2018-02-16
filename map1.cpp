@@ -67,8 +67,8 @@ int main(int argc, char *argv[])
     //multimap<int, string>::iterator it2 = mm.find(1);
 
     // cout << it2->second << endl;
-    
-   /* while(it2 != mm.end())
+
+    /* while(it2 != mm.end())
     {
         cout << it2->first << "=>" << it2->second << endl;
         it2++;
@@ -77,12 +77,12 @@ int main(int argc, char *argv[])
 
     multimap<int, string>::iterator it_low, it_up, it2;
 
-    it_low = mm.lower_bound(2);  // limite inferior.
-    it_up = mm.upper_bound(4);   // limite superior.
+    it_low = mm.lower_bound(2); // limite inferior.
+    it_up = mm.upper_bound(4);  // limite superior.
 
     cout << endl;
 
-    for(it2 = it_low; it2 != it_up; ++it2)
+    for (it2 = it_low; it2 != it_up; ++it2)
     {
         cout << it2->first << "=>" << it2->second << endl;
     }
