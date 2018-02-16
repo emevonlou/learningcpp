@@ -332,3 +332,5 @@
 	g++ -Wall -c -o map1.o map1.cpp; g++ -o map1 map1.o
 167:
 	g++ -Wall -c -o queue1.o queue1.cpp; g++ -o queue1 queue1.o
+168:
+	g++ -Wall -c -o qpriority.o qpriority.cpp; g++ -o qpriority qpriority.o
