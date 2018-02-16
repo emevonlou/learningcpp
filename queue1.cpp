@@ -3,7 +3,6 @@
 #include <queue>
 using namespace std;
 
-
 int main(int argc, char *argv[])
 {
     queue<int> fila;
@@ -17,7 +16,7 @@ int main(int argc, char *argv[])
     // Mostrando o ultimo elemento.
     cout << "Ultimo elemento: " << fila.back() << endl;
 
-    if(fila.empty())
+    if (fila.empty())
         cout << "\nFila vazia\n";
     else
         cout << "\nFila NAO vazia!\n";
@@ -25,7 +24,7 @@ int main(int argc, char *argv[])
     cout << "Primeiro elemento: " << fila.front() << endl;
 
     cout << "Mostrando todos os elementos: ";
-    while(!fila.empty())
+    while (!fila.empty())
     {
         int e = fila.front();
         cout << e << " ";
