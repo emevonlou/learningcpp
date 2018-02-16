@@ -10,17 +10,17 @@ int main(int argc, char *argv[])
 {
     priority_queue<int> pq;
 
-    pq.push(70);  // Inserindo elementos.
-    pq.push(100); 
+    pq.push(70); // Inserindo elementos.
+    pq.push(100);
     pq.push(50);
- 
-    cout << pq.top() << endl;    
+
+    cout << pq.top() << endl;
     // Verificando o elemento de maior prioridade(valor).
 
-    if(pq.empty())
+    if (pq.empty())
         cout << "A fila esta vazia!";
     else
         cout << "A fila NAO esta vazia!";
-            
+
     return 0;
 }
