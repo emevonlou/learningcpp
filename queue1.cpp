@@ -37,7 +37,9 @@ int main(int argc, char *argv[])
     fila.push(20);
     fila.push(30);
 
+    cout << "Tamanho da fila: " << fila.size() << endl;
 
+    cout << endl;
 
     return 0;
 }
