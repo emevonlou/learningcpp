@@ -18,9 +18,9 @@ int main(int argc, char *argv[])
     // Verificando o elemento de maior prioridade(valor).
 
     if (pq.empty())
-        cout << "A fila esta vazia!";
+        cout << "\nA fila esta vazia!";
     else
-        cout << "A fila NAO esta vazia!";
+        cout << "\nA fila NAO esta vazia!";
 
     return 0;
 }
