@@ -80,9 +80,11 @@ int main(int argc, char *argv[])
     it_low = mm.lower_bound(2);  // limite inferior.
     it_up = mm.upper_bound(4);   // limite superior.
 
+    cout << endl;
+
     for(it2 = it_low; it2 != it_up; ++it2)
     {
-
+        cout << it2->first << "=>" << it2->second << endl;
     }
 
     return 0;
