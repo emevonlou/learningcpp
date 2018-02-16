@@ -32,7 +32,11 @@ int main(int argc, char *argv[])
         fila.pop(); // Removendo o elemento do inicio.
     }
 
-    cout << endl;
+    // Inserindo novamente na fila
+    fila.push(10);
+    fila.push(20);
+    fila.push(30);
+
 
 
     return 0;
