@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     pq.push(100);
     pq.push(50);
 
-    cout << pq.top() << endl;
+    cout << "Elemento do topo: " <<  pq.top() << endl;
     // Verificando o elemento de maior prioridade(valor).
 
     if (pq.empty())
