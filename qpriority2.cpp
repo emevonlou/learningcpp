@@ -29,9 +29,9 @@ public:
 
 struct CompIdade
 {
-    bool operator()(Pessoa const & p1, Pessoa const & p2)
+    bool operator()(Pessoa& p1, Pessoa& p2)
     {
-       // return p1.idade < p2.idade;
+       return p1.getIdade() < p2.getIdade();
     }
 };
 
