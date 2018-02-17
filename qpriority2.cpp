@@ -33,7 +33,7 @@ struct CompIdade
     {
         return p1.getIdade() < p2.getIdade();
         // Invertendo a prioridade:
-        // return p1.getIdade() < p2.getIdade();
+        // return p1.getIdade() > p2.getIdade();
     }
 };
 
