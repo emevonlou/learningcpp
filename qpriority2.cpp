@@ -32,6 +32,8 @@ struct CompIdade
     bool operator()(Pessoa &p1, Pessoa &p2)
     {
         return p1.getIdade() < p2.getIdade();
+        // Invertendo a prioridade:
+        // return p1.getIdade() < p2.getIdade();
     }
 };
 
