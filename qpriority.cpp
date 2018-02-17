@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
         pq.pop();                // Retirando o elemento.
     }
 
+    cout << endl;
 
     return 0;
 }
