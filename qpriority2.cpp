@@ -46,5 +46,10 @@ int main(int argc, char *argv[])
     pq.push(p2);
     pq.push(p3);
 
+    // Verificando qual é o elemento do topo.
+    Pessoa p_topo = pq.top();
+
+    
+
     return 0;
 }
