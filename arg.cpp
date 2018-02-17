@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     */
 
     /*
-        argv = São as strings de caracteres
+        argv = São as strings de caracteres.
     
     */
 

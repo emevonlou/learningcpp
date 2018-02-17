@@ -31,7 +31,11 @@ int main(int argc, char *argv[])
         pq.pop();                // Retirando o elemento.
     }
 
-    cout << endl;
+    if(pq.empty())
+        cout << "\n\nFila Vazia!!\n";
+    else
+        cout << "\n\nFila NAO vazia!!\n";
+
 
     return 0;
 }
