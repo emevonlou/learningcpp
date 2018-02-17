@@ -48,8 +48,8 @@ int main(int argc, char *argv[])
 
     // Verificando qual é o elemento do topo.
     Pessoa pessoa = pq.top();
-    cout << "Nome: " << pessoa.getNome() << ", idade: " << pessoa.getIdade() << endl;
+    cout << "Nome: " << pessoa.getNome() << endl;
+    cout << "Idade: " << pessoa.getIdade() << endl;
     
-
     return 0;
 }
