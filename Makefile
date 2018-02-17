@@ -334,3 +334,5 @@
 	g++ -Wall -c -o queue1.o queue1.cpp; g++ -o queue1 queue1.o
 168:
 	g++ -Wall -c -o qpriority.o qpriority.cpp; g++ -o qpriority qpriority.o
+169:
+	g++ -Wall -c -o qpriority2.o qpriority2.cpp; g++ -o qpriority2 qpriority2.o
