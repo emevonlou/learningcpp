@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 {
     priority_queue<Pessoa, vector<Pessoa>, CompIdade> pq;
 
-    Pessoa p1();
+    Pessoa p1("João", 20), p2("Emanuelle", 38), p3("Joaquim",7);
 
     return 0;
 }
