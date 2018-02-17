@@ -2,7 +2,6 @@
 #include <iostream>
 using namespace std;
 
-
 int main(int argc, char *argv[])
 {
     /* 
@@ -29,11 +28,12 @@ int main(int argc, char *argv[])
        que são determinadas em tempo de compilação.
     */
 
-    cout << "argv[0]: " << argv[0] << endl << endl; // imprimindo o primeiro elemento
+    cout << "argv[0]: " << argv[0] << endl
+         << endl; // imprimindo o primeiro elemento
     cout << "Quantidade de argumentos: " << argc << endl;
     cout << "Argumentos passados: " << endl;
 
-    for(int i = 0; i < argc; i++)
+    for (int i = 0; i < argc; i++)
     {
         cout << argv[i] << endl; // imprimir argumentos que foram passados
     }
