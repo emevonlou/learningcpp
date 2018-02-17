@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
     deque<int> fila;
 
-    fila.push_front(10);
+    fila.push_front(10);    
     fila.push_back(15);
     fila.push_front(20);
 
