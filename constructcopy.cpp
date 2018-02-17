@@ -23,8 +23,8 @@ class Estudante
 	Estudante(const Estudante &e) // Construtor de c�pias
 	{
 		/*
-			Aloca um novo bloco de mem�ria de pilha
-			a c�pia de 'nome', depois ele copia a string
+			Aloca um novo bloco de memoria de pilha
+			a copia de 'nome', depois ele copia a string
 			no bloco do nome antes de concatenar o nome do
 			aluno na linha seguinte.
 		*/
@@ -37,7 +37,7 @@ class Estudante
 		this->ID = e.ID;
 	}
 
-	~Estudante() // O destrutor retorna a String original � pilha
+	~Estudante() // O destrutor retorna a String original a pilha.
 	{
 		cout << "Destruindo " << nome << endl;
 		delete[] nome;
