@@ -15,6 +15,16 @@ public:
         this->nome = nome;
         this->idade = idade;
     }
+
+    string getNome()
+    {
+        return nome;
+    }
+
+    int getIdade()
+    {
+        return idade;
+    }
 };
 
 struct CompIdade
