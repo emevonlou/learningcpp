@@ -9,6 +9,8 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     priority_queue<int> pq;
+    // priority_queue<int, vector<int>, greater<int> > pq;
+    // Inverte a prioridade
 
     pq.push(20); // Inserindo elementos.
     pq.push(15);
