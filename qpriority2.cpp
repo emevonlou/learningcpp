@@ -42,5 +42,9 @@ int main(int argc, char *argv[])
 
     Pessoa p1("João", 20), p2("Emanuelle", 38), p3("Joaquim",7);
 
+    pq.push(p1);
+    pq.push(p2);
+    pq.push(p3);
+
     return 0;
 }
