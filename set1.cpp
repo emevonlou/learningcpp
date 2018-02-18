@@ -27,8 +27,8 @@ int main(int argc, char *argv[])
     // myset.clear(); // Removendo todos os elementos.
 
     // Deletando o primeiro elemento com erase().
-    it = myset.begin();
-    myset.erase(it);
+    // it = myset.begin();
+    // myset.erase(it);
 
     if (myset.empty())
         cout << "\nConjunto Vazio!!!\n";
@@ -42,6 +42,9 @@ int main(int argc, char *argv[])
         cout << *it << " ";
         it++;
     }
+
+    // Verificando se um elemento existe.(procurando um elemento).
+    it = myset.find(50);
 
     return 0;
 }
