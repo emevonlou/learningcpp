@@ -8,7 +8,8 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    int vet[] = {10, 20, 30, 40};
+    // O conjunto não imprime/permite elementos repetidos.
+    int vet[] = {10, 10, 20, 30, 40};
     // Um set(conjunto de inteiros) chamado de myset.
     // Inicializando o construtor com o vetor.
     set<int> myset(vet, vet+ 5);
@@ -23,6 +24,6 @@ int main(int argc, char *argv[])
     }
 
     cout << endl;
-    
+
     return 0;
 }
