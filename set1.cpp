@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     // myset.clear(); // Removendo todos os elementos.
 
     // Deletando o primeiro elemento com erase().
-    it = myset.begin();  
+    it = myset.begin();
     myset.erase(it);
 
     if (myset.empty())
@@ -35,6 +35,7 @@ int main(int argc, char *argv[])
     else
         cout << "\n\nConjunto NAO Vazio!!!\n";
 
+    it = myset.begin();  // o Iterador começando de 'myset.begin();'
     cout << "Mostrando os elementos: ";
     while (it != myset.end())
     {
