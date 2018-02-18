@@ -21,5 +21,8 @@ int main(int argc, char *argv[])
         cout << *it << " ";
         it++;
     }
+
+    cout << endl;
+    
     return 0;
 }
