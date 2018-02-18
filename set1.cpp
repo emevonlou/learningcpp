@@ -15,6 +15,11 @@ int main(int argc, char *argv[])
 
     // Iterator.
     set<int>::iterator it = myset.begin(); 
-
+    cout << "Mostrando os elementos: ";
+    while(it != myset.end())
+    {
+        cout << *it << " ";
+        it++;
+    }
     return 0;
 }
