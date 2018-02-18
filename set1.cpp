@@ -45,6 +45,10 @@ int main(int argc, char *argv[])
 
     // Verificando se um elemento existe.(procurando um elemento).
     it = myset.find(50);
+    if(it == myset.end())
+        cout << "\n\nO elemento 50 nao existe\n";
+    else
+        cout << "\n\nO elemento 50 existe.\n";
 
     return 0;
 }
