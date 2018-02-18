@@ -13,7 +13,8 @@ int main(int argc, char *argv[])
     // Inicializando o construtor com o vetor.
     set<int> myset(vet, vet+ 5);
 
-    
+    // Iterator.
+    set<int>::iterator it = myset.begin(); 
 
     return 0;
 }
