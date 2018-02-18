@@ -50,5 +50,7 @@ int main(int argc, char *argv[])
     else
         cout << "\n\nO elemento 70 existe.\n";
 
+    cout << "Tamanho do conjunto: " << myset.size() << endl;
+
     return 0;
 }
