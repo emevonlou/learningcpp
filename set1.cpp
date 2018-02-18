@@ -35,5 +35,12 @@ int main(int argc, char *argv[])
     else
         cout << "\n\nConjunto NAO Vazio!!!\n";
 
+    cout << "Mostrando os elementos: ";
+    while (it != myset.end())
+    {
+        cout << *it << " ";
+        it++;
+    }
+
     return 0;
 }
