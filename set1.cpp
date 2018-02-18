@@ -1,5 +1,5 @@
 /*
-     170: set-> Conjunto como tipo de estrutura de dados.
+     170: set-> Estrutura de dados do tipo conjunto.
     São implementadas usando arvores binarias de busca.
 */
 #include <iostream>
@@ -9,7 +9,11 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     int vet[] = {10, 20, 30, 40};
-    set<int> myset(vet, vet+5);
+    // Um set(conjunto de inteiros) chamado de myset.
+    // Inicializando o construtor com o vetor.
+    set<int> myset(vet, vet+ 5);
+
+    
 
     return 0;
 }
