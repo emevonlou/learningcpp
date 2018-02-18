@@ -24,10 +24,13 @@ int main(int argc, char *argv[])
         it++;
     }
 
+    myset.clear(); // Removendo todos os elementos.
+    
     if (myset.empty())
         cout << "\nConjunto Vazio!!!\n";
     else
         cout << "\n\nConjunto NAO Vazio!!!\n";
+
 
     return 0;
 }
