@@ -24,7 +24,11 @@ int main(int argc, char *argv[])
         it++;
     }
 
-    cout << endl;
+    if(myset.empty())
+        cout << "\nConjunto Vazio!!!\n";
+    else
+        cout << "\nConjunto NAO Vazio!!!\n";
+
 
     return 0;
 }
