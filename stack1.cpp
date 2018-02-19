@@ -21,6 +21,8 @@ int main(int argc, char *argv[])
     pilha.push(30);
     pilha.push(40);
 
+    cout << "Tamanho da pilha: " << pilha.size() << endl;
+
     // Enquanto a pilha não for vazia
     while (!pilha.empty())
     {
