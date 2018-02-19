@@ -45,6 +45,18 @@ int main(int argc, char *argv[])
     while(true)
     {
         resp = menu();
+        if(resp == '1')
+        {
+            cout << "\nInserindo Pessoas...\n\n";
+        }
+        else if(resp == '2')
+        {
+            cout << "\nListando Pessoas...\n\n";
+        }
+        else if(resp == '0')
+        {
+            cout << "\nBye! Visite: http://emevonlou.blogspot.com.br/ \n";
+        }
     }
 
     return 0;
