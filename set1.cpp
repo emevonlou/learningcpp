@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     // O conjunto não imprime/permite elementos repetidos.
     int vet[] = {10, 10, 20, 30, 40};
     // Na impressão o conjunto é ordenado crescentemente.
-    // Um set(conjunto de inteiros) chamado de myset.
+    // No nosso código,um set(conjunto de inteiros) é chamado de myset.
     // Inicializando o construtor com o vetor.
     set<int> myset(vet, vet + 5);
 
