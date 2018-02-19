@@ -64,6 +64,7 @@ int main(int argc, char *argv[])
             pessoa.setNome(nome);
             // pessoa.setIdade(idade);
 
+            // ofs << pessoa;
             // ofs.close();
         }
         else if (resp == '2')
