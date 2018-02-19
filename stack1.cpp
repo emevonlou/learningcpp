@@ -19,14 +19,14 @@ int main(int argc, char *argv[])
     pilha.push(10);
     pilha.push(20);
     pilha.push(30);
-    pilha.push(40); 
+    pilha.push(40);
 
     // Enquanto a pilha não for vazia
-    while(!pilha.empty())
+    while (!pilha.empty())
     {
-        int e = pilha.top();   // top(): Retorna o elemento do topo.
+        int e = pilha.top(); // top(): Retorna o elemento do topo.
         cout << e << " ";
-        pilha.pop();    // Remove o elemento.
+        pilha.pop(); // Remove o elemento.
     }
 
     cout << "\n";
