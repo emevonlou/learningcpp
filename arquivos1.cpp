@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
             string nome;
             int idade;
 
-            // Adiciona ao final do arquivo.
+            // app:append, Adiciona ao final do arquivo.
             ofstream ofs("arquivo.txt", fstream::app);
 
             cout << "\nDigite o nome da pessoa: ";
