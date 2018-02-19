@@ -22,12 +22,12 @@ class Pessoa
     {
         this->nome = nome;
     }
-    void setIdade()
+    void setIdade(int idade)
     {
         this->idade = idade;
     }
-
-    friend ostream &operator<<(ostream os, const Pessoa &p)
+    // Sobrecarga do operador de inserção de dados.
+    friend ostream& operator<<(ostream os, const Pessoa& p)
     {
         //Escrever cada membro
         os << "\n"
@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
 
             // seta o nome e a idade
             pessoa.setNome(nome);
-            // pessoa.setIdade(idade);
+            pessoa.setIdade(idade);
 
             // ofs << pessoa;
             ofs.close();
