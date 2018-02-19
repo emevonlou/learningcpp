@@ -338,3 +338,5 @@
 	g++ -Wall -c -o qpriority2.o qpriority2.cpp; g++ -o qpriority2 qpriority2.o
 170:
 	g++ -Wall -c -o set1.o set1.cpp; g++ -o set1 set1.o
+171:
+	g++ -Wall -c -o stack1.o stack1.cpp; g++ -o stack1 stack1.o
