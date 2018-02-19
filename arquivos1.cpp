@@ -17,6 +17,15 @@ public:
     {
         return idade;
     }
+    void setNome(string& nome)
+    {
+        this->nome = nome;
+    }
+    void setIdade()
+    {
+        this->idade = idade;
+    }
+
 };
 
 int main(int argc, char *argv[])
