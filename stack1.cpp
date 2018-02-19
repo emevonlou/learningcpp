@@ -25,9 +25,11 @@ int main(int argc, char *argv[])
     while(!pilha.empty())
     {
         int e = pilha.top();   // top(): Retorna o elemento do topo.
+        cout << e << " ";
         pilha.pop();    // Remove o elemento.
-
     }
+
+    cout << "\n";
 
     return 0;
 }
