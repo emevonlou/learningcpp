@@ -28,8 +28,24 @@ public:
 
 };
 
+char menu()
+{
+    char resp;
+    cout << "Digite 1 para inserir pessoas:\n ";
+    cout << "Digite 2 para listar pessoas:\n ";
+    cout << "Digite 0 para sair:\n ";
+    cin >> resp;
+    return resp;
+}
+
 int main(int argc, char *argv[])
 {
+    char resp;
+
+    while(true)
+    {
+        resp = menu();
+    }
 
     return 0;
 }
