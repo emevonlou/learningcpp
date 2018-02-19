@@ -13,6 +13,10 @@ public:
     {
         return nome;
     }
+    int geIdade()
+    {
+        return idade;
+    }
 };
 
 int main(int argc, char *argv[])
