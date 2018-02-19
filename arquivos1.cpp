@@ -56,6 +56,11 @@ int main(int argc, char *argv[])
         else if(resp == '0')
         {
             cout << "\nBye! Visite: http://emevonlou.blogspot.com.br/ \n";
+            break;
+        }
+        else
+        {
+            cout << "\nOpcao invalida. Tente novamente.\n\n";
         }
     }
 
