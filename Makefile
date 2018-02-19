@@ -340,3 +340,5 @@
 	g++ -Wall -c -o set1.o set1.cpp; g++ -o set1 set1.o
 171:
 	g++ -Wall -c -o stack1.o stack1.cpp; g++ -o stack1 stack1.o
+172:
+	g++ -Wall -c -o arquivos1.o arquivos1.cpp; g++ -o arquivos1 arquivos1.o
