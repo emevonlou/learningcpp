@@ -27,10 +27,11 @@ class Pessoa
         this->idade = idade;
     }
 
-    friend ostream& operator<<(ostream os, const Pessoa& p)
+    friend ostream &operator<<(ostream os, const Pessoa &p)
     {
         //Escrever cada membro
-        os << "\n" << p.nome << "\n";
+        os << "\n"
+           << p.nome << "\n";
         os << p.idade;
         return os;
     }
