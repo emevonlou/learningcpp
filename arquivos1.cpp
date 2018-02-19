@@ -27,7 +27,7 @@ class Pessoa
         this->idade = idade;
     }
     // Sobrecarga do operador de inserção de dados.
-    friend ostream& operator<<(ostream os, const Pessoa& p)
+    friend ostream &operator<<(ostream os, const Pessoa &p)
     {
         //Escrever cada membro
         os << "\n";
