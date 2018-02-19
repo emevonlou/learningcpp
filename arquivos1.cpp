@@ -5,11 +5,12 @@ using namespace std;
 
 class Pessoa
 {
-private:
+  private:
     string nome;
     int idade;
-public:
-    string& getNome()
+
+  public:
+    string &getNome()
     {
         return nome;
     }
@@ -17,7 +18,7 @@ public:
     {
         return idade;
     }
-    void setNome(string& nome)
+    void setNome(string &nome)
     {
         this->nome = nome;
     }
@@ -25,7 +26,6 @@ public:
     {
         this->idade = idade;
     }
-
 };
 
 char menu()
@@ -42,17 +42,17 @@ int main(int argc, char *argv[])
 {
     char resp;
 
-    while(true)
+    while (true)
     {
         resp = menu();
-        if(resp == '1')
+        if (resp == '1')
         {
             Pessoa pessoa;
             string nome;
             int idade;
 
             // Adiciona ao final do arquivo.
-            ofstream(arquivo.txt,fstream::app);
+            ofstream(arquivo.txt, fstream::app);
 
             cout << "\nDigite o nome da pessoa: ";
             cin >> nome;
@@ -60,17 +60,17 @@ int main(int argc, char *argv[])
             cin >> idade;
             cout << endl;
 
-        // seta o nome e a idade
-        pessoa.setNome(nome);
-        // pessoa.setIdade(idade);
+            // seta o nome e a idade
+            pessoa.setNome(nome);
+            // pessoa.setIdade(idade);
 
-        // ofs.close();
+            // ofs.close();
         }
-        else if(resp == '2')
+        else if (resp == '2')
         {
             cout << "\nListando Pessoas...\n\n";
         }
-        else if(resp == '0')
+        else if (resp == '0')
         {
             cout << "\nBye! Visite: http://emevonlou.blogspot.com.br/ \n";
             break;
