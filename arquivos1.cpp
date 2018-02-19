@@ -3,7 +3,7 @@
 #include <fstream> // ofstream e ifstream(output e input)
 using namespace std;
 
-class pessoa
+class Pessoa
 {
 private:
     string nome;
@@ -47,7 +47,24 @@ int main(int argc, char *argv[])
         resp = menu();
         if(resp == '1')
         {
-            cout << "\nInserindo Pessoas...\n\n";
+            Pessoa pessoa;
+            string nome;
+            int idade;
+
+            // Adiciona ao final do arquivo.
+            ofstream(arquivo.txt,fstream::app);
+
+            cout << "\nDigite o nome da pessoa: ";
+            cin >> nome;
+            cout << "Digite a idade da pessoa: ";
+            cin >> idade;
+            cout << endl;
+
+        // seta o nome e a idade
+        pessoa.setNome(nome);
+        // pessoa.setIdade(idade);
+
+        // ofs.close();
         }
         else if(resp == '2')
         {
