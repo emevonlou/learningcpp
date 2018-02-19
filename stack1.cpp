@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     while(!pilha.empty())
     {
         int e = pilha.top();   // top(): Retorna o elemento do topo.
-        // pilha.pop();    // Remove o elemento.
+        pilha.pop();    // Remove o elemento.
 
     }
 
