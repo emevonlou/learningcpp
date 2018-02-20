@@ -342,3 +342,5 @@
 	g++ -Wall -c -o stack1.o stack1.cpp; g++ -o stack1 stack1.o
 172:
 	g++ -Wall -c -o arquivos1.o arquivos1.cpp; g++ -o arquivos1 arquivos1.o
+173:
+	g++ -Wall -c -o grafos.o grafos.cpp; g++ -o grafos grafos.o
