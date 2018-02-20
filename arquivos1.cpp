@@ -39,7 +39,7 @@ class Pessoa
 
     // sobrecarga do operador de extração de dados.
     // istream = input stream.
-    friend istream& operator>>(istream& is, Pessoa& p)
+    friend istream &operator>>(istream &is, Pessoa &p)
     {
         // Ler cada membro.
         is >> p.nome >> p.idade;
@@ -94,11 +94,11 @@ int main(int argc, char *argv[])
             cout << "\nListando pessoas...\n\n";
 
             // Verifica se o arquivo existe e se é possivel ler good()
-            if(ifs.good())
+            if (ifs.good())
             {
                 // Enquanto ifs não chegar ao final do arquivo com eof()
                 // eof = end of file.
-                while(!ifs.eof())
+                while (!ifs.eof())
                 {
                     ifs >> p; // Faz a extração dos dados.
 
