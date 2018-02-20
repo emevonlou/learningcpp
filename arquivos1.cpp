@@ -86,6 +86,13 @@ int main(int argc, char *argv[])
 
             // Verifica se o arquivo existe e se é possivel ler good()
             if(ifs.good())
+            {
+                // Enquanto ifs não chegar ao final do arquivo com eof()
+                while(!ifs.eof())
+                {
+                    
+                }
+            }
         }
         else if (resp == '0')
         {
