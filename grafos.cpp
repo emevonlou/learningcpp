@@ -16,5 +16,14 @@ int main(int argc, char *argv[])
     cout << "Matriz eh uma estrutura matematica organizada\n";
     cout << "Na forma de tabela com linhas e colunas.\n";
     cout << "Adjacencia: proximo, proximidade.\n";
+
+    int grafo[5][5] = 
+    {
+        {0, 0, 1, 0, 0},
+        {0, 0, 1, 0, 0},
+        {1, 1, 0 ,1 ,1},
+        {0, 0, 1, 0, 1},
+        {0, 0, 1, 1, 0}
+    };
     return 0;
 }
