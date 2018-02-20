@@ -26,12 +26,7 @@ bool tem_ligacao(int [v1],int [v2])
 
 int main(int argc, char *argv[])
 {
-    cout << "A primeira forma de representar um grafo eh\n";
-    cout << "chamada matriz de adjacencia.\n";
-    cout << "Matriz eh uma estrutura matematica organizada\n";
-    cout << "Na forma de tabela com linhas e colunas.\n";
-    cout << "Adjacencia: proximo, proximidade.\n";
 
-    cout << tem_ligacao(0,4) << endl;
+    cout << tem_ligacao(0,2) << endl;
     return 0;
 }
