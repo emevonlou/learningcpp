@@ -9,6 +9,21 @@
 #include <iostream>
 using namespace std;
 
+int grafo[5][5] =
+    {
+        {0, 0, 1, 0, 0},
+        {0, 0, 1, 0, 0},
+        {1, 1, 0, 1, 1},
+        {0, 0, 1, 0, 1},
+        {0, 0, 1, 1, 0}};
+
+bool tem_ligacao(int [v1],int [v2])
+{
+    if(grafo[v1][v2])
+        return true;
+            return false;
+}
+
 int main(int argc, char *argv[])
 {
     cout << "A primeira forma de representar um grafo eh\n";
@@ -17,13 +32,6 @@ int main(int argc, char *argv[])
     cout << "Na forma de tabela com linhas e colunas.\n";
     cout << "Adjacencia: proximo, proximidade.\n";
 
-    int grafo[5][5] = 
-    {
-        {0, 0, 1, 0, 0},
-        {0, 0, 1, 0, 0},
-        {1, 1, 0 ,1 ,1},
-        {0, 0, 1, 0, 1},
-        {0, 0, 1, 1, 0}
-    };
+    cout << tem_ligacao(0,4) << endl;
     return 0;
 }
