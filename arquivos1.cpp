@@ -36,6 +36,13 @@ class Pessoa
         os << p.idade;
         return os;
     }
+
+    // sobrecarga do operador de extração de dados.
+    // istream = input stream.
+    friend istream& operator>>(istream& is, Pessoa& p)
+    {
+
+    }
 };
 
 char menu()
