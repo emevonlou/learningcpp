@@ -88,9 +88,13 @@ int main(int argc, char *argv[])
             if(ifs.good())
             {
                 // Enquanto ifs não chegar ao final do arquivo com eof()
+                // eof = end of file.
                 while(!ifs.eof())
                 {
-                    
+                    ifs >> p; // Faz a extração dos dados.
+
+                    // Mostrar os dados
+                    //cout << 
                 }
             }
         }
