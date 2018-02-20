@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
     cout << "A primeira forma de representar um grafo eh\n";
     cout << "chamada matriz de adjacencia.\n";
     cout << "Matriz eh uma estrutura matematica organizada\n";
-    cout << "Na forma de tabela com linhas e colunas.";
+    cout << "Na forma de tabela com linhas e colunas.\n";
+    cout << "Adjacencia: proximo, proximidade.\n";
     return 0;
 }
