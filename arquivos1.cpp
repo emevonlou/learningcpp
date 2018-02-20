@@ -27,7 +27,7 @@ class Pessoa
         this->idade = idade;
     }
     // Sobrecarga do operador de inserção de dados.
-    friend ostream &operator<<(ostream os, const Pessoa &p)
+    friend ostream& operator<<(ostream& os, const Pessoa& p)
     {
         //Escrever cada membro
         os << "\n";
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
             int idade;
 
             // app:append, Adiciona ao final do arquivo.
-            ofstream ofs("arquivo.txt", fstream::app);
+            ofstream ofs("arquivo.txt", fstream::app);   // Abrimos o arquivo.
 
             cout << "\nDigite o nome da pessoa: ";
             cin >> nome;
@@ -73,8 +73,8 @@ int main(int argc, char *argv[])
             pessoa.setNome(nome);
             pessoa.setIdade(idade);
 
-            // ofs << pessoa;
-            ofs.close();
+            ofs << pessoa;  // Armazenando o objeto no arquivo.
+            ofs.close();  // Fechamos o arquivo.
         }
         else if (resp == '2')
         {
