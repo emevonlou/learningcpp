@@ -1,6 +1,6 @@
 /*
     173:
-    Grafo:
+    Grafo- Matriz de adjacencia.
     É uma entidade composta de duas partes:
     Vértices(nós) e Arestas(linhas).
     Os nós são as entidades("bolinhas") que você quer modelar.
