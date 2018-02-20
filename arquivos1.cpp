@@ -14,7 +14,7 @@ class Pessoa
     {
         return nome;
     }
-    int geIdade()
+    int getIdade()
     {
         return idade;
     }
@@ -41,7 +41,9 @@ class Pessoa
     // istream = input stream.
     friend istream& operator>>(istream& is, Pessoa& p)
     {
-
+        // Ler cada membro.
+        is >> p.nome >> p.idade;
+        return is;
     }
 };
 
