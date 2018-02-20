@@ -11,5 +11,9 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
+    cout << "A primeira forma de representar um grafo eh\n";
+    cout << "chamada matriz de adjacencia.\n";
+    cout << "Matriz eh uma estrutura matematica organizada\n";
+    cout << "Na forma de tabela com linhas e colunas.";
     return 0;
 }
