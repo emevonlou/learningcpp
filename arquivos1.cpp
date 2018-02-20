@@ -79,7 +79,13 @@ int main(int argc, char *argv[])
         }
         else if (resp == '2')
         {
-            cout << "\nListando Pessoas...\n\n";
+            Pessoa p;
+            ifstream ifs("arquivo.txt");
+
+            cout << "\nListando pessoas...\n\n";
+
+            // Verifica se o arquivo existe e se é possivel ler good()
+            if(ifs.good())
         }
         else if (resp == '0')
         {
