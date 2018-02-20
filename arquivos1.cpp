@@ -94,8 +94,14 @@ int main(int argc, char *argv[])
                     ifs >> p; // Faz a extração dos dados.
 
                     // Mostrar os dados
-                    //cout << 
+                    cout << "Nome: " << p.getNome() << "\n";
+                    cout << "Idade: " << p.getIdade() << "\n\n";
                 }
+                ifs.close();
+            }
+            else
+            {
+                cout << "Falha ao abrir o arquivo.\n\n";
             }
         }
         else if (resp == '0')
