@@ -22,7 +22,7 @@ bool tem_ligacao(int[v1], int[v2])
     if (grafo[v1][v2])
         return true;
     return false;
-}
+} 
 
 int main(int argc, char *argv[])
 {

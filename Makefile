@@ -344,3 +344,5 @@
 	g++ -Wall -c -o arquivos1.o arquivos1.cpp; g++ -o arquivos1 arquivos1.o
 173:
 	g++ -Wall -c -o grafos.o grafos.cpp; g++ -o grafos grafos.o
+174:
+	g++ -Wall -c -o macesso.o macesso.cpp; g++ -o macesso macesso.o
