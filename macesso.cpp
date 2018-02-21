@@ -5,12 +5,12 @@ using namespace std;
 
 class Linguagem
 {
-  protected:
+  private:
     // protected: A classe fica responsável pela própria situação interna.
     // Os membros publicos formam a interface da classe.
     char nome[100];
 
-  protected:
+  private:
     void mostrarNome()
     {
         cout << "Nome: " << nome << endl;
