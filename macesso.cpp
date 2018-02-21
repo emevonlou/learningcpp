@@ -5,7 +5,7 @@ using namespace std;
 
 class Linguagem
 {
-public:
+  public:
     char nome[100];
 };
 
