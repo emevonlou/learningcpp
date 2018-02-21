@@ -17,7 +17,6 @@ class Linguagem
     }
 
   public:
-
     void setNome(const char *nome)
     {
         strcpy(this->nome, nome);
