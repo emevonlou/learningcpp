@@ -1,4 +1,9 @@
 // 174: Modificadores de acesso e Funções friends
+/*
+    Função Friend:
+    Não é uma função membro e você quer que ela 
+    tenha acesso à membros protegidos de uma classe.
+*/
 #include <iostream>
 #include <string.h>
 using namespace std;
