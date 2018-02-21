@@ -5,17 +5,23 @@ using namespace std;
 
 class Linguagem
 {
-  public:
-    char nome[100];
+protected:
+  // Os membros publicos formam a interface da classe.
+    char nome[100];  
+public: 
+    char * getNome()
+    {
+        return nome;
+    }
 };
 
 int main(int argc, char *argv[])
 {
     Linguagem l;
 
-    strcpy(l.nome, "c++");
+    strcpy(l.getNome(), "c++");
 
-    cout << "Nome: " << l.nome << endl;
+    cout << "Nome: " << l.getNome() << endl;
 
     return 0;
 }
