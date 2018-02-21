@@ -18,7 +18,7 @@ class Linguagem
 
   public:
     void setNome(const char *nome)
-    {
+    {  // A função set provavelmente irá ajustar o valor de alguma coisa.
         strcpy(this->nome, nome);
     }
     void mostrarNome2()
