@@ -20,6 +20,7 @@ class Linguagem
     void setNome(const char *nome)
     {   // A função set provavelmente irá ajustar o valor de alguma coisa.
         // A set é chamada Função de ajuste.
+        // Enquanto a função get é pra obter algum retorno/valor.
         strcpy(this->nome, nome);
     }
     void mostrarNome2()
