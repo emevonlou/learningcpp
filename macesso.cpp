@@ -10,7 +10,7 @@ using namespace std;
 
 class Linguagem
 {
-    friend void ClasseAmiga(const char* nome);  // Função Friend.
+    friend void ClasseAmiga(Linguagem* l);  // Função Friend.
   protected:
     // protected: A classe fica responsável pela própria situação interna.
     // Os membros publicos formam a interface da classe.
@@ -35,6 +35,10 @@ class Linguagem
     }
 };
 
+void ClasseAmiga(Linguagem* l)
+{
+    cout << "Classe amiga diz: " << l->nome << endl;
+}
 int main(int argc, char *argv[])
 {
     Linguagem l;
