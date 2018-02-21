@@ -1,11 +1,11 @@
-// Modificadores de acesso e Funções friends
+// 174: Modificadores de acesso e Funções friends
 #include <iostream>
 #include <string.h>
 using namespace std;
 
 class Linguagem
 {
-private:
+protected:
   // Os membros publicos formam a interface da classe.
     char nome[100];  
 public: 
