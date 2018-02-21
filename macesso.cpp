@@ -5,16 +5,17 @@ using namespace std;
 
 class Linguagem
 {
-protected:
-  // Os membros publicos formam a interface da classe.
-    char nome[100];  
-public: 
+  protected:
+    // Os membros publicos formam a interface da classe.
+    char nome[100];
+
+  public:
     void mostrarNome()
     {
         cout << "Nome: " << nome << endl;
     }
 
-    void setNome(const char* nome)
+    void setNome(const char *nome)
     {
         strcpy(this->nome, nome);
     }
