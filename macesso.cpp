@@ -54,6 +54,11 @@ void ClasseAmiga(Linguagem* l)
 {
     cout << "Classe amiga diz: " << l->nome << endl;
 }
+
+void Linguagem::mostrarAmiga()
+{
+    lamiga->mostrarLinguagemAmiga();
+}
 int main(int argc, char *argv[])
 {
     Linguagem l;
@@ -62,6 +67,6 @@ int main(int argc, char *argv[])
     l.setNome("c++");
     // l.mostrarNome2();
     // ClasseAmiga(&l);
-    l.getAmiga()->mostrarLinguagemAmiga;
+    l.mostrarAmiga();
     return 0;
 }
