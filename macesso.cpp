@@ -35,7 +35,7 @@ class Linguagem
     }
 };
 
-class Linguagemamiga
+class LinguagemAmiga
 {
     friend class Linguagem;
 };
@@ -47,6 +47,7 @@ void ClasseAmiga(Linguagem* l)
 int main(int argc, char *argv[])
 {
     Linguagem l;
+    LinguagemAmiga lamiga;
 
     l.setNome("c++");
     // l.mostrarNome2();
