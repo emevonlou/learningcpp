@@ -36,6 +36,10 @@ class Linguagem
     {
         mostrarNome();
     }
+    LinguagemAmiga* getAmiga()
+    {
+        return lamiga;
+    }
 };
 
 class LinguagemAmiga
@@ -61,6 +65,6 @@ int main(int argc, char *argv[])
     l.setNome("c++");
     // l.mostrarNome2();
     // ClasseAmiga(&l);
-    l.mostrarAlgo();
+    l.();
     return 0;
 }
