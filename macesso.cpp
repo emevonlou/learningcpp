@@ -36,10 +36,7 @@ class Linguagem
     {
         mostrarNome();
     }
-    LinguagemAmiga* getAmiga()
-    {
-        return lamiga;
-    }
+    void mostrarAmiga();
 };
 
 class LinguagemAmiga
@@ -47,7 +44,7 @@ class LinguagemAmiga
     friend class Linguagem;
 
 protected:
-    void mostrarAlgo()
+    void mostrarLinguagemAmiga()
     {
         cout << "Olá, Linguagem amiga!\n"; 
     }
@@ -65,6 +62,6 @@ int main(int argc, char *argv[])
     l.setNome("c++");
     // l.mostrarNome2();
     // ClasseAmiga(&l);
-    l.();
+    l.getAmiga()->mostrarLinguagemAmiga;
     return 0;
 }
