@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     LinguagemAmiga lamiga;
 
     l.setNome("c++");
-    l.mostrarNome2();
+    // l.mostrarNome2();
     ClasseAmiga(&l);
     return 0;
 }
