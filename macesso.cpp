@@ -8,6 +8,8 @@
 #include <string.h>
 using namespace std;
 
+class LinguagemAmiga;
+
 class Linguagem
 {
     friend void ClasseAmiga(Linguagem*);  // Função Friend.
@@ -57,6 +59,7 @@ int main(int argc, char *argv[])
 
     l.setNome("c++");
     // l.mostrarNome2();
-    ClasseAmiga(&l);
+    // ClasseAmiga(&l);
+    l.mostrarAlgo();
     return 0;
 }
