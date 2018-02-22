@@ -35,6 +35,11 @@ class Linguagem
     }
 };
 
+class Linguagemamiga
+{
+    friend class Linguagem;
+};
+
 void ClasseAmiga(Linguagem* l)
 {
     cout << "Classe amiga diz: " << l->nome << endl;
