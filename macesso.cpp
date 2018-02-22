@@ -12,12 +12,12 @@ class LinguagemAmiga;
 
 class Linguagem
 {
-    friend void ClasseAmiga(Linguagem*);  // Função Friend.
+    friend void ClasseAmiga(Linguagem *); // Função Friend.
   protected:
     // protected: A classe fica responsável pela própria situação interna.
     // Os membros publicos formam a interface da classe.
     char nome[100];
-    LinguagemAmiga* lamiga;
+    LinguagemAmiga *lamiga;
 
   private:
     void mostrarNome()
@@ -27,7 +27,7 @@ class Linguagem
 
   public:
     void setNome(const char *nome)
-    {   // A função set provavelmente irá ajustar o valor de alguma coisa.
+    { // A função set provavelmente irá ajustar o valor de alguma coisa.
         // A set é chamada Função de ajuste.
         // Enquanto a função get é pra obter algum retorno/valor.
         strcpy(this->nome, nome);
@@ -43,14 +43,14 @@ class LinguagemAmiga
 {
     friend class Linguagem;
 
-protected:
+  protected:
     void mostrarLinguagemAmiga()
     {
-        cout << "Olá, Linguagem amiga!\n"; 
+        cout << "Olá, Linguagem amiga!\n";
     }
 };
 
-void ClasseAmiga(Linguagem* l)
+void ClasseAmiga(Linguagem *l)
 {
     cout << "Classe amiga diz: " << l->nome << endl;
 }
