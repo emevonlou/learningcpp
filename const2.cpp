@@ -8,8 +8,8 @@ class Ficha
   private:
     char nome[100];
     int idade;
-    int* parentes;
-    double* filhos;
+    int *parentes;
+    double *filhos;
 
   public:
     // Inicializando o construtor para acessar os dados protegidos.
@@ -33,7 +33,7 @@ class Ficha
     // Não podem ser chamados como as funções normais podem.
     ~Ficha()
     {
-        cout << "Estrou no destrutor!"; 
+        cout << "Estrou no destrutor!";
         delete[] parentes;
         delete[] filhos;
     }
