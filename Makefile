@@ -346,3 +346,5 @@
 	g++ -Wall -c -o grafos.o grafos.cpp; g++ -o grafos grafos.o
 174:
 	g++ -Wall -c -o macesso.o macesso.cpp; g++ -o macesso macesso.o
+175:
+	g++ -Wall -c -o const2.o const2.cpp; g++ -o const2 const2.o
