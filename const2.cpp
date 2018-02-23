@@ -5,24 +5,25 @@ using namespace std;
 
 class Ficha
 {
-    protected:
-        char nome[100];
-        int idade;
-    public:
+  protected:
+    char nome[100];
+    int idade;
+
+  public:
     // Inicializando o construtor para acessar os dados protegidos.
-        Ficha(const char* nome,int idade)  
-        {
-            strcpy(this->nome, nome);
-            this->idade = idade;
-        }
-        char* getNome()
-        {
-            return nome;
-        }
-        int getIdade()
-        {
-            return idade;
-        }
+    Ficha(const char *nome, int idade)
+    {
+        strcpy(this->nome, nome);
+        this->idade = idade;
+    }
+    char *getNome()
+    {
+        return nome;
+    }
+    int getIdade()
+    {
+        return idade;
+    }
 };
 
 int main(int argc, char *argv[])
