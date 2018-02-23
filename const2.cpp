@@ -9,17 +9,17 @@ class Ficha
     char nome[100];
     int idade;
     int *parentes;
-    double *filhos;
+
 
   public:
     // Inicializando o construtor para acessar os dados protegidos.
-    Ficha(const char *nome, int idade) // Passando os argumentos.
+    Ficha(const char* nome, int idade) // Passando os argumentos.
     {
         strcpy(this->nome, nome);
         this->idade = idade;
         parentes = new int[100]; // Alocando memória fora da pilha.
         // Essa memória precisa ser retornada através do destrutor.
-        filhos = new double[100];
+        cout <<  "Entrou no construtor: " << nome << endl;
     }
     char *getNome()
     {
@@ -33,18 +33,21 @@ class Ficha
     // Não podem ser chamados como as funções normais podem.
     ~Ficha()
     {
-        cout << "Estrou no destrutor!";
+        cout << "Estrou no destrutor: " << nome << endl;
         delete[] parentes;
-        delete[] filhos;
     }
 };
 
 int main(int argc, char *argv[])
 {
-    Ficha p("Emanuelle", 38);
+    Ficha pessoas[3] =
+	{
+		{"joao", 30}, {"maria", 20}, {"pedro", 40},
+	};
 
-    cout << "Nome: " << p.getNome() << endl;
-    cout << "Idade: " << p.getIdade() << endl;
+
+    // cout << "Nome: " << p.getNome() << endl;
+    // cout << "Idade: " << p.getIdade() << endl;
 
     return 0;
 }
