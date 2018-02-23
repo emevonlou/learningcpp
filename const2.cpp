@@ -13,6 +13,8 @@ int main(int argc, char *argv[])
 {
     Pessoa p = {"João", 30};
 
-
+    cout << "Nome: " << p.nome << endl;
+    cout << "Idade: " << p.idade << endl;
+    
     return 0;
 }
