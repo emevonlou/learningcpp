@@ -17,6 +17,7 @@ class Ficha
         strcpy(this->nome, nome);
         this->idade = idade;
         parentes = new int[100]; // Alocando memória fora da pilha.
+        // Essa memória precisa ser retornada através do destrutor.
     }
     char *getNome()
     {
