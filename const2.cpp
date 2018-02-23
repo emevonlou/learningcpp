@@ -8,6 +8,7 @@ class Ficha
   private:
     char nome[100];
     int idade;
+    int* parentes;
 
   public:
     // Inicializando o construtor para acessar os dados protegidos.
@@ -15,6 +16,7 @@ class Ficha
     {
         strcpy(this->nome, nome);
         this->idade = idade;
+        parentes = new int[100];  // Alocando memória fora da pilha.
     }
     char *getNome()
     {
@@ -24,6 +26,9 @@ class Ficha
     {
         return idade;
     }
+    // Destrutores não tem um tipo de retorno.
+    // Não podem ser chamados como as funções normais podem.
+   //~Ficha
 };
 
 int main(int argc, char *argv[])
