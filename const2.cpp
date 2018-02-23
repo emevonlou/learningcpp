@@ -8,7 +8,8 @@ class Ficha
   private:
     char nome[100];
     int idade;
-    int *parentes;
+    int* parentes;
+    double* filhos;
 
   public:
     // Inicializando o construtor para acessar os dados protegidos.
@@ -18,6 +19,7 @@ class Ficha
         this->idade = idade;
         parentes = new int[100]; // Alocando memória fora da pilha.
         // Essa memória precisa ser retornada através do destrutor.
+        filhos = new double[100];
     }
     char *getNome()
     {
@@ -33,6 +35,7 @@ class Ficha
     {
         cout << "Estrou no destrutor!"; 
         delete[] parentes;
+        delete[] filhos;
     }
 };
 
