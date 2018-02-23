@@ -29,7 +29,11 @@ class Ficha
     }
     // Destrutores não tem um tipo de retorno.
     // Não podem ser chamados como as funções normais podem.
-    //~Ficha
+    ~Ficha()
+    {
+        cout << "Estrou no destrutor!"; 
+        delete[] parentes;
+    }
 };
 
 int main(int argc, char *argv[])
