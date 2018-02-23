@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-class Pessoa
+class Ficha
 {
     public:
         char nome[100];
@@ -11,10 +11,10 @@ class Pessoa
 
 int main(int argc, char *argv[])
 {
-    Pessoa p = {"João", 30};
+    Ficha p = {"Emanuelle", 38};
 
     cout << "Nome: " << p.nome << endl;
     cout << "Idade: " << p.idade << endl;
-    
+
     return 0;
 }
