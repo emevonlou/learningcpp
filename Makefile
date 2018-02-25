@@ -350,3 +350,5 @@
 	g++ -Wall -c -o const2.o const2.cpp; g++ -o const2 const2.o
 176:
 	g++ -Wall -c -o const3.o const3.cpp; g++ -o const3 const3.o
+177: 
+	g++ -Wall -c -o constcop.o constcop.cpp; g++ -o constcop constcop.o
