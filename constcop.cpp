@@ -1,24 +1,28 @@
 // 177: Cosntrutor de cópias(Também chamada de cópia superficial)!
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 class Estudante
 {
   public:
     int idade;
+    char* nome;
 
     // Cosntrutor inicializando a idade com zero.
-    Estudante()
+    Estudante(const char* nome)
     {
         idade = 0;
+        int tam = strlen(nome) + 1;
+        this->nome = new char[tam];  // Alocando memória fora da pilha.
     }
 };
 
 int main(int argc, char *argv[])
 {
-    Estudante e;
+    //Estudante e;
 
-    cout << "Idade: " << e.idade << endl;
+    //cout << "Idade: " << e.idade << endl;
 
     return 0;
 }
