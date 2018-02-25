@@ -10,7 +10,7 @@ class Carro
     // Primeiro construtor: que não vai receber nada, apenas inicializar.
     Carro()
     {
-        ano = 0; // inicializa pro ano 0
+        ano = 0;     // inicializa pro ano 0
         preco = 0.0; // Inicializando o preço
     }
 
@@ -37,6 +37,8 @@ int main(int argc, char *argv[])
     cout << "Ano do carro2: " << carro2.ano << endl;
     cout << "Preco do carro: " << carro.preco << endl;
     cout << "Preco do carro2: " << carro2.preco << endl;
+    cout << "Ano do carro3: " << carro3.ano << endl;
+    cout << "preco do carro3: " << carro.preco << endl;
 
     return 0;
 }
