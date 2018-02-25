@@ -24,5 +24,7 @@ int main(int argc, char *argv[])
 {
     Carro carro; // Objeto da classe Carro()
 
+    cout << "Ano do Carro: " << carro.ano << endl;
+
     return 0;
 }
