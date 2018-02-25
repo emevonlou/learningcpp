@@ -16,6 +16,9 @@ public:
 
 int main(int argc, char *argv[])
 {
+    Estudante e;
+
+    cout << "Idade: " << e.idade << endl;
 
     return 0;
 }
