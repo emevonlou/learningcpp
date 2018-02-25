@@ -24,9 +24,10 @@ class Estudante
     {
         cout << "Construindo copia..." << endl;
 
-        int tam = strlen(e.nome)+ 1;
+        int tam = strlen(e.nome)+ 50;
         this->nome = new char[tam];
         strcpy(this->nome, "copia de ");
+        strcat(this->nome, e.nome);
     }
 };
 
