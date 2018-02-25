@@ -19,6 +19,7 @@ class Carro
     {
         // Atribui ao ano o ano deste objeto aqui.
         this->ano = ano;
+        this->preco = 0.0;
     }
 
     Carro(int ano, double preco)
