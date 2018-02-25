@@ -23,6 +23,7 @@ class Carro
 int main(int argc, char *argv[])
 {
     Carro carro; // Objeto da classe Carro()
+    Carro carro2(2014); // Passando o ano do carro
 
     cout << "Ano do Carro: " << carro.ano << endl;
 
