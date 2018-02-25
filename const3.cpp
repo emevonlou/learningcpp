@@ -32,13 +32,14 @@ int main(int argc, char *argv[])
 {
     Carro carro;        // Objeto da classe Carro()- primeiro construtor.
     Carro carro2(2014); // Passando o ano do carro- Segundo construtor.
-    Carro carro3(2014, 200000);
+    Carro carro3(2014,200000);
+
     cout << "Ano do Carro: " << carro.ano << endl;
     cout << "Ano do carro2: " << carro2.ano << endl;
     cout << "Preco do carro: " << carro.preco << endl;
     cout << "Preco do carro2: " << carro2.preco << endl;
     cout << "Ano do carro3: " << carro3.ano << endl;
-    cout << "preco do carro3: " << carro.preco << endl;
+    cout << "preco do carro3: " << carro3.preco << endl;
 
     return 0;
 }
