@@ -4,13 +4,13 @@ using namespace std;
 
 class Estudante
 {
-public:
+  public:
     int idade;
 
     // Cosntrutor inicializando a idade com zero.
     Estudante()
     {
-        idade = 0; 
+        idade = 0;
     }
 };
 
