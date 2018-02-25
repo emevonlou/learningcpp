@@ -35,7 +35,10 @@ class Estudante
     {
         return nome;
     }
-    
+    int getIdade()
+    {
+        return idade;
+    }
 };
 
 int main(int argc, char *argv[])
