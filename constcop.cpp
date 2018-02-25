@@ -1,4 +1,4 @@
-// 177: Cosntrutor de cópias!
+// 177: Cosntrutor de cópias(Também chamada de cópia superficial)!
 #include <iostream>
 using namespace std;
 
