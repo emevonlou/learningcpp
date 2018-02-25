@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
     Carro carro2(2014); // Passando o ano do carro
 
     cout << "Ano do Carro: " << carro.ano << endl;
+    cout << "Ano do carro2: " << carro2.ano << endl;
 
     return 0;
 }
