@@ -22,6 +22,7 @@ class Carro
 
 int main(int argc, char *argv[])
 {
+    Carro carro; // Objeto da classe Carro()
 
     return 0;
 }
