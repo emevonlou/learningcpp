@@ -21,9 +21,9 @@ class Estudante
 
 int main(int argc, char *argv[])
 {
-    //Estudante e;
+    Estudante e("EmanuelleVonLou");
 
-    //cout << "Idade: " << e.idade << endl;
+    cout << "Idade: " << e.idade << endl;
 
     return 0;
 }
