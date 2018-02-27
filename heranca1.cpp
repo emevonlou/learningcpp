@@ -7,13 +7,13 @@ class Animal // classe base.
 {
   protected:    // Atributos protegidos.
     char *nome; // Nome do animal
-    bool voa;   // Booleano pra verificar se o animal inserido voa ou n.
+
   public:
     Animal(const char *nome) // Meu construtor.
     {
+        cout << "construindo Animal... ";
         this->nome = new char[strlen(nome) + 1]; // Alocando.
         strcpy(this->nome, nome);
-        voa = false;
 
     }
     ~Animal() // Destrutor.
@@ -38,6 +38,7 @@ public:
     // Mas chama o construtor Animal
     Cachorro(const char* nome) : Animal(nome)
     {
+        cout << "Construindo cachorro...";
         idade = 0;
     }
     int getIdade()
