@@ -29,6 +29,7 @@ class Estudante
         strcpy(this->nome, "copia de ");
         strcat(this->nome, e.nome);
     }
+    
 
     // função de acesso que retorna um const char*
     const char* getNome()
@@ -40,6 +41,11 @@ class Estudante
         return idade;
     }
 };
+
+void foo()
+{
+
+}
 
 int main(int argc, char *argv[])
 {
