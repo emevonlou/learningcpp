@@ -17,10 +17,15 @@ class Animal // classe base.
         voa = false;
         patas = 0;
     }
+    ~Animal()       // Destrutor.
+    {
+        delete[] nome;
+    }
 };
 
 class Cachorro : public Animal
 {
+
 };
 
 int main(int argc, char *argv[])
