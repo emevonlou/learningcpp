@@ -34,6 +34,8 @@ protected:
     int idade;
 
 public: 
+    // A classe Cachorro não precisa manipular o nome
+    // Mas chama o construtor Animal
     Cachorro(const char* nome) : Animal(nome)
     {
         idade = 0;
