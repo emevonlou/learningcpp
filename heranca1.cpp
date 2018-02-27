@@ -8,11 +8,13 @@ class Animal // classe base.
   protected:    // Atributos protegidos.
     char *nome; // Nome do animal
     bool voa;   // Booleano pra verificar se o animal inserido voa ou n.
-
+    int patas;   // quantidade de patas.
   public:
     Animal(const char *nome) // Meu construtor.
     {
         strcpy(this->nome, nome);
+        voa = false;
+        patas = 0;
     }
 };
 
