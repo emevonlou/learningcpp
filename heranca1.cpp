@@ -12,6 +12,7 @@ class Animal // classe base.
   public:
     Animal(const char *nome) // Meu construtor.
     {
+        this->nome = new char[strlen(nome)+ 1];   // Alocando.
         strcpy(this->nome, nome);
         voa = false;
         patas = 0;
