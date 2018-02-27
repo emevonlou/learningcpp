@@ -21,6 +21,17 @@ class Animal // classe base.
     {
         delete[] nome;
     }
+
+    // Funções para obter algo.
+    const char* getNome()
+    {
+        return nome;
+    }
+    // quantidade de patas.
+    int getPatas()
+    {
+        return patas;
+    }
 };
 
 class Cachorro : public Animal
