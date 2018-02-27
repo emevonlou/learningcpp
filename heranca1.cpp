@@ -34,8 +34,24 @@ class Animal // classe base.
     }
 };
 
-class Cachorro : public Animal
+class Cachorro : public Animal   // Classe Cachorro herdando da classe Animal.
 {
+protected:
+    int idade;
+
+public: 
+    Cachorro(const char* nome) : Animal(nome)
+    {
+        idade = 0;
+    }
+    int getIdade()
+    {
+        return idade;
+    }
+    void setIdade()
+    {
+        this->idade = idade;
+    }
 };
 
 int main(int argc, char *argv[])
