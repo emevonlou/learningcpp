@@ -1,4 +1,5 @@
 // 179: Funções virtuais!
+// Lembrando: Consrutores não podem ser declarados virtuais.
 #include <iostream>
 using namespace std;
 
@@ -6,7 +7,7 @@ class ClasseMae
 {
   public:
     virtual void mostrarMensagem()
-    {
+    {   
         cout << "Ola, sou a classe mae!" << endl;
     }
 };
