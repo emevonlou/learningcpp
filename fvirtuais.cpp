@@ -1,5 +1,7 @@
 // 179: Funções virtuais!
 // Lembrando: Consrutores não podem ser declarados virtuais.
+// Os destrutores podem ser declarados como virtuais, desde que
+// A classe tenha muitos dados membros.
 #include <iostream>
 using namespace std;
 
