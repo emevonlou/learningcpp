@@ -30,8 +30,8 @@ int main(int argc, char *argv[])
     ClasseMae mae;     // Objeto da classeMae.
     ClasseFilha filha; // Objeto da ClasseFilha.
 
-    mae.mostrarMensagem();
-    filha.mostrarMensagem();
+    // mae.mostrarMensagem();
+    // filha.mostrarMensagem();
 
     foo(&mae);   // Chamando a função foo(), passando o endereço da variável mae.
     foo(&filha); // Chamando a função foo(), passando o endereço da variável filha.
