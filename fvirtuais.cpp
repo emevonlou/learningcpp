@@ -34,5 +34,6 @@ int main(int argc, char *argv[])
     filha.mostrarMensagem();
 
     foo(&mae);  // Chamando a função foo(), passando o endereço da variável mae.
+    foo(&filha); // Chamando a função foo(), passando o endereço da variável filha.
     return 0;
 }
