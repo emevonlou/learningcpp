@@ -53,6 +53,7 @@ public:
 
 int main(int argc, char *argv[])
 {
+    Cachorro c("Nanook");
 
     return 0;
 }
