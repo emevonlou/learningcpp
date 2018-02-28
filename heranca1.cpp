@@ -14,7 +14,6 @@ class Animal // classe base.
         cout << "construindo Animal... " << endl;
         this->nome = new char[strlen(nome) + 1]; // Alocando.
         strcpy(this->nome, nome);
-
     }
     ~Animal() // Destrutor.
     {
@@ -22,21 +21,21 @@ class Animal // classe base.
     }
 
     // Funções para obter algo.
-    const char* getNome()
+    const char *getNome()
     {
         return nome;
     }
 };
 
-class Cachorro : public Animal   // Classe Cachorro herdando da classe Animal.
+class Cachorro : public Animal // Classe Cachorro herdando da classe Animal.
 {
-protected:
+  protected:
     int idade;
 
-public: 
+  public:
     // A classe Cachorro não precisa manipular o nome
     // Mas chama o construtor Animal
-    Cachorro(const char* nome) : Animal(nome)
+    Cachorro(const char *nome) : Animal(nome)
     {
         cout << "Construindo cachorro..." << endl;
         idade = 0;
