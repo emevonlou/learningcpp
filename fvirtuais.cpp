@@ -24,5 +24,8 @@ int main(int argc, char *argv[])
 {
     ClasseMae mae;      // Objeto.
     ClasseFilha filha;
+
+    mae.mostrarMensagem();
+    filha.mostrarMensagem();
     return 0;
 }
