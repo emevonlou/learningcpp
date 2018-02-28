@@ -22,8 +22,8 @@ class ClasseFilha : public ClasseMae // Herança
 
 int main(int argc, char *argv[])
 {
-    ClasseMae mae; // Objeto.
-    ClasseFilha filha;
+    ClasseMae mae; // Objeto da classeMae.
+    ClasseFilha filha; // Objeto da ClasseFilha.
 
     mae.mostrarMensagem();
     filha.mostrarMensagem();
