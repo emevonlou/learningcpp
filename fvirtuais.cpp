@@ -5,7 +5,7 @@ using namespace std;
 class ClasseMae
 {
   public:
-    void mostrarMensagem()
+    virtual void mostrarMensagem()
     {
         cout << "Ola, sou a classe mae!" << endl;
     }
@@ -14,7 +14,7 @@ class ClasseMae
 class ClasseFilha : public ClasseMae // Herança
 {
   public:
-    void mostrarMensagem()
+    virtual void mostrarMensagem()
     {
         cout << "Ola, sou a classe Filha!" << endl;
     }
