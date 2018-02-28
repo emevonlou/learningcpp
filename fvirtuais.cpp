@@ -20,6 +20,11 @@ class ClasseFilha : public ClasseMae // Herança
     }
 };
 
+void foo(ClasseMae* p)   // Função que recebe um ponteiro tipo ClasseMae
+{
+    p->mostrarMensagem();
+}
+
 int main(int argc, char *argv[])
 {
     ClasseMae mae; // Objeto da classeMae.
