@@ -22,7 +22,7 @@ class ClasseFilha : public ClasseMae // Herança
 
 void foo(ClasseMae* p)   // Função que recebe um ponteiro tipo ClasseMae
 {
-    p->mostrarMensagem();
+    p->mostrarMensagem();  // Chamar mostrarMensagem() da classemae.
 }
 
 int main(int argc, char *argv[])
