@@ -45,7 +45,7 @@ public:
     {
         return idade;
     }
-    void setIdade()
+    void setIdade(int idade)
     {
         this->idade = idade;
     }
@@ -54,8 +54,9 @@ public:
 int main(int argc, char *argv[])
 {
     Cachorro c("Nanook");
+    c.setIdade(1);
 
     cout << "Nome: " << c.getNome() << endl;
-    
+    cout << "Idade: " << c.getIdade() << endl;
     return 0;
 }
