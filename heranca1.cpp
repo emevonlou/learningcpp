@@ -11,7 +11,7 @@ class Animal // classe base.
   public:
     Animal(const char *nome) // Meu construtor.
     {
-        cout << "construindo Animal... ";
+        cout << "construindo Animal... " << endl;
         this->nome = new char[strlen(nome) + 1]; // Alocando.
         strcpy(this->nome, nome);
 
@@ -38,7 +38,7 @@ public:
     // Mas chama o construtor Animal
     Cachorro(const char* nome) : Animal(nome)
     {
-        cout << "Construindo cachorro...";
+        cout << "Construindo cachorro..." << endl;
         idade = 0;
     }
     int getIdade()
