@@ -1,4 +1,4 @@
-// 178: Herança
+// 178: Herança.
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 class Animal // classe base.
 {
   protected:    // Atributos protegidos.
-    char *nome; // Nome do animal
+    char *nome; // Nome do animal.
 
   public:
     Animal(const char *nome) // Meu construtor.
@@ -33,8 +33,8 @@ class Cachorro : public Animal // Classe Cachorro herdando da classe Animal.
     int idade;
 
   public:
-    // A classe Cachorro não precisa manipular o nome
-    // Mas chama o construtor Animal
+    // A classe Cachorro não precisa manipular o nome.
+    // Mas chama o construtor Animal.
     Cachorro(const char *nome) : Animal(nome)
     {
         cout << "Construindo cachorro..." << endl;
