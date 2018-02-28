@@ -354,3 +354,5 @@
 	g++ -Wall -c -o constcop.o constcop.cpp; g++ -o constcop constcop.o
 178:
 	g++ -Wall -c -o heranca1.o heranca1.cpp; g++ -o heranca1 heranca1.o
+179:
+	g++ -Wall -c -o fvirtuais.o fvirtuais.cpp; g++ -o fvirtuais fvirtuais.o
