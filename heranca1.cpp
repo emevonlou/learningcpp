@@ -55,5 +55,7 @@ int main(int argc, char *argv[])
 {
     Cachorro c("Nanook");
 
+    cout << "Nome: " << c.getNome() << endl;
+    
     return 0;
 }
