@@ -42,6 +42,11 @@ class Pilha
             topo--;
         }
     }
+    int getTopo()
+    {
+        // Retorna o elemento do vetor que pode ser acessado pela variável topo.
+        return vet[topo];
+    }
 };
 
 int main(int argc, char *argv[])
