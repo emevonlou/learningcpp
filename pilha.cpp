@@ -19,9 +19,9 @@ class Pilha
     {
         delete[] vet;
     }
-    void empilhar(int e)   // Para empilhar vc deve passar um elemento(no caso 0 'e').
+    void empilhar(int e) // Para empilhar vc deve passar um elemento(no caso 0 'e').
     {
-        if(topo == max_tam)
+        if (topo == max_tam)
         {
             cout << "Pilha cheia!" << endl;
         }
@@ -31,9 +31,9 @@ class Pilha
             vet[++topo] = e;
         }
     }
-    void desempilhar()   // Não precisa passar elemento pq sempre retira do topo.
+    void desempilhar() // Não precisa passar elemento pq sempre retira do topo.
     {
-        if(topo == -1)
+        if (topo == -1)
         {
             cout << "Pilha vazia!" << endl;
         }
@@ -47,9 +47,9 @@ class Pilha
         // Retorna o elemento do vetor que pode ser acessado pela variável topo.
         return vet[topo];
     }
-    int vazio()    // Verificando se a pilha está vazia.
+    int vazio() // Verificando se a pilha está vazia.
     {
-        return(topo == -1);  // Se o topo for igual a -1 vai retornar 1
+        return (topo == -1); // Se o topo for igual a -1 vai retornar 1
         // 1 é true, então a pilha vai estar vazia.
     }
 };
