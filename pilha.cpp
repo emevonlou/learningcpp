@@ -5,7 +5,7 @@ using namespace std;
 class Pilha
 {
 private:
-    
+    int * vet;   // Ponteiro que é meu vetor(vet).
 };
 
 int main(int argc, char *argv[])
