@@ -49,7 +49,8 @@ class Pilha
     }
     int vazio()    // Verificando se a pilha está vazia.
     {
-
+        return(topo == -1);  // Se o topo for igual a -1 vai retornar 1
+        // 1 é true, então a pilha vai estar vazia.
     }
 };
 
