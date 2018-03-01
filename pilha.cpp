@@ -25,6 +25,11 @@ class Pilha
         {
             cout << "Pilha cheia!" << endl;
         }
+        else
+        {
+            // ++topo = 0(onde começa o vetor.)
+            vet[++topo] = e;
+        }
     }
 };
 
