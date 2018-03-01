@@ -44,8 +44,10 @@ class Pilha
     }
     int getTopo()
     {
+        if(topo != -1)
         // Retorna o elemento do vetor que pode ser acessado pela variável topo.
-        return vet[topo];
+            return vet[topo];
+        return -1;
     }
     int vazio() // Verificando se a pilha está vazia.
     {
