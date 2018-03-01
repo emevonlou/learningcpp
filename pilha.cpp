@@ -47,6 +47,10 @@ class Pilha
         // Retorna o elemento do vetor que pode ser acessado pela variável topo.
         return vet[topo];
     }
+    int vazio()    // Verificando se a pilha está vazia.
+    {
+
+    }
 };
 
 int main(int argc, char *argv[])
