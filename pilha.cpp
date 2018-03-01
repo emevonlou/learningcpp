@@ -31,6 +31,10 @@ class Pilha
             vet[++topo] = e;
         }
     }
+    void desempilhar()   // Não precisa passar elemento pq sempre retira do topo.
+    {
+
+    }
 };
 
 int main(int argc, char *argv[])
