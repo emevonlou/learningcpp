@@ -19,6 +19,10 @@ class Pilha
     {
         delete[] vet;
     }
+    void empilhar(int e)   // Para empilhar vc deve passar um elemento(no caso 0 'e').
+    {
+
+    }
 };
 
 int main(int argc, char *argv[])
