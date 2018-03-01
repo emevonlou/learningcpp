@@ -11,7 +11,7 @@ private:
 public:
     Pilha()   // Construtor(Terá o mesmo nome da classe).
     {
-
+        vet = new int[100];   // Alocando espaço para 100 inteiros.
     }
 };
 
