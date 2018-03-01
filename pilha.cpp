@@ -4,8 +4,10 @@ using namespace std;
 
 class Pilha
 {
-private:
+private:   
     int * vet;   // Ponteiro que é meu vetor(vet).
+    int max_tam;  // O máximo do tamanho da minha pilha.
+    
 };
 
 int main(int argc, char *argv[])
