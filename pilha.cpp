@@ -56,5 +56,9 @@ class Pilha
 
 int main(int argc, char *argv[])
 {
+    Pilha p;
+
+    cout << "Pilha vazia: " << p.vazio() << endl;
+    cout << "Topo: " << p.getTopo() << endl;
     return 0;
 }
