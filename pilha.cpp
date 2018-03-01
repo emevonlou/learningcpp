@@ -15,6 +15,10 @@ class Pilha
         max_tam = 99;
         topo = -1;
     }
+    ~Pilha()
+    {
+        
+    }
 };
 
 int main(int argc, char *argv[])
