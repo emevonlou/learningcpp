@@ -13,6 +13,7 @@ public:
     {
         vet = new int[100];   // Alocando espaço para 100 inteiros.
         max_tam = 99;
+        topo = -1;   
     }
 };
 
