@@ -33,7 +33,14 @@ class Pilha
     }
     void desempilhar()   // Não precisa passar elemento pq sempre retira do topo.
     {
-
+        if(topo == -1)
+        {
+            cout << "Pilha vazia!" << endl;
+        }
+        else
+        {
+            topo--;
+        }
     }
 };
 
