@@ -21,7 +21,10 @@ class Pilha
     }
     void empilhar(int e)   // Para empilhar vc deve passar um elemento(no caso 0 'e').
     {
-
+        if(topo == max_tam)
+        {
+            cout << "Pilha cheia!" << endl;
+        }
     }
 };
 
