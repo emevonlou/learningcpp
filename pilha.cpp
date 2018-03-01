@@ -17,7 +17,7 @@ class Pilha
     }
     ~Pilha()
     {
-        
+        delete[] vet;
     }
 };
 
