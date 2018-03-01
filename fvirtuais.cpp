@@ -9,7 +9,7 @@ class ClasseMae
 {
   public:
     virtual void mostrarMensagem()
-    {   
+    {
         cout << "Ola, sou a classe mae!" << endl;
     }
 };

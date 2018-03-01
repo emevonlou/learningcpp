@@ -356,3 +356,5 @@
 	g++ -Wall -c -o heranca1.o heranca1.cpp; g++ -o heranca1 heranca1.o
 179:
 	g++ -Wall -c -o fvirtuais.o fvirtuais.cpp; g++ -o fvirtuais fvirtuais.o
+180:
+	g++ -Wall -c -o pilha.o pilha.cpp; g++ -o pilha pilha.o
