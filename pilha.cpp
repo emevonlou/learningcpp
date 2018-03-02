@@ -66,7 +66,11 @@ int main(int argc, char *argv[])
 
     cout << "Pilha vazia: " << p.vazio() << endl;
     cout << "Topo: " << p.getTopo() << endl;
+    
+    p.desempilhar();
 
-    // p.desempilhar();
+    cout << "Pilha vazia: " << p.vazio() << endl;
+    cout << "Topo: " << p.getTopo() << endl;
+    
     return 0;
 }
