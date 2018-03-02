@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     // cout << str.front() << endl;
 
     // Concatenando strings
-    str.append("Von Lou!");
+    str.append("Von Lou!");  // A string é colocada ao final.
 
     cout << "Nome completo: " << str << endl;
 
