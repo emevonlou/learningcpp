@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     // str.append("Von Lo"); // A string é colocada ao final.
     // str.push_back('u');   // Adicionando apenas um caractere.
 
-    str.insert(0, "Vonlou");  // insere no inicio da string.
+    str.insert(0, "Vonlou"); // insere no inicio da string.
     // str.insert(strsize(), "VonLou");  inserindo ao final.
 
     // Apagando o sobrenome.
