@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     cout << "Tamanho: " << str.size() << endl;
     cout << "Tamanho: " << str.length() << endl;
     // Passando uma posição para a função retornar o caractere que pode ser acessado atraves do numero.
-    cout << str.at(1) << endl;
+    cout << "Acesso pelo indice 1: " << str.at(1) << endl;
     // Função Para obter o ultimo caractere de uma string
     // Disponivel para o c++11
     // cout << str.back() << endl;
