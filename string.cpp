@@ -8,9 +8,9 @@ int main(int argc, char *argv[])
 
     cout << "String: " << str << endl;
     cout << "Tamanho: " << str.size() << endl;
-    cout << "Tamanho: " << str.length() << endl;
+    // cout << "Tamanho: " << str.length() << endl;
     // Passando uma posição para a função retornar o caractere que pode ser acessado atraves do numero.
-    cout << "Acesso pelo indice 1: " << str.at(1) << endl;
+    // cout << "Acesso pelo indice 1: " << str.at(1) << endl;
     // Função Para obter o ultimo caractere de uma string
     // Disponivel para o c++11
     // cout << str.back() << endl;
@@ -18,7 +18,8 @@ int main(int argc, char *argv[])
     // cout << str.front() << endl;
 
     // Concatenando strings
-    str.append("Von Lou!");  // A string é colocada ao final.
+    str.append("Von Lo");  // A string é colocada ao final.
+    str.push_back('u');  // Adicionando apenas um caractere.
 
     cout << "Nome completo: " << str << endl;
 
