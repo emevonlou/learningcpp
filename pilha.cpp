@@ -44,8 +44,8 @@ class Pilha
     }
     int getTopo()
     {
-        if(topo != -1)
-        // Retorna o elemento do vetor que pode ser acessado pela variável topo.
+        if (topo != -1)
+            // Retorna o elemento do vetor que pode ser acessado pela variável topo.
             return vet[topo];
         return -1;
     }
@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
 
     p.empilhar(10);
     p.empilhar(11);
-    p.empilhar(12);
+    p.empilhar(12); // O último elemento inserido ficará no topo.
 
     cout << "Pilha vazia: " << p.vazio() << endl;
     cout << "Topo: " << p.getTopo() << endl;
