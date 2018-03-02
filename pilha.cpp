@@ -60,9 +60,13 @@ int main(int argc, char *argv[])
 {
     Pilha p;
 
+    p.empilhar(10);
+    p.empilhar(11);
+    p.empilhar(12);
+
     cout << "Pilha vazia: " << p.vazio() << endl;
     cout << "Topo: " << p.getTopo() << endl;
 
-    p.desempilhar();
+    // p.desempilhar();
     return 0;
 }
