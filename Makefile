@@ -358,3 +358,5 @@
 	g++ -Wall -c -o fvirtuais.o fvirtuais.cpp; g++ -o fvirtuais fvirtuais.o
 180:
 	g++ -Wall -c -o pilha.o pilha.cpp; g++ -o pilha pilha.o
+181:
+	g++ -Wall -c -o string.o string.cpp; g++ -o string string.cpp
