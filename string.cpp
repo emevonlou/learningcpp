@@ -9,6 +9,8 @@ int main(int argc, char *argv[])
     cout << "String: " << str << endl;
     cout << "Tamanho: " << str.size() << endl;
     cout << "Tamanho: " << str.length() << endl;
+    // Passando uma posição para a função retornar o caractere que pode ser acessado atraves do numero.
+    cout << str.at(1) << endl;
 
     return 0;
 }
