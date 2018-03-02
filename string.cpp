@@ -24,6 +24,9 @@ int main(int argc, char *argv[])
     str.insert(0, "Vonlou");  // insere no inicio da string.
     // str.insert(strsize(), "VonLou");  inserindo ao final.
 
+    // Apagando o sobrenome.
+    str.erase(7, str.size());
+
     cout << "Nome completo: " << str << endl;
 
     return 0;
