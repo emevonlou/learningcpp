@@ -1,4 +1,4 @@
-// 180: Implementação do TAD Pilha(stack)
+// 180: Implementação do TAD Pilha(stack)- Estrutura de dados.
 #include <iostream>
 using namespace std;
 
@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
     cout << "Pilha vazia: " << p.vazio() << endl;
     cout << "Topo: " << p.getTopo() << endl;
     cout << "---------------------------------------" << endl;
-    
+
     p.desempilhar();
 
     cout << "Pilha vazia: " << p.vazio() << endl;
