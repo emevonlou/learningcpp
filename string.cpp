@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     // str.insert(strsize(), "VonLou");  inserindo ao final.
 
     // Apagando o sobrenome.
-    str.erase(7, str.size());  //7, str.size()) = chamado de range
+    str.erase(7, str.size()); //7, str.size()) = chamado de range
 
     cout << "Nome completo: " << str << endl;
 
