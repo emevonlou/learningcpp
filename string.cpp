@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
     // str.push_back('u');   // Adicionando apenas um caractere.
 
     str.insert(0, "Vonlou");  // insere no inicio da string.
-    // str.insert()
+    // str.insert(strsize(), "VonLou");  inserindo ao final.
 
     cout << "Nome completo: " << str << endl;
 
