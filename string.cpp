@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    string str = "Emanuelle Von Lou";
+    string str = "Emanuelle";
 
     cout << "String: " << str << endl;
     cout << "Tamanho: " << str.size() << endl;
@@ -16,6 +16,11 @@ int main(int argc, char *argv[])
     // cout << str.back() << endl;
     // Função para obter o primeiro caractere de uma string
     // cout << str.front() << endl;
+
+    // Concatenando strings
+    str.append("Von Lou!");
+
+    cout << "Nome completo: " << str << endl;
 
     return 0;
 }
