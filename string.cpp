@@ -18,8 +18,8 @@ int main(int argc, char *argv[])
     // cout << str.front() << endl;
 
     // Concatenando strings
-    str.append("Von Lo");  // A string é colocada ao final.
-    str.push_back('u');  // Adicionando apenas um caractere.
+    str.append("Von Lo"); // A string é colocada ao final.
+    str.push_back('u');   // Adicionando apenas um caractere.
 
     cout << "Nome completo: " << str << endl;
 
