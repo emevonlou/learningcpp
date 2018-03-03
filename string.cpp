@@ -50,5 +50,8 @@ int main(int argc, char *argv[])
         cout << "String nao vazia!" << endl;
     }
 
+    // Outra forma(mais simples) de apagar todos os elementos
+    // str.clear();
+
     return 0;
 }
