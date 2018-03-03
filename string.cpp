@@ -39,5 +39,9 @@ int main(int argc, char *argv[])
         cout << "String nao vazia!" << endl;
     }
 
+    str.erase(0,str.size());
+
+    
+
     return 0;
 }
