@@ -72,6 +72,12 @@ int main(int argc, char *argv[])
         cout << "Substring nao encontrada!" << endl;
     */
 
+    string my_str;
+    cout << "Digite seu nome: \n";
+    cin >> my_str;
+    cout << "Nome digitado: " << my_str << endl;
+
+
     
 
 
