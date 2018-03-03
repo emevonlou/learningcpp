@@ -2,6 +2,11 @@
 #include <string>
 using namespace std;
 
+void showMessage(const char* str)
+{
+    cout << str << endl;
+}
+
 int main(int argc, char *argv[])
 {
     string str = "Emanuelle";
