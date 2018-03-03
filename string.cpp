@@ -41,7 +41,14 @@ int main(int argc, char *argv[])
 
     str.erase(0,str.size());
 
-    
+    if(str.empty())
+    {
+        cout << "String vazia!!" << endl;
+    }
+    else
+    {
+        cout << "String nao vazia!" << endl;
+    }
 
     return 0;
 }
