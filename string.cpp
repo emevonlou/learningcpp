@@ -26,15 +26,15 @@ int main(int argc, char *argv[])
     // str.append("Von Lo"); // A string é colocada ao final.
     // str.push_back('u');   // Adicionando apenas um caractere.
 
-    str.insert(0, "Vonlou"); // insere no inicio da string.
+    // str.insert(0, "Vonlou"); // insere no inicio da string.
     // str.insert(strsize(), "VonLou");  inserindo ao final.
 
     // Apagando o sobrenome.
-    str.erase(7, str.size()); //7, str.size()) = chamado de range
+    // str.erase(7, str.size()); 7, str.size()) = chamado de range
 
     cout << "Nome completo: " << str << endl;
 
-    // Verificando se a string é vazia
+    /* Verificando se a string é vazia
     if (str.empty())
     {
         cout << "String vazia!!" << endl;
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
         cout << "String nao vazia!" << endl;
     }
 
-    /* str.erase(0, str.size());
+    str.erase(0, str.size());
 
     if (str.empty())
     {
@@ -58,8 +58,12 @@ int main(int argc, char *argv[])
     Outra forma(mais simples) de apagar todos os elementos
     str.clear();
     */
-    
-    showMessage(str.c_str());
+
+    // showMessage(str.c_str());
+
+    str.replace(0,5,"VonLou");
+    cout << "Nova string: " << str << endl;
+
 
     return 0;
 }
