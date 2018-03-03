@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-void showMessage(const char* str)
+void showMessage(const char *str)
 {
     cout << str << endl;
 }
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     cout << "Nome completo: " << str << endl;
 
     // Verificando se a string é vazia
-    if(str.empty())
+    if (str.empty())
     {
         cout << "String vazia!!" << endl;
     }
@@ -44,9 +44,9 @@ int main(int argc, char *argv[])
         cout << "String nao vazia!" << endl;
     }
 
-    str.erase(0,str.size());
+    str.erase(0, str.size());
 
-    if(str.empty())
+    if (str.empty())
     {
         cout << "String vazia!!" << endl;
     }
