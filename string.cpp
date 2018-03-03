@@ -65,7 +65,11 @@ int main(int argc, char *argv[])
     cout << "Nova string: " << str << endl;
 
     /*
-    size_t achou = str.find();
+    size_t achou = str.find("Em");
+    if(achou != string::npos)
+        cout << "Achou a substring!" << endl;
+    else
+        cout << "Substring nao encontrada!" << endl;
     */
 
     
