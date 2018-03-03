@@ -30,7 +30,14 @@ int main(int argc, char *argv[])
     cout << "Nome completo: " << str << endl;
 
     // Verificando se a string é vazia
-    str.empty();
+    if(str.empty())
+    {
+        cout << "String vazia!!" << endl;
+    }
+    else
+    {
+        cout << "String nao vazia!" << endl;
+    }
 
     return 0;
 }
