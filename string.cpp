@@ -64,6 +64,12 @@ int main(int argc, char *argv[])
     str.replace(0,6,"VonLou");
     cout << "Nova string: " << str << endl;
 
+    /*
+    size_t achou = str.find();
+    */
+
+    
+
 
     return 0;
 }
