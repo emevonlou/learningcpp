@@ -29,5 +29,8 @@ int main(int argc, char *argv[])
 
     cout << "Nome completo: " << str << endl;
 
+    // Verificando se a string é vazia
+    str.empty();
+
     return 0;
 }
