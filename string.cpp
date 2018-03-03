@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
         cout << "String nao vazia!" << endl;
     }
 
-    str.erase(0, str.size());
+    /* str.erase(0, str.size());
 
     if (str.empty())
     {
@@ -55,8 +55,11 @@ int main(int argc, char *argv[])
         cout << "String nao vazia!" << endl;
     }
 
-    // Outra forma(mais simples) de apagar todos os elementos
-    // str.clear();
+    Outra forma(mais simples) de apagar todos os elementos
+    str.clear();
+    */
+    
+    showMessage(str.c_str());
 
     return 0;
 }
