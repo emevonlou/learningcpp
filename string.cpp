@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 
     // showMessage(str.c_str());
 
-    str.replace(0,5,"VonLou");
+    str.replace(0,6,"VonLou");
     cout << "Nova string: " << str << endl;
 
 
