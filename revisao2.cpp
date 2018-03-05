@@ -10,19 +10,20 @@ class Pessoa
     // Dois atributos: Idade e um ponteiro.
     int idade;
     int *vet;
+
   public:
     // Construtor da classe.
-    Pessoa(int idade)  // Recebendo o parâmetro idade.
-    { // Membros construtores são
-      // implicitamente chamados quando um objeto é criado.
+    Pessoa(int idade) // Recebendo o parâmetro idade.
+    {                 // Membros construtores são
+                      // implicitamente chamados quando um objeto é criado.
         this->idade = idade;
         vet = new int[10];
     }
-    ~Pessoa()  // Destrutor.
+    ~Pessoa() // Destrutor.
     {
         // Utilizando o delete[]
         // para desalocar espaço em memória criado pelo new int[]
-        delete [] vet;
+        delete[] vet;
     }
     // Função método para obter a idade.
     int obterIdade()
