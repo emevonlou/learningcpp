@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 
     // showMessage(str.c_str());
 
-    str.replace(0,6,"VonLou");
+    str.replace(0, 6, "VonLou");
     cout << "Nova string: " << str << endl;
 
     /*
@@ -76,10 +76,6 @@ int main(int argc, char *argv[])
     cout << "Digite seu nome: \n";
     cin >> my_str;
     cout << "Nome digitado: " << my_str << endl;
-
-
-    
-
 
     return 0;
 }
