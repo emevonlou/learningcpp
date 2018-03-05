@@ -18,6 +18,10 @@ class Pessoa
         this->idade = idade;
         vet = new int[10];
     }
+    ~Pessoa()  // Destrutor.
+    {
+
+    }
 };
 
 int main(int argc, char *argv[])
