@@ -20,7 +20,9 @@ class Pessoa
     }
     ~Pessoa()  // Destrutor.
     {
-
+        // Utilizando o delete[]
+        // para desalocar espaço em memória criado pelo new int[]
+        delete [] vet;
     }
 };
 
