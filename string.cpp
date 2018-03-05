@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
     Outra forma(mais simples) de apagar todos os elementos
     str.clear();
     */
-
+    // Função do c
     // showMessage(str.c_str());
 
     str.replace(0, 6, "VonLou");
