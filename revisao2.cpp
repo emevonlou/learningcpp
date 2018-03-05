@@ -34,6 +34,9 @@ class Pessoa
 
 int main(int argc, char *argv[])
 {
-
+    // Todos os objetos em c++ devem ser inicializados antes de serem usados.
+    Pessoa * p = new Pessoa(20);
+    // Quando se usa ponteiro, o acesso a ele é através da seta ->
+    cout << p->obterIdade() << endl;
     return 0;
 }
