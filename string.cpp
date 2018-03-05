@@ -74,7 +74,8 @@ int main(int argc, char *argv[])
 
     string my_str;
     cout << "Digite seu nome: \n";
-    cin >> my_str;
+    // Função que pega além do espaço em branco.
+    getline(cin, my_str);
     cout << "Nome digitado: " << my_str << endl;
 
     return 0;
