@@ -24,6 +24,11 @@ class Pessoa
         // para desalocar espaço em memória criado pelo new int[]
         delete [] vet;
     }
+    // Função método para obter a idade.
+    int obterIdade()
+    {
+        
+    }
 };
 
 int main(int argc, char *argv[])
