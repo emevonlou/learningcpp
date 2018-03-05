@@ -5,6 +5,8 @@ class Pessoa
 {
     // Modificador de acesso
   private:
+  // Membros privados são acessados apenas 
+  // por funções membro e funções amigas da classe.
     // Dois atributos: Idade e um ponteiro.
     int idade;
     int *vet;
