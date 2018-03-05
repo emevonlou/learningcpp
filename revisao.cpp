@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     *(p + 1) = 2;
 
     cout << *p << endl << *(p + 1) << endl;
-    
+    // Liberando memória com delete []
+    delete [] p;
     return 0;
 }
