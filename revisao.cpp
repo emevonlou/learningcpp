@@ -11,5 +11,8 @@ int main(int argc, char *argv[])
     *p = 1;
     // Segunda posição: Colocando 2.
     *(p + 1) = 2;
+
+    cout << *p << endl << *(p + 1) << endl;
+    
     return 0;
 }
