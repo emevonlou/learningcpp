@@ -10,6 +10,14 @@ class Pessoa
     // Dois atributos: Idade e um ponteiro.
     int idade;
     int *vet;
+  public:
+    // Construtor da classe.
+    Pessoa(int idade)  // Recebendo o parâmetro idade.
+    { // Membros construtores são
+      // implicitamente chamados quando um objeto é criado.
+        this->idade = idade;
+        vet = new int[10];
+    }
 };
 
 int main(int argc, char *argv[])
