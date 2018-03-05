@@ -64,9 +64,8 @@ int main(int argc, char *argv[])
     str.replace(0, 6, "VonLou");
     cout << "Nova string: " << str << endl;
 
-
     size_t achou = str.find("Em");
-    if(achou != string::npos)
+    if (achou != string::npos)
         cout << "Achou a substring!" << endl;
     else
         cout << "Substring nao encontrada!" << endl;
@@ -81,7 +80,6 @@ int main(int argc, char *argv[])
     getline(cin, my_str);
     cout << "Nome digitado: " << my_str << endl;
     */
-    
 
     return 0;
 }
