@@ -362,3 +362,5 @@
 	g++ -Wall -c -o string.o string.cpp; g++ -o string string.cpp
 182:
 	g++ -Wall -c -o opternario.o opternario.cpp; g++ -o opternario opternario.o
+183:
+	g++ -Wall -c -o revisao.o revisao.cpp; g++ -o revisao revisao.o
