@@ -3,8 +3,8 @@ using namespace std;
 
 class Pessoa
 {
-// Modificador de acesso
-private:
+    // Modificador de acesso
+  private:
     // Dois atributos: Idade e um ponteiro.
     int idade;
     int *vet;
