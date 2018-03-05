@@ -27,7 +27,7 @@ class Pessoa
     // Função método para obter a idade.
     int obterIdade()
     {
-        
+        return idade;
     }
 };
 
