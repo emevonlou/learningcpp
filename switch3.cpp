@@ -1,3 +1,4 @@
+// 187:
 #include <iostream>
 using namespace std;
 
@@ -14,26 +15,26 @@ int main(int argc, char *argv[])
     cout << "Digite a operacao: " << endl;
     cin >> op;
 
-    switch(op)
+    switch (op)
     {
-        case '+':
-            r = n1 + n2;
-            cout << "Soma: " << r << endl;
-            break;
-        case '-':
-            r = n1 - n2;
-            cout << "Subtração: " << r << endl;
-            break;
-        case '*':
-            r = n1 * n2;
-            cout << "Multiplicação: " << r << endl;
-            break;
-        case '/': 
-            r = n1 / n2;
-            cout << "Divisão: " << r << endl;
-            break;
-        default: 
-            break; 
+    case '+':
+        r = n1 + n2;
+        cout << "Soma: " << r << endl;
+        break;
+    case '-':
+        r = n1 - n2;
+        cout << "Subtração: " << r << endl;
+        break;
+    case '*':
+        r = n1 * n2;
+        cout << "Multiplicação: " << r << endl;
+        break;
+    case '/':
+        r = n1 / n2;
+        cout << "Divisão: " << r << endl;
+        break;
+    default:
+        break;
     }
 
     return 0;
