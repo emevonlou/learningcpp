@@ -1,3 +1,4 @@
+// 186:
 #include <iostream>
 #include <string>
 #include <cstdlib>
@@ -21,7 +22,7 @@ void gRandom()
     m[tamString] = 0;
 }
 
-int main(int argc, char *argv[])
+int main()
 {
     while(true)
     {
