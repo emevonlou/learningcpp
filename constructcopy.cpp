@@ -28,7 +28,7 @@ class Estudante
 			no bloco do nome antes de concatenar o nome do
 			aluno na linha seguinte.
 		*/
-		cout << "construindo a c�pia de" << e.nome << endl;
+		cout << "construindo a copia de" << e.nome << endl;
 
 		int tam = strlen(e.nome) + 30;
 		this->nome = new char[tam];
