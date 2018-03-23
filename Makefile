@@ -372,3 +372,5 @@
 	g++ -Wall -c -o switch1.o switch1.cpp; g++ -o switch1 switch1.o
 187:
 	g++ -Wall -c -o switch3.o switch3.cpp; g++ -o switch3 switch3.o
+188:
+	g++ -Wall -c -o while1.o while1.cpp; g++ -o while1 while1.o
