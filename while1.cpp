@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     string eme = "Emanuelle von lou <3";
     int n = 1;
 
-    while(n == 1)
+    while (n == 1)
     {
         cout << eme << " ";
     }
