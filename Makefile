@@ -370,3 +370,5 @@
 	g++ -Wall -c -o switch.o switch.cpp; g++ -o switch switch.o
 186:
 	g++ -Wall -c -o switch1.o switch1.cpp; g++ -o switch1 switch1.o
+187:
+	g++ -Wall -c -o switch3.o switch3.cpp; g++ -o switch3 switch3.o
