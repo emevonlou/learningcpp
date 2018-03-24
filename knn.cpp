@@ -71,6 +71,8 @@ string classAmostra(vector<Individuo> &individuos,
         if (K <= 0)
             K = 1;
     }
+
+    int tam_vet = individuos.size();
 }
 
 int main(int argc, char *argv[])
