@@ -378,3 +378,5 @@
 	g++ -Wall -c -o loop1.o loop1.cpp; g++ -o loop1 loop1.o
 190:
 	g++ -Wall -c -o more.o more.cpp; g++ -o more more.o
+191:
+	g++ -Wall -c -o knn.o knn.cpp; g++ -o knn knn.o
