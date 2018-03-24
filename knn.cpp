@@ -12,7 +12,7 @@ class Individuo
     double a, b, c, d;
 
   public:
-    // Construtor
+    // Construtor.
     Individuo(double a, double b, double c, double d, string classe)
     {
         this->a = a;
@@ -21,6 +21,33 @@ class Individuo
         this->d = c;
         this->classe = classe;
     }
+
+    //Métodos para acessar membros privados.
+    string getClasse()
+    {
+        return classe;
+    }
+
+    double getA()
+    {
+        return a;
+    }
+
+    double getB()
+    {
+        return b;
+    }
+
+    double getC()
+    {
+        return c;
+    }
+
+    double getD()
+    {
+        return d;
+    }
+    
 };
 
 // Calculando a distância euclidiana
