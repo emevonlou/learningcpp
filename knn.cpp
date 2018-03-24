@@ -55,9 +55,9 @@ double distEuclidiana(Individuo ind1, Individuo ind2)
     double soma = pow((ind1.getA() - ind2.getA()), 2) +
                   pow((ind1.getB() - ind2.getB()), 2) +
                   pow((ind1.getC() - ind2.getC()), 2) +
-                  pow((ind1.getD() - ind2.getD()), 2);  
+                  pow((ind1.getD() - ind2.getD()), 2);
 
-                  return  sqrt(soma);
+    return sqrt(soma);
 }
 
 int main(int argc, char *argv[])
