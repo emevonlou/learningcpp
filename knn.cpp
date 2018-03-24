@@ -47,11 +47,12 @@ class Individuo
     {
         return d;
     }
-    
 };
 
 // Calculando a distância euclidiana
-//double distEuclidiana()
+double distEuclidiana(Individuo ind1, Individuo ind2)
+{
+}
 
 int main(int argc, char *argv[])
 {
