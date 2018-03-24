@@ -7,11 +7,11 @@ using namespace std;
 
 class Individuo
 {
-private: 
+  private:
     string classe;
-    double a, b , c , d;
+    double a, b, c, d;
 
-public: 
+  public:
     // Construtor
     Individuo(double a, double b, double c, double d, string classe)
     {
@@ -28,7 +28,6 @@ public:
 
 int main(int argc, char *argv[])
 {
-
 
     return 0;
 }
