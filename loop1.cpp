@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     int i;
     int j;
 
-    for(i = 1; i <= 100; i++)
+    for (i = 1; i <= 100; i++)
     {
         cout << m << " ";
     }
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     cout << "Digite um nome: " << endl;
     cin >> nome;
 
-    for(j= 1; j <= 100; j++)
+    for (j = 1; j <= 100; j++)
     {
         cout << "You are a Winner " << nome << " ";
     }
