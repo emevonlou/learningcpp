@@ -61,18 +61,16 @@ double distEuclidiana(Individuo ind1, Individuo ind2)
 }
 
 // Função para classificar amostra.
-string classAmostra(vector<Individuo>& individuos,
-                        Individuo novo_exemplo, int K)
+string classAmostra(vector<Individuo> &individuos,
+                    Individuo novo_exemplo, int K)
 {
     // Se o K for par, decrementa.
-    if(K % 2 == 0)
+    if (K % 2 == 0)
     {
         K--;
-        if(K <= 0)
+        if (K <= 0)
             K = 1;
     }
-
-    
 }
 
 int main(int argc, char *argv[])
