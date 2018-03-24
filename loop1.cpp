@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     cout << eme;
 
     string nome;
-    string m = "Eu te amo Joaquim";
+    string m = "Não use trígrafos!";
     int i;
     int j;
 
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
     for(j= 1; j <= 100; j++)
     {
-        cout << "Parabens " << nome << " ";
+        cout << "You are a Winner " << nome << " ";
     }
 
     return 0;
