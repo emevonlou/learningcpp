@@ -49,7 +49,7 @@ class Individuo
     }
 };
 
-// Calculando a distância euclidiana
+// Calculando a distância euclidiana.
 double distEuclidiana(Individuo ind1, Individuo ind2)
 {
     double soma = pow((ind1.getA() - ind2.getA()), 2) +
@@ -58,6 +58,21 @@ double distEuclidiana(Individuo ind1, Individuo ind2)
                   pow((ind1.getD() - ind2.getD()), 2);
 
     return sqrt(soma);
+}
+
+// Função para classificar amostra.
+string classAmostra(vector<Individuo>& individuos,
+                        Individuo novo_exemplo, int K)
+{
+    // Se o K for par, decrementa.
+    if(K % 2 == 0)
+    {
+        K--;
+        if(K <= 0)
+            K = 1;
+    }
+
+    
 }
 
 int main(int argc, char *argv[])
