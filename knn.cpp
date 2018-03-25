@@ -82,7 +82,7 @@ string classAmostra(vector<Individuo> &individuos,
         dist_individuos.insert(make_pair(dist, i));
     }
 
-    
+    set<pair<double, int> >::iterator it;
 }
 
 int main(int argc, char *argv[])
