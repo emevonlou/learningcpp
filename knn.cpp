@@ -87,6 +87,12 @@ string classAmostra(vector<Individuo> &individuos,
     vector<int> cont_classes(3);
 
     int contK = 0;
+
+    for(it = dist_individuos.begin(); it != dist_individuos.end(); it++)
+    {
+        string classe = individuos[it->second].getClasse();
+    }
+
 }
 
 int main(int argc, char *argv[])
