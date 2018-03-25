@@ -83,6 +83,10 @@ string classAmostra(vector<Individuo> &individuos,
     }
 
     set<pair<double, int> >::iterator it;
+
+    vector<int> cont_classes(3);
+
+    int contK = 0;
 }
 
 int main(int argc, char *argv[])
