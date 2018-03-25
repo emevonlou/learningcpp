@@ -73,6 +73,16 @@ string classAmostra(vector<Individuo> &individuos,
     }
 
     int tam_vet = individuos.size();
+
+    set<pair<double, int> > dist_individuos;
+
+    for(int i = 0; i < tam_vet; i++)
+    {
+        double dist = distEuclidiana(individuos[i], novo_exemplo);
+        dist_individuos.insert(make_pair(dist, i));
+    }
+
+    
 }
 
 int main(int argc, char *argv[])
