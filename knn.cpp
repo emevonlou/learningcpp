@@ -91,6 +91,12 @@ string classAmostra(vector<Individuo> &individuos,
     for(it = dist_individuos.begin(); it != dist_individuos.end(); it++)
     {
         string classe = individuos[it->second].getClasse();
+        if(classe == "Iris-setosa")
+            cont_classes[0]++;
+        else if(classe == "Iris-versicolor")
+            cont_classes[1]++;
+        else 
+            cont_classes[2]++;
     }
 
 }
