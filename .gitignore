@@ -1,6 +1,1 @@
-*
-!README.md
-!.gitignore
-!Makefile
-!*.cpp
-!teste
+build
